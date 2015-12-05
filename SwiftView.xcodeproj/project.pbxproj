@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BB32C32E1C124CFE00BEA123 /* ErrorObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29A41C124A0C00C91975 /* ErrorObject.cpp */; };
-		BB32C32F1C124D6000BEA123 /* ErrorObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29A61C124A0C00C91975 /* ErrorObject.mm */; };
-		BB32C3301C124D6500BEA123 /* SwiftObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29B81C124A0C00C91975 /* SwiftObject.mm */; };
 		BB32C4011C126ACC00BEA123 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BB32C4001C126ACC00BEA123 /* README.md */; };
 		BB8B28291C1233F800C91975 /* libclangAnalysis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8B27D21C1233F600C91975 /* libclangAnalysis.a */; };
 		BB8B282A1C1233F800C91975 /* libclangAPINotes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8B27D31C1233F600C91975 /* libclangAPINotes.a */; };
@@ -105,25 +102,7 @@
 		BB8B28B01C1248CE00C91975 /* InterceptTraps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8B28A01C1248CE00C91975 /* InterceptTraps.cpp */; };
 		BB8B28B21C1248CE00C91975 /* OpaqueIdentityFunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8B28A31C1248CE00C91975 /* OpaqueIdentityFunctions.cpp */; };
 		BB8B299E1C1249E500C91975 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BB8B299C1C1249E500C91975 /* README.md */; };
-		BB8B29BC1C124A0C00C91975 /* Casting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29A01C124A0C00C91975 /* Casting.cpp */; };
-		BB8B29BD1C124A0C00C91975 /* Demangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29A21C124A0C00C91975 /* Demangle.cpp */; };
-		BB8B29BE1C124A0C00C91975 /* Enum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29A31C124A0C00C91975 /* Enum.cpp */; };
-		BB8B29C11C124A0C00C91975 /* Errors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29A71C124A0C00C91975 /* Errors.cpp */; };
-		BB8B29C21C124A0C00C91975 /* Heap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29A91C124A0C00C91975 /* Heap.cpp */; };
-		BB8B29C31C124A0C00C91975 /* HeapObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29AA1C124A0C00C91975 /* HeapObject.cpp */; };
-		BB8B29C41C124A0C00C91975 /* KnownMetadata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29AB1C124A0C00C91975 /* KnownMetadata.cpp */; };
-		BB8B29C61C124A0C00C91975 /* Metadata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29AE1C124A0C00C91975 /* Metadata.cpp */; };
-		BB8B29C71C124A0C00C91975 /* Once.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29B11C124A0C00C91975 /* Once.cpp */; };
-		BB8B29C81C124A0C00C91975 /* Reflection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29B31C124A0C00C91975 /* Reflection.cpp */; };
-		BB8B29C91C124A0C00C91975 /* Reflection.mm in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29B41C124A0C00C91975 /* Reflection.mm */; };
-		BB8B29CA1C124A0C00C91975 /* Remangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29B51C124A0C00C91975 /* Remangle.cpp */; };
-		BB8B29CB1C124A0C00C91975 /* SwiftObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29B71C124A0C00C91975 /* SwiftObject.cpp */; };
 		BB8B29CD1C124A0C00C91975 /* SwiftRuntimeDTraceProbes.d in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29B91C124A0C00C91975 /* SwiftRuntimeDTraceProbes.d */; };
-		BB8B29FA1C124A6500C91975 /* Availability.mm in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29F31C124A6500C91975 /* Availability.mm */; };
-		BB8B29FB1C124A6500C91975 /* FoundationHelpers.mm in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29F51C124A6500C91975 /* FoundationHelpers.mm */; };
-		BB8B29FC1C124A6500C91975 /* GlobalObjects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29F61C124A6500C91975 /* GlobalObjects.cpp */; };
-		BB8B29FD1C124A6500C91975 /* LibcShims.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29F71C124A6500C91975 /* LibcShims.cpp */; };
-		BB8B29FE1C124A6500C91975 /* Stubs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29F81C124A6500C91975 /* Stubs.cpp */; };
 		BB9FD7C41C10F3CD0008A1EA /* ArchetypeBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FD79A1C10F3CD0008A1EA /* ArchetypeBuilder.cpp */; };
 		BB9FD7C51C10F3CD0008A1EA /* ASTContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FD79B1C10F3CD0008A1EA /* ASTContext.cpp */; };
 		BB9FD7C61C10F3CD0008A1EA /* ASTDumper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FD79C1C10F3CD0008A1EA /* ASTDumper.cpp */; };
@@ -489,6 +468,27 @@
 		BB9FDB261C10F9200008A1EA /* LoopUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDB1C1C10F9200008A1EA /* LoopUtils.cpp */; };
 		BB9FDB271C10F9200008A1EA /* SILInliner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDB1D1C10F9200008A1EA /* SILInliner.cpp */; };
 		BB9FDB281C10F9200008A1EA /* SILSSAUpdater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDB1E1C10F9200008A1EA /* SILSSAUpdater.cpp */; };
+		BBC8EA221C1355C5006A4C7F /* Casting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29A01C124A0C00C91975 /* Casting.cpp */; };
+		BBC8EA231C1355C9006A4C7F /* Demangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29A21C124A0C00C91975 /* Demangle.cpp */; };
+		BBC8EA241C1355CC006A4C7F /* Enum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29A31C124A0C00C91975 /* Enum.cpp */; };
+		BBC8EA251C1355CF006A4C7F /* ErrorObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29A41C124A0C00C91975 /* ErrorObject.cpp */; };
+		BBC8EA261C1355D3006A4C7F /* ErrorObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29A61C124A0C00C91975 /* ErrorObject.mm */; };
+		BBC8EA271C1355D7006A4C7F /* Errors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29A71C124A0C00C91975 /* Errors.cpp */; };
+		BBC8EA281C1355DA006A4C7F /* Heap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29A91C124A0C00C91975 /* Heap.cpp */; };
+		BBC8EA291C1355DE006A4C7F /* HeapObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29AA1C124A0C00C91975 /* HeapObject.cpp */; };
+		BBC8EA2A1C1355E1006A4C7F /* KnownMetadata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29AB1C124A0C00C91975 /* KnownMetadata.cpp */; };
+		BBC8EA2C1C1355E9006A4C7F /* Metadata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29AE1C124A0C00C91975 /* Metadata.cpp */; };
+		BBC8EA2D1C1355ED006A4C7F /* Once.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29B11C124A0C00C91975 /* Once.cpp */; };
+		BBC8EA2E1C1355F1006A4C7F /* Reflection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29B31C124A0C00C91975 /* Reflection.cpp */; };
+		BBC8EA2F1C1355F5006A4C7F /* Reflection.mm in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29B41C124A0C00C91975 /* Reflection.mm */; };
+		BBC8EA301C1355F9006A4C7F /* Remangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29B51C124A0C00C91975 /* Remangle.cpp */; };
+		BBC8EA311C1355FD006A4C7F /* SwiftObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29B71C124A0C00C91975 /* SwiftObject.cpp */; };
+		BBC8EA321C135604006A4C7F /* SwiftObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29B81C124A0C00C91975 /* SwiftObject.mm */; };
+		BBEC4AAC1C1370A500195C43 /* GlobalObjects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29F61C124A6500C91975 /* GlobalObjects.cpp */; };
+		BBEC4AAD1C1370A800195C43 /* LibcShims.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29F71C124A6500C91975 /* LibcShims.cpp */; };
+		BBEC4AAE1C1370AB00195C43 /* Stubs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29F81C124A6500C91975 /* Stubs.cpp */; };
+		BBEC4AAF1C1370CE00195C43 /* Availability.mm in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29F31C124A6500C91975 /* Availability.mm */; };
+		BBEC4AB01C1370D100195C43 /* FoundationHelpers.mm in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29F51C124A6500C91975 /* FoundationHelpers.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -836,6 +836,34 @@
 		BB8B2A0A1C124A8A00C91975 /* SwiftStddef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwiftStddef.h; path = stdlib/public/SwiftShims/SwiftStddef.h; sourceTree = "<group>"; };
 		BB8B2A0B1C124A8A00C91975 /* SwiftStdint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwiftStdint.h; path = stdlib/public/SwiftShims/SwiftStdint.h; sourceTree = "<group>"; };
 		BB8B2A0C1C124A8A00C91975 /* UnicodeShims.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnicodeShims.h; path = stdlib/public/SwiftShims/UnicodeShims.h; sourceTree = "<group>"; };
+		BB96699D1C134D6700B9AC5B /* UnicodeExtendedGraphemeClusters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = UnicodeExtendedGraphemeClusters.cpp; path = "../build/Ninja-DebugAssert/swift-macosx-x86_64/stdlib/public/runtime/8/UnicodeExtendedGraphemeClusters.cpp"; sourceTree = "<group>"; };
+		BB98EF0F1C13488100F6C17C /* Arrays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Arrays.swift; path = "../build/Ninja-DebugAssert/swift-macosx-x86_64/stdlib/public/core/8/Arrays.swift"; sourceTree = "<group>"; };
+		BB98EF101C13488100F6C17C /* BuiltinMath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BuiltinMath.swift; path = "../build/Ninja-DebugAssert/swift-macosx-x86_64/stdlib/public/core/8/BuiltinMath.swift"; sourceTree = "<group>"; };
+		BB98EF111C13488100F6C17C /* CollectionAlgorithms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionAlgorithms.swift; path = "../build/Ninja-DebugAssert/swift-macosx-x86_64/stdlib/public/core/8/CollectionAlgorithms.swift"; sourceTree = "<group>"; };
+		BB98EF121C13488100F6C17C /* CollectionMirrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionMirrors.swift; path = "../build/Ninja-DebugAssert/swift-macosx-x86_64/stdlib/public/core/8/CollectionMirrors.swift"; sourceTree = "<group>"; };
+		BB98EF131C13488100F6C17C /* ExistentialCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExistentialCollection.swift; path = "../build/Ninja-DebugAssert/swift-macosx-x86_64/stdlib/public/core/8/ExistentialCollection.swift"; sourceTree = "<group>"; };
+		BB98EF141C13488100F6C17C /* FixedPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FixedPoint.swift; path = "../build/Ninja-DebugAssert/swift-macosx-x86_64/stdlib/public/core/8/FixedPoint.swift"; sourceTree = "<group>"; };
+		BB98EF151C13488100F6C17C /* Flatten.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Flatten.swift; path = "../build/Ninja-DebugAssert/swift-macosx-x86_64/stdlib/public/core/8/Flatten.swift"; sourceTree = "<group>"; };
+		BB98EF161C13488100F6C17C /* FloatingPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FloatingPoint.swift; path = "../build/Ninja-DebugAssert/swift-macosx-x86_64/stdlib/public/core/8/FloatingPoint.swift"; sourceTree = "<group>"; };
+		BB98EF171C13488100F6C17C /* FloatingPointOperations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FloatingPointOperations.swift; path = "../build/Ninja-DebugAssert/swift-macosx-x86_64/stdlib/public/core/8/FloatingPointOperations.swift"; sourceTree = "<group>"; };
+		BB98EF181C13488100F6C17C /* FloatingPointParsing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FloatingPointParsing.swift; path = "../build/Ninja-DebugAssert/swift-macosx-x86_64/stdlib/public/core/8/FloatingPointParsing.swift"; sourceTree = "<group>"; };
+		BB98EF191C13488100F6C17C /* HashedCollections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HashedCollections.swift; path = "../build/Ninja-DebugAssert/swift-macosx-x86_64/stdlib/public/core/8/HashedCollections.swift"; sourceTree = "<group>"; };
+		BB98EF1A1C13488100F6C17C /* IntegerArithmetic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntegerArithmetic.swift; path = "../build/Ninja-DebugAssert/swift-macosx-x86_64/stdlib/public/core/8/IntegerArithmetic.swift"; sourceTree = "<group>"; };
+		BB98EF1B1C13488100F6C17C /* IntegerParsing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntegerParsing.swift; path = "../build/Ninja-DebugAssert/swift-macosx-x86_64/stdlib/public/core/8/IntegerParsing.swift"; sourceTree = "<group>"; };
+		BB98EF1C1C13488100F6C17C /* Interval.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Interval.swift; path = "../build/Ninja-DebugAssert/swift-macosx-x86_64/stdlib/public/core/8/Interval.swift"; sourceTree = "<group>"; };
+		BB98EF1D1C13488100F6C17C /* Mirrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Mirrors.swift; path = "../build/Ninja-DebugAssert/swift-macosx-x86_64/stdlib/public/core/8/Mirrors.swift"; sourceTree = "<group>"; };
+		BB98EF1E1C13488100F6C17C /* RangeMirrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RangeMirrors.swift; path = "../build/Ninja-DebugAssert/swift-macosx-x86_64/stdlib/public/core/8/RangeMirrors.swift"; sourceTree = "<group>"; };
+		BB98EF1F1C13488100F6C17C /* Runtime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Runtime.swift; path = "../build/Ninja-DebugAssert/swift-macosx-x86_64/stdlib/public/core/8/Runtime.swift"; sourceTree = "<group>"; };
+		BB98EF201C13488100F6C17C /* SequenceAlgorithms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SequenceAlgorithms.swift; path = "../build/Ninja-DebugAssert/swift-macosx-x86_64/stdlib/public/core/8/SequenceAlgorithms.swift"; sourceTree = "<group>"; };
+		BB98EF211C13488100F6C17C /* Slice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Slice.swift; path = "../build/Ninja-DebugAssert/swift-macosx-x86_64/stdlib/public/core/8/Slice.swift"; sourceTree = "<group>"; };
+		BB98EF221C13488100F6C17C /* Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Sort.swift; path = "../build/Ninja-DebugAssert/swift-macosx-x86_64/stdlib/public/core/8/Sort.swift"; sourceTree = "<group>"; };
+		BB98EF231C13488100F6C17C /* StrideMirrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StrideMirrors.swift; path = "../build/Ninja-DebugAssert/swift-macosx-x86_64/stdlib/public/core/8/StrideMirrors.swift"; sourceTree = "<group>"; };
+		BB98EF241C13488100F6C17C /* StringInterpolation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringInterpolation.swift; path = "../build/Ninja-DebugAssert/swift-macosx-x86_64/stdlib/public/core/8/StringInterpolation.swift"; sourceTree = "<group>"; };
+		BB98EF251C13488100F6C17C /* StringUTFViewsMirrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringUTFViewsMirrors.swift; path = "../build/Ninja-DebugAssert/swift-macosx-x86_64/stdlib/public/core/8/StringUTFViewsMirrors.swift"; sourceTree = "<group>"; };
+		BB98EF261C13488100F6C17C /* UnavailableStringAPIs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UnavailableStringAPIs.swift; path = "../build/Ninja-DebugAssert/swift-macosx-x86_64/stdlib/public/core/8/UnavailableStringAPIs.swift"; sourceTree = "<group>"; };
+		BB98EF271C13488100F6C17C /* UnicodeTrie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UnicodeTrie.swift; path = "../build/Ninja-DebugAssert/swift-macosx-x86_64/stdlib/public/core/8/UnicodeTrie.swift"; sourceTree = "<group>"; };
+		BB98EF281C13488100F6C17C /* UnsafeBufferPointer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UnsafeBufferPointer.swift; path = "../build/Ninja-DebugAssert/swift-macosx-x86_64/stdlib/public/core/8/UnsafeBufferPointer.swift"; sourceTree = "<group>"; };
+		BB98EF291C13488100F6C17C /* UnsafePointer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UnsafePointer.swift; path = "../build/Ninja-DebugAssert/swift-macosx-x86_64/stdlib/public/core/8/UnsafePointer.swift"; sourceTree = "<group>"; };
 		BB9FD6401C10EF850008A1EA /* swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = swift; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB9FD64D1C10F0280008A1EA /* Class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Class.h; path = include/swift/ABI/Class.h; sourceTree = "<group>"; };
 		BB9FD64E1C10F0280008A1EA /* MetadataKind.def */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = MetadataKind.def; path = include/swift/ABI/MetadataKind.def; sourceTree = "<group>"; };
@@ -2002,6 +2030,7 @@
 				BB8B28E11C1249C800C91975 /* ArrayBufferType.swift */,
 				BB8B28E21C1249C800C91975 /* ArrayCast.swift */,
 				BB8B28E31C1249C800C91975 /* Arrays.swift.gyb */,
+				BB98EF0F1C13488100F6C17C /* Arrays.swift */,
 				BB8B28E41C1249C800C91975 /* ArrayType.swift */,
 				BB8B28E51C1249C800C91975 /* Assert.swift */,
 				BB8B28E61C1249C800C91975 /* AssertCommon.swift */,
@@ -2013,12 +2042,15 @@
 				BB8B28EC1C1249C800C91975 /* BridgeStorage.swift */,
 				BB8B28ED1C1249C800C91975 /* Builtin.swift */,
 				BB8B28EE1C1249C800C91975 /* BuiltinMath.swift.gyb */,
+				BB98EF101C13488100F6C17C /* BuiltinMath.swift */,
 				BB8B28EF1C1249C800C91975 /* Character.swift */,
 				BB8B28F01C1249C800C91975 /* CMakeLists.txt */,
 				BB8B28F11C1249C800C91975 /* CocoaArray.swift */,
 				BB8B28F21C1249C800C91975 /* Collection.swift */,
 				BB8B28F31C1249C800C91975 /* CollectionAlgorithms.swift.gyb */,
+				BB98EF111C13488100F6C17C /* CollectionAlgorithms.swift */,
 				BB8B28F41C1249C800C91975 /* CollectionMirrors.swift.gyb */,
+				BB98EF121C13488100F6C17C /* CollectionMirrors.swift */,
 				BB8B28F51C1249C800C91975 /* CollectionOfOne.swift */,
 				BB8B28F61C1249C800C91975 /* CompilerProtocols.swift */,
 				BB8B28F71C1249C800C91975 /* ContiguousArrayBuffer.swift */,
@@ -2028,22 +2060,32 @@
 				BB8B28FB1C1249C800C91975 /* ErrorType.swift */,
 				BB8B28FC1C1249C800C91975 /* Existential.swift */,
 				BB8B28FD1C1249C800C91975 /* ExistentialCollection.swift.gyb */,
+				BB98EF131C13488100F6C17C /* ExistentialCollection.swift */,
 				BB8B28FE1C1249C800C91975 /* Filter.swift */,
 				BB8B28FF1C1249C800C91975 /* FixedPoint.swift.gyb */,
+				BB98EF141C13488100F6C17C /* FixedPoint.swift */,
 				BB8B29001C1249C800C91975 /* FlatMap.swift */,
 				BB8B29011C1249C800C91975 /* Flatten.swift.gyb */,
+				BB98EF151C13488100F6C17C /* Flatten.swift */,
 				BB8B29021C1249C800C91975 /* FloatingPoint.swift.gyb */,
+				BB98EF161C13488100F6C17C /* FloatingPoint.swift */,
 				BB8B29031C1249C800C91975 /* FloatingPointOperations.swift.gyb */,
+				BB98EF171C13488100F6C17C /* FloatingPointOperations.swift */,
 				BB8B29041C1249C800C91975 /* FloatingPointParsing.swift.gyb */,
+				BB98EF181C13488100F6C17C /* FloatingPointParsing.swift */,
 				BB8B29051C1249C800C91975 /* HashedCollections.swift.gyb */,
+				BB98EF191C13488100F6C17C /* HashedCollections.swift */,
 				BB8B29061C1249C800C91975 /* Hashing.swift */,
 				BB8B29071C1249C800C91975 /* HeapBuffer.swift */,
 				BB8B29081C1249C800C91975 /* ImplicitlyUnwrappedOptional.swift */,
 				BB8B29091C1249C800C91975 /* Index.swift */,
 				BB8B290A1C1249C800C91975 /* InputStream.swift */,
 				BB8B290B1C1249C800C91975 /* IntegerArithmetic.swift.gyb */,
+				BB98EF1A1C13488100F6C17C /* IntegerArithmetic.swift */,
 				BB8B290C1C1249C800C91975 /* IntegerParsing.swift.gyb */,
+				BB98EF1B1C13488100F6C17C /* IntegerParsing.swift */,
 				BB8B290D1C1249C800C91975 /* Interval.swift.gyb */,
+				BB98EF1C1C13488100F6C17C /* Interval.swift */,
 				BB8B290E1C1249C800C91975 /* Join.swift */,
 				BB8B290F1C1249C800C91975 /* LazyCollection.swift */,
 				BB8B29101C1249C800C91975 /* LazySequence.swift */,
@@ -2052,6 +2094,7 @@
 				BB8B29131C1249C800C91975 /* Map.swift */,
 				BB8B29141C1249C800C91975 /* Mirror.swift */,
 				BB8B29151C1249C800C91975 /* Mirrors.swift.gyb */,
+				BB98EF1D1C13488100F6C17C /* Mirrors.swift */,
 				BB8B29161C1249C800C91975 /* Misc.swift */,
 				BB8B29171C1249C800C91975 /* ObjCMirrors.swift */,
 				BB8B29181C1249C800C91975 /* Optional.swift */,
@@ -2064,43 +2107,55 @@
 				BB8B291F1C1249C800C91975 /* Process.swift */,
 				BB8B29201C1249C800C91975 /* Range.swift */,
 				BB8B29211C1249C800C91975 /* RangeMirrors.swift.gyb */,
+				BB98EF1E1C13488100F6C17C /* RangeMirrors.swift */,
 				BB8B29221C1249C800C91975 /* RangeReplaceableCollectionType.swift */,
 				BB8B29231C1249C800C91975 /* Reflection.swift */,
 				BB8B29241C1249C800C91975 /* Repeat.swift */,
 				BB8B29251C1249C800C91975 /* REPL.swift */,
 				BB8B29261C1249C800C91975 /* Reverse.swift */,
 				BB8B29271C1249C800C91975 /* Runtime.swift.gyb */,
+				BB98EF1F1C13488100F6C17C /* Runtime.swift */,
 				BB8B29281C1249C800C91975 /* Sequence.swift */,
 				BB8B29291C1249C800C91975 /* SequenceAlgorithms.swift.gyb */,
+				BB98EF201C13488100F6C17C /* SequenceAlgorithms.swift */,
 				BB8B292A1C1249C800C91975 /* SequenceWrapper.swift */,
 				BB8B292B1C1249C800C91975 /* SetAlgebra.swift */,
 				BB8B292C1C1249C800C91975 /* ShadowProtocols.swift */,
 				BB8B292D1C1249C800C91975 /* Shims.swift */,
 				BB8B292E1C1249C800C91975 /* Slice.swift.gyb */,
+				BB98EF211C13488100F6C17C /* Slice.swift */,
 				BB8B292F1C1249C800C91975 /* SliceBuffer.swift */,
 				BB8B29301C1249C800C91975 /* Sort.swift.gyb */,
+				BB98EF221C13488100F6C17C /* Sort.swift */,
 				BB8B29311C1249C800C91975 /* StaticString.swift */,
 				BB8B29321C1249C800C91975 /* Stride.swift */,
 				BB8B29331C1249C800C91975 /* StrideMirrors.swift.gyb */,
+				BB98EF231C13488100F6C17C /* StrideMirrors.swift */,
 				BB8B29341C1249C800C91975 /* String.swift */,
 				BB8B29351C1249C800C91975 /* StringBridge.swift */,
 				BB8B29361C1249C800C91975 /* StringBuffer.swift */,
 				BB8B29371C1249C800C91975 /* StringCharacterView.swift */,
 				BB8B29381C1249C800C91975 /* StringCore.swift */,
 				BB8B29391C1249C800C91975 /* StringInterpolation.swift.gyb */,
+				BB98EF241C13488100F6C17C /* StringInterpolation.swift */,
 				BB8B293A1C1249C800C91975 /* StringLegacy.swift */,
 				BB8B293B1C1249C800C91975 /* StringUnicodeScalarView.swift */,
 				BB8B293C1C1249C800C91975 /* StringUTF8.swift */,
 				BB8B293D1C1249C800C91975 /* StringUTF16.swift */,
 				BB8B293E1C1249C800C91975 /* StringUTFViewsMirrors.swift.gyb */,
+				BB98EF251C13488100F6C17C /* StringUTFViewsMirrors.swift */,
 				BB8B293F1C1249C800C91975 /* SwiftNativeNSArray.swift */,
 				BB8B29401C1249C800C91975 /* UnavailableStringAPIs.swift.gyb */,
+				BB98EF261C13488100F6C17C /* UnavailableStringAPIs.swift */,
 				BB8B29411C1249C800C91975 /* Unicode.swift */,
 				BB8B29421C1249C800C91975 /* UnicodeScalar.swift */,
 				BB8B29431C1249C800C91975 /* UnicodeTrie.swift.gyb */,
+				BB98EF271C13488100F6C17C /* UnicodeTrie.swift */,
 				BB8B29441C1249C800C91975 /* Unmanaged.swift */,
 				BB8B29451C1249C800C91975 /* UnsafeBufferPointer.swift.gyb */,
+				BB98EF281C13488100F6C17C /* UnsafeBufferPointer.swift */,
 				BB8B29461C1249C800C91975 /* UnsafePointer.swift.gyb */,
+				BB98EF291C13488100F6C17C /* UnsafePointer.swift */,
 				BB8B29471C1249C800C91975 /* VarArgs.swift */,
 				BB8B29481C1249C800C91975 /* Zip.swift */,
 			);
@@ -2148,6 +2203,7 @@
 				BB8B29B81C124A0C00C91975 /* SwiftObject.mm */,
 				BB8B29B91C124A0C00C91975 /* SwiftRuntimeDTraceProbes.d */,
 				BB8B29BA1C124A0C00C91975 /* UnicodeExtendedGraphemeClusters.cpp.gyb */,
+				BB96699D1C134D6700B9AC5B /* UnicodeExtendedGraphemeClusters.cpp */,
 				BB8B29BB1C124A0C00C91975 /* UnicodeNormalization.cpp */,
 			);
 			name = runtime;
@@ -3579,8 +3635,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBC8EA2F1C1355F5006A4C7F /* Reflection.mm in Sources */,
+				BBC8EA271C1355D7006A4C7F /* Errors.cpp in Sources */,
+				BBC8EA2C1C1355E9006A4C7F /* Metadata.cpp in Sources */,
+				BBC8EA241C1355CC006A4C7F /* Enum.cpp in Sources */,
+				BBC8EA311C1355FD006A4C7F /* SwiftObject.cpp in Sources */,
+				BBC8EA321C135604006A4C7F /* SwiftObject.mm in Sources */,
+				BBC8EA251C1355CF006A4C7F /* ErrorObject.cpp in Sources */,
+				BBC8EA281C1355DA006A4C7F /* Heap.cpp in Sources */,
+				BBC8EA291C1355DE006A4C7F /* HeapObject.cpp in Sources */,
+				BBC8EA2D1C1355ED006A4C7F /* Once.cpp in Sources */,
+				BBC8EA261C1355D3006A4C7F /* ErrorObject.mm in Sources */,
+				BBC8EA2A1C1355E1006A4C7F /* KnownMetadata.cpp in Sources */,
+				BBC8EA2E1C1355F1006A4C7F /* Reflection.cpp in Sources */,
+				BBC8EA301C1355F9006A4C7F /* Remangle.cpp in Sources */,
+				BBC8EA231C1355C9006A4C7F /* Demangle.cpp in Sources */,
+				BBC8EA221C1355C5006A4C7F /* Casting.cpp in Sources */,
 				BB9FDAD81C10F8B40008A1EA /* MergeCondFail.cpp in Sources */,
-				BB8B29FC1C124A6500C91975 /* GlobalObjects.cpp in Sources */,
 				BB9FD92F1C10F67C0008A1EA /* Parser.cpp in Sources */,
 				BB9FD8EF1C10F5F20008A1EA /* GenHeap.cpp in Sources */,
 				BB9FD9FF1C10F7490008A1EA /* ARCAnalysis.cpp in Sources */,
@@ -3596,9 +3667,9 @@
 				BB9FDAD21C10F8B40008A1EA /* ArrayCountPropagation.cpp in Sources */,
 				BB9FDA0E1C10F7490008A1EA /* SideEffectAnalysis.cpp in Sources */,
 				BB9FDA4F1C10F76B0008A1EA /* SILGenFunction.cpp in Sources */,
+				BBEC4AAE1C1370AB00195C43 /* Stubs.cpp in Sources */,
 				BB9FDB0D1C10F8FC0008A1EA /* LoopInfoPrinter.cpp in Sources */,
 				BB9FD9871C10F6CE0008A1EA /* TypeCheckDecl.cpp in Sources */,
-				BB8B29FD1C124A6500C91975 /* LibcShims.cpp in Sources */,
 				BB9FD7D41C10F3CD0008A1EA /* DiagnosticList.cpp in Sources */,
 				BB9FD90C1C10F60D0008A1EA /* LLVMARCContract.cpp in Sources */,
 				BB9FDA081C10F7490008A1EA /* FunctionOrder.cpp in Sources */,
@@ -3616,7 +3687,6 @@
 				BB9FD99F1C10F6F10008A1EA /* Deserialization.cpp in Sources */,
 				BB9FDAF01C10F8D90008A1EA /* SILCombinerBuiltinVisitors.cpp in Sources */,
 				BB9FDB0C1C10F8FC0008A1EA /* LoopCanonicalizer.cpp in Sources */,
-				BB32C32F1C124D6000BEA123 /* ErrorObject.mm in Sources */,
 				BB9FDA0D1C10F7490008A1EA /* RCIdentityAnalysis.cpp in Sources */,
 				BB9FD8521C10F54E0008A1EA /* Action.cpp in Sources */,
 				BB9FDAB81C10F8980008A1EA /* PassManager.cpp in Sources */,
@@ -3639,7 +3709,6 @@
 				BB9FD9D71C10F7110008A1EA /* SILDeclRef.cpp in Sources */,
 				BB9FD9CB1C10F7110008A1EA /* DynamicCasts.cpp in Sources */,
 				BB9FD7C41C10F3CD0008A1EA /* ArchetypeBuilder.cpp in Sources */,
-				BB8B29BD1C124A0C00C91975 /* Demangle.cpp in Sources */,
 				BB9FDAD31C10F8B40008A1EA /* CopyForwarding.cpp in Sources */,
 				BB9FDB121C10F8FC0008A1EA /* UpdateSideEffects.cpp in Sources */,
 				BB9FDADD1C10F8B40008A1EA /* SILCleanup.cpp in Sources */,
@@ -3652,7 +3721,6 @@
 				BB9FD9761C10F6CE0008A1EA /* CSSimplify.cpp in Sources */,
 				BB9FDB1F1C10F9200008A1EA /* CFG.cpp in Sources */,
 				BB9FD8F71C10F5F20008A1EA /* GenTuple.cpp in Sources */,
-				BB32C3301C124D6500BEA123 /* SwiftObject.mm in Sources */,
 				BB9FDAB01C10F86C0008A1EA /* LICM.cpp in Sources */,
 				BB9FDA7B1C10F7F00008A1EA /* RefCountState.cpp in Sources */,
 				BB9FD87A1C10F5A40008A1EA /* ModuleInterfacePrinting.cpp in Sources */,
@@ -3660,7 +3728,6 @@
 				BB9FD9911C10F6CE0008A1EA /* TypeCheckStmt.cpp in Sources */,
 				BB9FD9E11C10F7110008A1EA /* SILType.cpp in Sources */,
 				BB9FDA4D1C10F76B0008A1EA /* SILGenExpr.cpp in Sources */,
-				BB8B29C61C124A0C00C91975 /* Metadata.cpp in Sources */,
 				BB9FDA761C10F7F00008A1EA /* GlobalARCPairingAnalysis.cpp in Sources */,
 				BB9FDAB71C10F8980008A1EA /* Passes.cpp in Sources */,
 				BB9FD9771C10F6CE0008A1EA /* CSSolver.cpp in Sources */,
@@ -3705,6 +3772,7 @@
 				BB9FD9021C10F5F20008A1EA /* UnimplementedTypeInfo.cpp in Sources */,
 				BB9FD8401C10F50E0008A1EA /* ImportDecl.cpp in Sources */,
 				BB8B28B21C1248CE00C91975 /* OpaqueIdentityFunctions.cpp in Sources */,
+				BBEC4AAD1C1370A800195C43 /* LibcShims.cpp in Sources */,
 				BB9FDA031C10F7490008A1EA /* CFG.cpp in Sources */,
 				BB8B299E1C1249E500C91975 /* README.md in Sources */,
 				BB9FDA731C10F7F00008A1EA /* ARCBBState.cpp in Sources */,
@@ -3715,7 +3783,6 @@
 				BB9FD9C81C10F7110008A1EA /* AbstractionPattern.cpp in Sources */,
 				BB9FD92C1C10F67C0008A1EA /* ParseExpr.cpp in Sources */,
 				BB9FDA571C10F76B0008A1EA /* SILGenType.cpp in Sources */,
-				BB8B29C41C124A0C00C91975 /* KnownMetadata.cpp in Sources */,
 				BB9FD8691C10F5790008A1EA /* PrintingDiagnosticConsumer.cpp in Sources */,
 				BB9FD9E21C10F7110008A1EA /* SILValue.cpp in Sources */,
 				BB9FD8771C10F5A40008A1EA /* CodeCompletion.cpp in Sources */,
@@ -3737,7 +3804,6 @@
 				BB9FD7DC1C10F3CD0008A1EA /* ModuleNameLookup.cpp in Sources */,
 				BB9FD7DA1C10F3CD0008A1EA /* Mangle.cpp in Sources */,
 				BB9FD8531C10F54E0008A1EA /* Compilation.cpp in Sources */,
-				BB8B29CA1C124A0C00C91975 /* Remangle.cpp in Sources */,
 				BB9FDA4E1C10F76B0008A1EA /* SILGenForeignError.cpp in Sources */,
 				BB9FDA781C10F7F00008A1EA /* GlobalLoopARCSequenceDataflow.cpp in Sources */,
 				BB9FDB201C10F9200008A1EA /* CheckedCastBrJumpThreading.cpp in Sources */,
@@ -3761,6 +3827,7 @@
 				BB9FD8121C10F4770008A1EA /* DiverseStack.cpp in Sources */,
 				BB9FDA8A1C10F8110008A1EA /* DiagnoseUnreachable.cpp in Sources */,
 				BB9FD9721C10F6CE0008A1EA /* CSApply.cpp in Sources */,
+				BBEC4AAF1C1370CE00195C43 /* Availability.mm in Sources */,
 				BB9FD8EC1C10F5F20008A1EA /* GenEnum.cpp in Sources */,
 				BB9FD8201C10F4770008A1EA /* SourceLoc.cpp in Sources */,
 				BB9FD8131C10F4770008A1EA /* EditorPlaceholder.cpp in Sources */,
@@ -3824,13 +3891,12 @@
 				BB9FD8651C10F5790008A1EA /* CompilerInvocation.cpp in Sources */,
 				BB9FD8FB1C10F5F20008A1EA /* IRGenFunction.cpp in Sources */,
 				BB9FD97A1C10F6CE0008A1EA /* DerivedConformanceRawRepresentable.cpp in Sources */,
+				BBEC4AAC1C1370A500195C43 /* GlobalObjects.cpp in Sources */,
 				BB9FD7E91C10F3CD0008A1EA /* USRGeneration.cpp in Sources */,
 				BB9FD8E21C10F5F20008A1EA /* EnumPayload.cpp in Sources */,
-				BB8B29C81C124A0C00C91975 /* Reflection.cpp in Sources */,
+				BBEC4AB01C1370D100195C43 /* FoundationHelpers.mm in Sources */,
 				BB9FD98D1C10F6CE0008A1EA /* TypeCheckPattern.cpp in Sources */,
 				BB9FD8781C10F5A40008A1EA /* CodeCompletionCache.cpp in Sources */,
-				BB8B29CB1C124A0C00C91975 /* SwiftObject.cpp in Sources */,
-				BB8B29C71C124A0C00C91975 /* Once.cpp in Sources */,
 				BB9FD7CB1C10F3CD0008A1EA /* Availability.cpp in Sources */,
 				BB9FD8ED1C10F5F20008A1EA /* GenExistential.cpp in Sources */,
 				BB9FD8661C10F5790008A1EA /* DiagnosticVerifier.cpp in Sources */,
@@ -3839,9 +3905,7 @@
 				BB9FDADE1C10F8B40008A1EA /* SILCodeMotion.cpp in Sources */,
 				BB9FDA0C1C10F7490008A1EA /* MemoryBehavior.cpp in Sources */,
 				BB9FD7CD1C10F3CD0008A1EA /* Builtins.cpp in Sources */,
-				BB8B29FA1C124A6500C91975 /* Availability.mm in Sources */,
 				BB9FDB211C10F9200008A1EA /* ConstantFolding.cpp in Sources */,
-				BB8B29C21C124A0C00C91975 /* Heap.cpp in Sources */,
 				BB9FD9181C10F6360008A1EA /* Markup.cpp in Sources */,
 				BB9FD7EA1C10F3CD0008A1EA /* Verifier.cpp in Sources */,
 				BB9FD7EE1C10F4500008A1EA /* ASTSectionImporter.cpp in Sources */,
@@ -3860,7 +3924,6 @@
 				BB9FD9831C10F6CE0008A1EA /* PlaygroundTransform.cpp in Sources */,
 				BB9FD9CC1C10F7110008A1EA /* Linker.cpp in Sources */,
 				BB9FDB0E1C10F8FC0008A1EA /* LoopRegionPrinter.cpp in Sources */,
-				BB8B29C91C124A0C00C91975 /* Reflection.mm in Sources */,
 				BB9FDB061C10F8FC0008A1EA /* CallGraphPrinter.cpp in Sources */,
 				BB9FDB0F1C10F8FC0008A1EA /* MemLocationPrinter.cpp in Sources */,
 				BB9FD8E71C10F5F20008A1EA /* GenClangType.cpp in Sources */,
@@ -3871,13 +3934,11 @@
 				BB9FDAA41C10F84F0008A1EA /* GlobalPropertyOpt.cpp in Sources */,
 				BB9FDA9E1C10F84F0008A1EA /* CapturePropagation.cpp in Sources */,
 				BB9FD8FD1C10F5F20008A1EA /* IRGenSIL.cpp in Sources */,
-				BB8B29BC1C124A0C00C91975 /* Casting.cpp in Sources */,
 				BB9FDAD91C10F8B40008A1EA /* RedundantLoadElimination.cpp in Sources */,
 				BB9FD81B1C10F4770008A1EA /* Program.cpp in Sources */,
 				BB9FDA521C10F76B0008A1EA /* SILGenPattern.cpp in Sources */,
 				BB9FD7CF1C10F3CD0008A1EA /* ConcreteDeclRef.cpp in Sources */,
 				BB9FDA061C10F7490008A1EA /* DestructorAnalysis.cpp in Sources */,
-				BB8B29FE1C124A6500C91975 /* Stubs.cpp in Sources */,
 				BB9FDA771C10F7F00008A1EA /* GlobalARCSequenceDataflow.cpp in Sources */,
 				BB9FDA5D1C10F7B90008A1EA /* SwiftDemangle.cpp in Sources */,
 				BB9FD8F01C10F5F20008A1EA /* GenInit.cpp in Sources */,
@@ -3897,16 +3958,13 @@
 				BB9FD97B1C10F6CE0008A1EA /* DerivedConformances.cpp in Sources */,
 				BB9FD7C71C10F3CD0008A1EA /* ASTNode.cpp in Sources */,
 				BB9FD98C1C10F6CE0008A1EA /* TypeCheckNameLookup.cpp in Sources */,
-				BB8B29C11C124A0C00C91975 /* Errors.cpp in Sources */,
 				BB9FD9DE1C10F7110008A1EA /* SILModule.cpp in Sources */,
 				BB9FD8541C10F54E0008A1EA /* DependencyGraph.cpp in Sources */,
 				BB9FDAA11C10F84F0008A1EA /* ExternalDefsToDecls.cpp in Sources */,
 				BB9FD9D91C10F7110008A1EA /* SILFunctionType.cpp in Sources */,
-				BB8B29C31C124A0C00C91975 /* HeapObject.cpp in Sources */,
 				BB9FD7E21C10F3CD0008A1EA /* RawComment.cpp in Sources */,
 				BB9FD91C1C10F6580008A1EA /* Options.cpp in Sources */,
 				BB9FDAA51C10F84F0008A1EA /* LetPropertiesOpts.cpp in Sources */,
-				BB8B29FB1C124A6500C91975 /* FoundationHelpers.mm in Sources */,
 				BB9FD97F1C10F6CE0008A1EA /* IterativeTypeChecker.cpp in Sources */,
 				BB9FD7D21C10F3CD0008A1EA /* DeclContext.cpp in Sources */,
 				BB9FDB091C10F8FC0008A1EA /* InstCount.cpp in Sources */,
@@ -3920,8 +3978,6 @@
 				BB9FDA0B1C10F7490008A1EA /* LoopRegionAnalysis.cpp in Sources */,
 				BB9FD85B1C10F54E0008A1EA /* ToolChains.cpp in Sources */,
 				BB9FD9011C10F5F20008A1EA /* TypeLayoutVerifier.cpp in Sources */,
-				BB32C32E1C124CFE00BEA123 /* ErrorObject.cpp in Sources */,
-				BB8B29BE1C124A0C00C91975 /* Enum.cpp in Sources */,
 				BB9FD9DD1C10F7110008A1EA /* SILLocation.cpp in Sources */,
 				BB9FDA511C10F76B0008A1EA /* SILGenLValue.cpp in Sources */,
 				BB9FD7C61C10F3CD0008A1EA /* ASTDumper.cpp in Sources */,
