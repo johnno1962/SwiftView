@@ -103,6 +103,32 @@
 		BB8B28B21C1248CE00C91975 /* OpaqueIdentityFunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8B28A31C1248CE00C91975 /* OpaqueIdentityFunctions.cpp */; };
 		BB8B299E1C1249E500C91975 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BB8B299C1C1249E500C91975 /* README.md */; };
 		BB8B29CD1C124A0C00C91975 /* SwiftRuntimeDTraceProbes.d in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29B91C124A0C00C91975 /* SwiftRuntimeDTraceProbes.d */; };
+		BB9081E71C236B7C00C8B66C /* Context.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9081E41C236B7C00C8B66C /* Context.cpp */; };
+		BB9081E81C236B7C00C8B66C /* LangSupport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9081E51C236B7C00C8B66C /* LangSupport.cpp */; };
+		BB9081E91C236B7C00C8B66C /* NotificationCenter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9081E61C236B7C00C8B66C /* NotificationCenter.cpp */; };
+		BB9081F31C236BBB00C8B66C /* Concurrency-Mac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9081EC1C236BBB00C8B66C /* Concurrency-Mac.cpp */; };
+		BB9081F41C236BBB00C8B66C /* FuzzyStringMatcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9081ED1C236BBB00C8B66C /* FuzzyStringMatcher.cpp */; };
+		BB9081F51C236BBB00C8B66C /* ImmutableTextBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9081EE1C236BBB00C8B66C /* ImmutableTextBuffer.cpp */; };
+		BB9081F61C236BBB00C8B66C /* Logging.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9081EF1C236BBB00C8B66C /* Logging.cpp */; };
+		BB9081F71C236BBB00C8B66C /* ThreadSafeRefCntPtr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9081F01C236BBB00C8B66C /* ThreadSafeRefCntPtr.cpp */; };
+		BB9081F81C236BBB00C8B66C /* Tracing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9081F11C236BBB00C8B66C /* Tracing.cpp */; };
+		BB9081F91C236BBB00C8B66C /* UIDRegistry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9081F21C236BBB00C8B66C /* UIDRegistry.cpp */; };
+		BB90820D1C236C2600C8B66C /* CodeCompletionOrganizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9081FE1C236C2600C8B66C /* CodeCompletionOrganizer.cpp */; };
+		BB90820E1C236C2600C8B66C /* SwiftASTManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9082001C236C2600C8B66C /* SwiftASTManager.cpp */; };
+		BB90820F1C236C2600C8B66C /* SwiftCompletion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9082021C236C2600C8B66C /* SwiftCompletion.cpp */; };
+		BB9082101C236C2600C8B66C /* SwiftDocSupport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9082031C236C2600C8B66C /* SwiftDocSupport.cpp */; };
+		BB9082111C236C2600C8B66C /* SwiftEditor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9082041C236C2600C8B66C /* SwiftEditor.cpp */; };
+		BB9082121C236C2600C8B66C /* SwiftEditorInterfaceGen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9082061C236C2600C8B66C /* SwiftEditorInterfaceGen.cpp */; };
+		BB9082131C236C2600C8B66C /* SwiftIndexing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9082071C236C2600C8B66C /* SwiftIndexing.cpp */; };
+		BB9082141C236C2600C8B66C /* SwiftLangSupport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB90820A1C236C2600C8B66C /* SwiftLangSupport.cpp */; };
+		BB9082151C236C2600C8B66C /* SwiftSourceDocInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB90820C1C236C2600C8B66C /* SwiftSourceDocInfo.cpp */; };
+		BB9082301C236E5A00C8B66C /* CodeCompletionResultsArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9082281C236E5A00C8B66C /* CodeCompletionResultsArray.cpp */; };
+		BB9082311C236E5A00C8B66C /* CompactArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9082291C236E5A00C8B66C /* CompactArray.cpp */; };
+		BB9082321C236E5A00C8B66C /* DocSupportAnnotationArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB90822B1C236E5A00C8B66C /* DocSupportAnnotationArray.cpp */; };
+		BB9082331C236E5A00C8B66C /* Requests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB90822C1C236E5A00C8B66C /* Requests.cpp */; };
+		BB9082341C236E5A00C8B66C /* sourcekitdAPI-Common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB90822D1C236E5A00C8B66C /* sourcekitdAPI-Common.cpp */; };
+		BB9082351C236E5A00C8B66C /* sourcekitdAPI-XPC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB90822E1C236E5A00C8B66C /* sourcekitdAPI-XPC.cpp */; };
+		BB9082361C236E5A00C8B66C /* TokenAnnotationsArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB90822F1C236E5A00C8B66C /* TokenAnnotationsArray.cpp */; };
 		BB9FD7C41C10F3CD0008A1EA /* ArchetypeBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FD79A1C10F3CD0008A1EA /* ArchetypeBuilder.cpp */; };
 		BB9FD7C51C10F3CD0008A1EA /* ASTContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FD79B1C10F3CD0008A1EA /* ASTContext.cpp */; };
 		BB9FD7C61C10F3CD0008A1EA /* ASTDumper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FD79C1C10F3CD0008A1EA /* ASTDumper.cpp */; };
@@ -836,6 +862,66 @@
 		BB8B2A0A1C124A8A00C91975 /* SwiftStddef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwiftStddef.h; path = stdlib/public/SwiftShims/SwiftStddef.h; sourceTree = "<group>"; };
 		BB8B2A0B1C124A8A00C91975 /* SwiftStdint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwiftStdint.h; path = stdlib/public/SwiftShims/SwiftStdint.h; sourceTree = "<group>"; };
 		BB8B2A0C1C124A8A00C91975 /* UnicodeShims.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnicodeShims.h; path = stdlib/public/SwiftShims/UnicodeShims.h; sourceTree = "<group>"; };
+		BB9081E41C236B7C00C8B66C /* Context.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Context.cpp; path = ../swift/tools/SourceKit/lib/Core/Context.cpp; sourceTree = "<group>"; };
+		BB9081E51C236B7C00C8B66C /* LangSupport.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LangSupport.cpp; path = ../swift/tools/SourceKit/lib/Core/LangSupport.cpp; sourceTree = "<group>"; };
+		BB9081E61C236B7C00C8B66C /* NotificationCenter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NotificationCenter.cpp; path = ../swift/tools/SourceKit/lib/Core/NotificationCenter.cpp; sourceTree = "<group>"; };
+		BB9081EB1C236BBB00C8B66C /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = ../swift/tools/SourceKit/lib/Support/CMakeLists.txt; sourceTree = "<group>"; };
+		BB9081EC1C236BBB00C8B66C /* Concurrency-Mac.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Concurrency-Mac.cpp"; path = "../swift/tools/SourceKit/lib/Support/Concurrency-Mac.cpp"; sourceTree = "<group>"; };
+		BB9081ED1C236BBB00C8B66C /* FuzzyStringMatcher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FuzzyStringMatcher.cpp; path = ../swift/tools/SourceKit/lib/Support/FuzzyStringMatcher.cpp; sourceTree = "<group>"; };
+		BB9081EE1C236BBB00C8B66C /* ImmutableTextBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImmutableTextBuffer.cpp; path = ../swift/tools/SourceKit/lib/Support/ImmutableTextBuffer.cpp; sourceTree = "<group>"; };
+		BB9081EF1C236BBB00C8B66C /* Logging.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Logging.cpp; path = ../swift/tools/SourceKit/lib/Support/Logging.cpp; sourceTree = "<group>"; };
+		BB9081F01C236BBB00C8B66C /* ThreadSafeRefCntPtr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ThreadSafeRefCntPtr.cpp; path = ../swift/tools/SourceKit/lib/Support/ThreadSafeRefCntPtr.cpp; sourceTree = "<group>"; };
+		BB9081F11C236BBB00C8B66C /* Tracing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Tracing.cpp; path = ../swift/tools/SourceKit/lib/Support/Tracing.cpp; sourceTree = "<group>"; };
+		BB9081F21C236BBB00C8B66C /* UIDRegistry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = UIDRegistry.cpp; path = ../swift/tools/SourceKit/lib/Support/UIDRegistry.cpp; sourceTree = "<group>"; };
+		BB9081FA1C236BCE00C8B66C /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = ../swift/tools/SourceKit/lib/Core/CMakeLists.txt; sourceTree = "<group>"; };
+		BB9081FD1C236C2600C8B66C /* CodeCompletion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CodeCompletion.h; path = ../swift/tools/SourceKit/lib/SwiftLang/CodeCompletion.h; sourceTree = "<group>"; };
+		BB9081FE1C236C2600C8B66C /* CodeCompletionOrganizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CodeCompletionOrganizer.cpp; path = ../swift/tools/SourceKit/lib/SwiftLang/CodeCompletionOrganizer.cpp; sourceTree = "<group>"; };
+		BB9081FF1C236C2600C8B66C /* CodeCompletionOrganizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CodeCompletionOrganizer.h; path = ../swift/tools/SourceKit/lib/SwiftLang/CodeCompletionOrganizer.h; sourceTree = "<group>"; };
+		BB9082001C236C2600C8B66C /* SwiftASTManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SwiftASTManager.cpp; path = ../swift/tools/SourceKit/lib/SwiftLang/SwiftASTManager.cpp; sourceTree = "<group>"; };
+		BB9082011C236C2600C8B66C /* SwiftASTManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwiftASTManager.h; path = ../swift/tools/SourceKit/lib/SwiftLang/SwiftASTManager.h; sourceTree = "<group>"; };
+		BB9082021C236C2600C8B66C /* SwiftCompletion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SwiftCompletion.cpp; path = ../swift/tools/SourceKit/lib/SwiftLang/SwiftCompletion.cpp; sourceTree = "<group>"; };
+		BB9082031C236C2600C8B66C /* SwiftDocSupport.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SwiftDocSupport.cpp; path = ../swift/tools/SourceKit/lib/SwiftLang/SwiftDocSupport.cpp; sourceTree = "<group>"; };
+		BB9082041C236C2600C8B66C /* SwiftEditor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SwiftEditor.cpp; path = ../swift/tools/SourceKit/lib/SwiftLang/SwiftEditor.cpp; sourceTree = "<group>"; };
+		BB9082051C236C2600C8B66C /* SwiftEditorDiagConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwiftEditorDiagConsumer.h; path = ../swift/tools/SourceKit/lib/SwiftLang/SwiftEditorDiagConsumer.h; sourceTree = "<group>"; };
+		BB9082061C236C2600C8B66C /* SwiftEditorInterfaceGen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SwiftEditorInterfaceGen.cpp; path = ../swift/tools/SourceKit/lib/SwiftLang/SwiftEditorInterfaceGen.cpp; sourceTree = "<group>"; };
+		BB9082071C236C2600C8B66C /* SwiftIndexing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SwiftIndexing.cpp; path = ../swift/tools/SourceKit/lib/SwiftLang/SwiftIndexing.cpp; sourceTree = "<group>"; };
+		BB9082081C236C2600C8B66C /* SwiftInterfaceGenContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwiftInterfaceGenContext.h; path = ../swift/tools/SourceKit/lib/SwiftLang/SwiftInterfaceGenContext.h; sourceTree = "<group>"; };
+		BB9082091C236C2600C8B66C /* SwiftInvocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwiftInvocation.h; path = ../swift/tools/SourceKit/lib/SwiftLang/SwiftInvocation.h; sourceTree = "<group>"; };
+		BB90820A1C236C2600C8B66C /* SwiftLangSupport.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SwiftLangSupport.cpp; path = ../swift/tools/SourceKit/lib/SwiftLang/SwiftLangSupport.cpp; sourceTree = "<group>"; };
+		BB90820B1C236C2600C8B66C /* SwiftLangSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwiftLangSupport.h; path = ../swift/tools/SourceKit/lib/SwiftLang/SwiftLangSupport.h; sourceTree = "<group>"; };
+		BB90820C1C236C2600C8B66C /* SwiftSourceDocInfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SwiftSourceDocInfo.cpp; path = ../swift/tools/SourceKit/lib/SwiftLang/SwiftSourceDocInfo.cpp; sourceTree = "<group>"; };
+		BB9082181C236C6400C8B66C /* Context.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Context.h; path = ../swift/tools/SourceKit/include/SourceKit/Core/Context.h; sourceTree = "<group>"; };
+		BB9082191C236C6400C8B66C /* LangSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LangSupport.h; path = ../swift/tools/SourceKit/include/SourceKit/Core/LangSupport.h; sourceTree = "<group>"; };
+		BB90821A1C236C6400C8B66C /* LLVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LLVM.h; path = ../swift/tools/SourceKit/include/SourceKit/Core/LLVM.h; sourceTree = "<group>"; };
+		BB90821B1C236C6400C8B66C /* NotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotificationCenter.h; path = ../swift/tools/SourceKit/include/SourceKit/Core/NotificationCenter.h; sourceTree = "<group>"; };
+		BB90821D1C236C8700C8B66C /* Concurrency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Concurrency.h; path = ../swift/tools/SourceKit/include/SourceKit/Support/Concurrency.h; sourceTree = "<group>"; };
+		BB90821E1C236C8700C8B66C /* FuzzyStringMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FuzzyStringMatcher.h; path = ../swift/tools/SourceKit/include/SourceKit/Support/FuzzyStringMatcher.h; sourceTree = "<group>"; };
+		BB90821F1C236C8700C8B66C /* ImmutableTextBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImmutableTextBuffer.h; path = ../swift/tools/SourceKit/include/SourceKit/Support/ImmutableTextBuffer.h; sourceTree = "<group>"; };
+		BB9082201C236C8700C8B66C /* Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Logging.h; path = ../swift/tools/SourceKit/include/SourceKit/Support/Logging.h; sourceTree = "<group>"; };
+		BB9082211C236C8700C8B66C /* ThreadSafeRefCntPtr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThreadSafeRefCntPtr.h; path = ../swift/tools/SourceKit/include/SourceKit/Support/ThreadSafeRefCntPtr.h; sourceTree = "<group>"; };
+		BB9082221C236C8700C8B66C /* Tracing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tracing.h; path = ../swift/tools/SourceKit/include/SourceKit/Support/Tracing.h; sourceTree = "<group>"; };
+		BB9082231C236C8700C8B66C /* UIdent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIdent.h; path = ../swift/tools/SourceKit/include/SourceKit/Support/UIdent.h; sourceTree = "<group>"; };
+		BB9082271C236E5A00C8B66C /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = ../swift/tools/SourceKit/tools/sourcekitd/lib/API/CMakeLists.txt; sourceTree = "<group>"; };
+		BB9082281C236E5A00C8B66C /* CodeCompletionResultsArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CodeCompletionResultsArray.cpp; path = ../swift/tools/SourceKit/tools/sourcekitd/lib/API/CodeCompletionResultsArray.cpp; sourceTree = "<group>"; };
+		BB9082291C236E5A00C8B66C /* CompactArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CompactArray.cpp; path = ../swift/tools/SourceKit/tools/sourcekitd/lib/API/CompactArray.cpp; sourceTree = "<group>"; };
+		BB90822A1C236E5A00C8B66C /* DictionaryKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DictionaryKeys.h; path = ../swift/tools/SourceKit/tools/sourcekitd/lib/API/DictionaryKeys.h; sourceTree = "<group>"; };
+		BB90822B1C236E5A00C8B66C /* DocSupportAnnotationArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DocSupportAnnotationArray.cpp; path = ../swift/tools/SourceKit/tools/sourcekitd/lib/API/DocSupportAnnotationArray.cpp; sourceTree = "<group>"; };
+		BB90822C1C236E5A00C8B66C /* Requests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Requests.cpp; path = ../swift/tools/SourceKit/tools/sourcekitd/lib/API/Requests.cpp; sourceTree = "<group>"; };
+		BB90822D1C236E5A00C8B66C /* sourcekitdAPI-Common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "sourcekitdAPI-Common.cpp"; path = "../swift/tools/SourceKit/tools/sourcekitd/lib/API/sourcekitdAPI-Common.cpp"; sourceTree = "<group>"; };
+		BB90822E1C236E5A00C8B66C /* sourcekitdAPI-XPC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "sourcekitdAPI-XPC.cpp"; path = "../swift/tools/SourceKit/tools/sourcekitd/lib/API/sourcekitdAPI-XPC.cpp"; sourceTree = "<group>"; };
+		BB90822F1C236E5A00C8B66C /* TokenAnnotationsArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TokenAnnotationsArray.cpp; path = ../swift/tools/SourceKit/tools/sourcekitd/lib/API/TokenAnnotationsArray.cpp; sourceTree = "<group>"; };
+		BB9082371C236E8700C8B66C /* CodeCompletionResultsArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CodeCompletionResultsArray.h; path = ../swift/tools/SourceKit/tools/sourcekitd/include/sourcekitd/CodeCompletionResultsArray.h; sourceTree = "<group>"; };
+		BB9082381C236E8700C8B66C /* CompactArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CompactArray.h; path = ../swift/tools/SourceKit/tools/sourcekitd/include/sourcekitd/CompactArray.h; sourceTree = "<group>"; };
+		BB9082391C236E8700C8B66C /* DocSupportAnnotationArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DocSupportAnnotationArray.h; path = ../swift/tools/SourceKit/tools/sourcekitd/include/sourcekitd/DocSupportAnnotationArray.h; sourceTree = "<group>"; };
+		BB90823A1C236E8700C8B66C /* Internal-XPC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Internal-XPC.h"; path = "../swift/tools/SourceKit/tools/sourcekitd/include/sourcekitd/Internal-XPC.h"; sourceTree = "<group>"; };
+		BB90823B1C236E8700C8B66C /* Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Internal.h; path = ../swift/tools/SourceKit/tools/sourcekitd/include/sourcekitd/Internal.h; sourceTree = "<group>"; };
+		BB90823C1C236E8700C8B66C /* Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Logging.h; path = ../swift/tools/SourceKit/tools/sourcekitd/include/sourcekitd/Logging.h; sourceTree = "<group>"; };
+		BB90823D1C236E8700C8B66C /* sourcekitd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sourcekitd.h; path = ../swift/tools/SourceKit/tools/sourcekitd/include/sourcekitd/sourcekitd.h; sourceTree = "<group>"; };
+		BB90823E1C236E8700C8B66C /* TokenAnnotationsArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TokenAnnotationsArray.h; path = ../swift/tools/SourceKit/tools/sourcekitd/include/sourcekitd/TokenAnnotationsArray.h; sourceTree = "<group>"; };
+		BB90823F1C236E8700C8B66C /* XpcTracing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XpcTracing.h; path = ../swift/tools/SourceKit/tools/sourcekitd/include/sourcekitd/XpcTracing.h; sourceTree = "<group>"; };
+		BB9082641C2424E800C8B66C /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = ../swift/tools/SourceKit/lib/SwiftLang/CMakeLists.txt; sourceTree = "<group>"; };
+		BB9082651C24250F00C8B66C /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = ../swift/tools/SourceKit/CMakeLists.txt; sourceTree = "<group>"; };
+		BB9082661C24255300C8B66C /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.txt; path = ../swift/tools/SourceKit/README.txt; sourceTree = "<group>"; };
 		BB96699D1C134D6700B9AC5B /* UnicodeExtendedGraphemeClusters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = UnicodeExtendedGraphemeClusters.cpp; path = "../build/Ninja-DebugAssert/swift-macosx-x86_64/stdlib/public/runtime/8/UnicodeExtendedGraphemeClusters.cpp"; sourceTree = "<group>"; };
 		BB98EF0F1C13488100F6C17C /* Arrays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Arrays.swift; path = "../build/Ninja-DebugAssert/swift-macosx-x86_64/stdlib/public/core/8/Arrays.swift"; sourceTree = "<group>"; };
 		BB98EF101C13488100F6C17C /* BuiltinMath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BuiltinMath.swift; path = "../build/Ninja-DebugAssert/swift-macosx-x86_64/stdlib/public/core/8/BuiltinMath.swift"; sourceTree = "<group>"; };
@@ -2284,6 +2370,145 @@
 			name = SwiftShims;
 			sourceTree = "<group>";
 		};
+		BB9081E21C236B1600C8B66C /* SourceKit */ = {
+			isa = PBXGroup;
+			children = (
+				BB9082661C24255300C8B66C /* README.txt */,
+				BB9082651C24250F00C8B66C /* CMakeLists.txt */,
+				BB9082161C236C4900C8B66C /* include */,
+				BB9081FC1C236C0400C8B66C /* SwiftLang */,
+				BB9081E31C236B5A00C8B66C /* Core */,
+				BB9081EA1C236B9B00C8B66C /* Support */,
+				BB9082241C236E1800C8B66C /* API */,
+			);
+			name = SourceKit;
+			sourceTree = "<group>";
+		};
+		BB9081E31C236B5A00C8B66C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BB9081FA1C236BCE00C8B66C /* CMakeLists.txt */,
+				BB9081E41C236B7C00C8B66C /* Context.cpp */,
+				BB9081E51C236B7C00C8B66C /* LangSupport.cpp */,
+				BB9081E61C236B7C00C8B66C /* NotificationCenter.cpp */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		BB9081EA1C236B9B00C8B66C /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				BB9081EB1C236BBB00C8B66C /* CMakeLists.txt */,
+				BB9081EC1C236BBB00C8B66C /* Concurrency-Mac.cpp */,
+				BB9081ED1C236BBB00C8B66C /* FuzzyStringMatcher.cpp */,
+				BB9081EE1C236BBB00C8B66C /* ImmutableTextBuffer.cpp */,
+				BB9081EF1C236BBB00C8B66C /* Logging.cpp */,
+				BB9081F01C236BBB00C8B66C /* ThreadSafeRefCntPtr.cpp */,
+				BB9081F11C236BBB00C8B66C /* Tracing.cpp */,
+				BB9081F21C236BBB00C8B66C /* UIDRegistry.cpp */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		BB9081FC1C236C0400C8B66C /* SwiftLang */ = {
+			isa = PBXGroup;
+			children = (
+				BB9082641C2424E800C8B66C /* CMakeLists.txt */,
+				BB9081FD1C236C2600C8B66C /* CodeCompletion.h */,
+				BB9081FE1C236C2600C8B66C /* CodeCompletionOrganizer.cpp */,
+				BB9081FF1C236C2600C8B66C /* CodeCompletionOrganizer.h */,
+				BB9082001C236C2600C8B66C /* SwiftASTManager.cpp */,
+				BB9082011C236C2600C8B66C /* SwiftASTManager.h */,
+				BB9082021C236C2600C8B66C /* SwiftCompletion.cpp */,
+				BB9082031C236C2600C8B66C /* SwiftDocSupport.cpp */,
+				BB9082041C236C2600C8B66C /* SwiftEditor.cpp */,
+				BB9082051C236C2600C8B66C /* SwiftEditorDiagConsumer.h */,
+				BB9082061C236C2600C8B66C /* SwiftEditorInterfaceGen.cpp */,
+				BB9082071C236C2600C8B66C /* SwiftIndexing.cpp */,
+				BB9082081C236C2600C8B66C /* SwiftInterfaceGenContext.h */,
+				BB9082091C236C2600C8B66C /* SwiftInvocation.h */,
+				BB90820A1C236C2600C8B66C /* SwiftLangSupport.cpp */,
+				BB90820B1C236C2600C8B66C /* SwiftLangSupport.h */,
+				BB90820C1C236C2600C8B66C /* SwiftSourceDocInfo.cpp */,
+			);
+			name = SwiftLang;
+			sourceTree = "<group>";
+		};
+		BB9082161C236C4900C8B66C /* include */ = {
+			isa = PBXGroup;
+			children = (
+				BB9082171C236C5000C8B66C /* Core */,
+				BB90821C1C236C6900C8B66C /* Support */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		BB9082171C236C5000C8B66C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BB9082181C236C6400C8B66C /* Context.h */,
+				BB9082191C236C6400C8B66C /* LangSupport.h */,
+				BB90821A1C236C6400C8B66C /* LLVM.h */,
+				BB90821B1C236C6400C8B66C /* NotificationCenter.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		BB90821C1C236C6900C8B66C /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				BB90821D1C236C8700C8B66C /* Concurrency.h */,
+				BB90821E1C236C8700C8B66C /* FuzzyStringMatcher.h */,
+				BB90821F1C236C8700C8B66C /* ImmutableTextBuffer.h */,
+				BB9082201C236C8700C8B66C /* Logging.h */,
+				BB9082211C236C8700C8B66C /* ThreadSafeRefCntPtr.h */,
+				BB9082221C236C8700C8B66C /* Tracing.h */,
+				BB9082231C236C8700C8B66C /* UIdent.h */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		BB9082241C236E1800C8B66C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				BB9082251C236E2100C8B66C /* include */,
+				BB9082261C236E3300C8B66C /* lib */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		BB9082251C236E2100C8B66C /* include */ = {
+			isa = PBXGroup;
+			children = (
+				BB9082371C236E8700C8B66C /* CodeCompletionResultsArray.h */,
+				BB9082381C236E8700C8B66C /* CompactArray.h */,
+				BB9082391C236E8700C8B66C /* DocSupportAnnotationArray.h */,
+				BB90823A1C236E8700C8B66C /* Internal-XPC.h */,
+				BB90823B1C236E8700C8B66C /* Internal.h */,
+				BB90823C1C236E8700C8B66C /* Logging.h */,
+				BB90823D1C236E8700C8B66C /* sourcekitd.h */,
+				BB90823E1C236E8700C8B66C /* TokenAnnotationsArray.h */,
+				BB90823F1C236E8700C8B66C /* XpcTracing.h */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		BB9082261C236E3300C8B66C /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				BB9082271C236E5A00C8B66C /* CMakeLists.txt */,
+				BB9082281C236E5A00C8B66C /* CodeCompletionResultsArray.cpp */,
+				BB9082291C236E5A00C8B66C /* CompactArray.cpp */,
+				BB90822A1C236E5A00C8B66C /* DictionaryKeys.h */,
+				BB90822B1C236E5A00C8B66C /* DocSupportAnnotationArray.cpp */,
+				BB90822C1C236E5A00C8B66C /* Requests.cpp */,
+				BB90822D1C236E5A00C8B66C /* sourcekitdAPI-Common.cpp */,
+				BB90822E1C236E5A00C8B66C /* sourcekitdAPI-XPC.cpp */,
+				BB90822F1C236E5A00C8B66C /* TokenAnnotationsArray.cpp */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
 		BB9FD6371C10EF850008A1EA = {
 			isa = PBXGroup;
 			children = (
@@ -2294,6 +2519,7 @@
 				BB9FD64A1C10EFD30008A1EA /* Headers */,
 				BB9FD7981C10F3900008A1EA /* Compiler */,
 				BB8B288E1C12481F00C91975 /* stdlib */,
+				BB9081E21C236B1600C8B66C /* SourceKit */,
 				BB8B288D1C12400700C91975 /* Libraries */,
 				BB9FD6411C10EF850008A1EA /* Products */,
 			);
@@ -3613,7 +3839,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BB9FD63B1C10EF850008A1EA /* Build configuration list for PBXProject "SwiftLook" */;
+			buildConfigurationList = BB9FD63B1C10EF850008A1EA /* Build configuration list for PBXProject "SwiftView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -3647,8 +3873,10 @@
 				BBC8EA2D1C1355ED006A4C7F /* Once.cpp in Sources */,
 				BBC8EA261C1355D3006A4C7F /* ErrorObject.mm in Sources */,
 				BBC8EA2A1C1355E1006A4C7F /* KnownMetadata.cpp in Sources */,
+				BB9082321C236E5A00C8B66C /* DocSupportAnnotationArray.cpp in Sources */,
 				BBC8EA2E1C1355F1006A4C7F /* Reflection.cpp in Sources */,
 				BBC8EA301C1355F9006A4C7F /* Remangle.cpp in Sources */,
+				BB9081F41C236BBB00C8B66C /* FuzzyStringMatcher.cpp in Sources */,
 				BBC8EA231C1355C9006A4C7F /* Demangle.cpp in Sources */,
 				BBC8EA221C1355C5006A4C7F /* Casting.cpp in Sources */,
 				BB9FDAD81C10F8B40008A1EA /* MergeCondFail.cpp in Sources */,
@@ -3701,6 +3929,8 @@
 				BB9FD7DE1C10F3CD0008A1EA /* Pattern.cpp in Sources */,
 				BB9FDAA61C10F84F0008A1EA /* PerformanceInliner.cpp in Sources */,
 				BB9FD9781C10F6CE0008A1EA /* DerivedConformanceEquatableHashable.cpp in Sources */,
+				BB9082361C236E5A00C8B66C /* TokenAnnotationsArray.cpp in Sources */,
+				BB90820F1C236C2600C8B66C /* SwiftCompletion.cpp in Sources */,
 				BB9FD9711C10F6CE0008A1EA /* ConstraintSystem.cpp in Sources */,
 				BB9FD98E1C10F6CE0008A1EA /* TypeCheckProtocol.cpp in Sources */,
 				BB9FDB0A1C10F8FC0008A1EA /* IVInfoPrinter.cpp in Sources */,
@@ -3724,6 +3954,7 @@
 				BB9FDAB01C10F86C0008A1EA /* LICM.cpp in Sources */,
 				BB9FDA7B1C10F7F00008A1EA /* RefCountState.cpp in Sources */,
 				BB9FD87A1C10F5A40008A1EA /* ModuleInterfacePrinting.cpp in Sources */,
+				BB9081E71C236B7C00C8B66C /* Context.cpp in Sources */,
 				BB9FDA871C10F8110008A1EA /* ConstantPropagation.cpp in Sources */,
 				BB9FD9911C10F6CE0008A1EA /* TypeCheckStmt.cpp in Sources */,
 				BB9FD9E11C10F7110008A1EA /* SILType.cpp in Sources */,
@@ -3733,6 +3964,7 @@
 				BB9FD9771C10F6CE0008A1EA /* CSSolver.cpp in Sources */,
 				BB9FD98A1C10F6CE0008A1EA /* TypeCheckExpr.cpp in Sources */,
 				BB9FD8F21C10F5F20008A1EA /* GenObjC.cpp in Sources */,
+				BB9082141C236C2600C8B66C /* SwiftLangSupport.cpp in Sources */,
 				BB9FD9861C10F6CE0008A1EA /* TypeCheckConstraints.cpp in Sources */,
 				BB9FD90E1C10F60D0008A1EA /* LLVMStackPromotion.cpp in Sources */,
 				BB9FD87B1C10F5A40008A1EA /* REPLCodeCompletion.cpp in Sources */,
@@ -3744,10 +3976,12 @@
 				BB9FDAB91C10F8980008A1EA /* PrettyStackTrace.cpp in Sources */,
 				BB9FD7D61C10F3CD0008A1EA /* Expr.cpp in Sources */,
 				BB9FD7E71C10F3CD0008A1EA /* TypeRepr.cpp in Sources */,
+				BB9082341C236E5A00C8B66C /* sourcekitdAPI-Common.cpp in Sources */,
 				BB9FDA401C10F76B0008A1EA /* Condition.cpp in Sources */,
 				BB9FD9CD1C10F7110008A1EA /* LoopInfo.cpp in Sources */,
 				BB9FD8F81C10F5F20008A1EA /* GenType.cpp in Sources */,
 				BB9FD8181C10F4770008A1EA /* PrefixMap.cpp in Sources */,
+				BB9081F51C236BBB00C8B66C /* ImmutableTextBuffer.cpp in Sources */,
 				BB9FDA001C10F7490008A1EA /* ArraySemantic.cpp in Sources */,
 				BB9FDA7A1C10F7F00008A1EA /* RCStateTransitionVisitors.cpp in Sources */,
 				BB9FD98F1C10F6CE0008A1EA /* TypeCheckREPL.cpp in Sources */,
@@ -3772,10 +4006,12 @@
 				BB9FD9021C10F5F20008A1EA /* UnimplementedTypeInfo.cpp in Sources */,
 				BB9FD8401C10F50E0008A1EA /* ImportDecl.cpp in Sources */,
 				BB8B28B21C1248CE00C91975 /* OpaqueIdentityFunctions.cpp in Sources */,
+				BB9081F71C236BBB00C8B66C /* ThreadSafeRefCntPtr.cpp in Sources */,
 				BBEC4AAD1C1370A800195C43 /* LibcShims.cpp in Sources */,
 				BB9FDA031C10F7490008A1EA /* CFG.cpp in Sources */,
 				BB8B299E1C1249E500C91975 /* README.md in Sources */,
 				BB9FDA731C10F7F00008A1EA /* ARCBBState.cpp in Sources */,
+				BB9082351C236E5A00C8B66C /* sourcekitdAPI-XPC.cpp in Sources */,
 				BB9FD8E41C10F5F20008A1EA /* GenArchetype.cpp in Sources */,
 				BB9FD8FE1C10F5F20008A1EA /* Linking.cpp in Sources */,
 				BB9FD9D61C10F7110008A1EA /* SILCoverageMap.cpp in Sources */,
@@ -3785,6 +4021,7 @@
 				BB9FDA571C10F76B0008A1EA /* SILGenType.cpp in Sources */,
 				BB9FD8691C10F5790008A1EA /* PrintingDiagnosticConsumer.cpp in Sources */,
 				BB9FD9E21C10F7110008A1EA /* SILValue.cpp in Sources */,
+				BB90820D1C236C2600C8B66C /* CodeCompletionOrganizer.cpp in Sources */,
 				BB9FD8771C10F5A40008A1EA /* CodeCompletion.cpp in Sources */,
 				BB9FDAD41C10F8B40008A1EA /* CSE.cpp in Sources */,
 				BB9FD8231C10F4770008A1EA /* ThreadSafeRefCounted.cpp in Sources */,
@@ -3793,12 +4030,14 @@
 				BB9FD9841C10F6CE0008A1EA /* SourceLoader.cpp in Sources */,
 				BB9FD7DB1C10F3CD0008A1EA /* Module.cpp in Sources */,
 				BB9FD9FD1C10F7490008A1EA /* AliasAnalysis.cpp in Sources */,
+				BB9082151C236C2600C8B66C /* SwiftSourceDocInfo.cpp in Sources */,
 				BB9FD9881C10F6CE0008A1EA /* TypeChecker.cpp in Sources */,
 				BB9FD7D81C10F3CD0008A1EA /* Identifier.cpp in Sources */,
 				BB9FD9A11C10F6F10008A1EA /* ModuleFile.cpp in Sources */,
 				BB9FD9D11C10F7110008A1EA /* Projection.cpp in Sources */,
 				BB9FD8F91C10F5F20008A1EA /* IRGen.cpp in Sources */,
 				BB9FD81C1C10F4770008A1EA /* Punycode.cpp in Sources */,
+				BB9081F61C236BBB00C8B66C /* Logging.cpp in Sources */,
 				BB9FD97C1C10F6CE0008A1EA /* ITCDecl.cpp in Sources */,
 				BB9FDB041C10F8FC0008A1EA /* AADumper.cpp in Sources */,
 				BB9FD7DC1C10F3CD0008A1EA /* ModuleNameLookup.cpp in Sources */,
@@ -3810,11 +4049,14 @@
 				BB9FDAA01C10F84F0008A1EA /* DeadFunctionElimination.cpp in Sources */,
 				BB9FDAEE1C10F8D90008A1EA /* SILCombine.cpp in Sources */,
 				BB9FD7C91C10F3CD0008A1EA /* ASTWalker.cpp in Sources */,
+				BB9081F81C236BBB00C8B66C /* Tracing.cpp in Sources */,
+				BB9082301C236E5A00C8B66C /* CodeCompletionResultsArray.cpp in Sources */,
 				BB9FD8F41C10F5F20008A1EA /* GenPoly.cpp in Sources */,
 				BB9FD9DC1C10F7110008A1EA /* SILInstructions.cpp in Sources */,
 				BB9FD9C91C10F7110008A1EA /* Bridging.cpp in Sources */,
 				BB9FDAA31C10F84F0008A1EA /* GlobalOpt.cpp in Sources */,
 				BB9FD87D1C10F5A40008A1EA /* SwiftSourceDocInfo.cpp in Sources */,
+				BB9081F91C236BBB00C8B66C /* UIDRegistry.cpp in Sources */,
 				BB9FD8E51C10F5F20008A1EA /* GenCast.cpp in Sources */,
 				BB9FDA531C10F76B0008A1EA /* SILGenPoly.cpp in Sources */,
 				BB9FDA551C10F76B0008A1EA /* SILGenProlog.cpp in Sources */,
@@ -3866,6 +4108,7 @@
 				BB9FDA451C10F76B0008A1EA /* SILGenBridging.cpp in Sources */,
 				BB9FD7E61C10F3CD0008A1EA /* TypeRefinementContext.cpp in Sources */,
 				BB9FD87F1C10F5A40008A1EA /* Utils.cpp in Sources */,
+				BB9082101C236C2600C8B66C /* SwiftDocSupport.cpp in Sources */,
 				BB9FDB231C10F9200008A1EA /* GenericCloner.cpp in Sources */,
 				BB9FDAF21C10F8D90008A1EA /* SILCombinerMiscVisitors.cpp in Sources */,
 				BB9FDA8E1C10F8110008A1EA /* PredictableMemOpt.cpp in Sources */,
@@ -3873,12 +4116,15 @@
 				BB9FD8681C10F5790008A1EA /* FrontendOptions.cpp in Sources */,
 				BB9FDA751C10F7F00008A1EA /* ARCSequenceOpts.cpp in Sources */,
 				BB9FD8E31C10F5F20008A1EA /* ExtraInhabitants.cpp in Sources */,
+				BB9082311C236E5A00C8B66C /* CompactArray.cpp in Sources */,
+				BB9082331C236E5A00C8B66C /* Requests.cpp in Sources */,
 				BB9FDA041C10F7490008A1EA /* ClassHierarchyAnalysis.cpp in Sources */,
 				BB9FD7D91C10F3CD0008A1EA /* LookupVisibleDecls.cpp in Sources */,
 				BB9FDB261C10F9200008A1EA /* LoopUtils.cpp in Sources */,
 				BB9FDB271C10F9200008A1EA /* SILInliner.cpp in Sources */,
 				BB9FDA9D1C10F84F0008A1EA /* CapturePromotion.cpp in Sources */,
 				BB9FDA421C10F76B0008A1EA /* RValue.cpp in Sources */,
+				BB9081E81C236B7C00C8B66C /* LangSupport.cpp in Sources */,
 				BB9FD80F1C10F4770008A1EA /* Demangle.cpp in Sources */,
 				BB9FD8111C10F4770008A1EA /* DiagnosticConsumer.cpp in Sources */,
 				BB9FDAD51C10F8B40008A1EA /* DeadCodeElimination.cpp in Sources */,
@@ -3893,6 +4139,7 @@
 				BB9FD97A1C10F6CE0008A1EA /* DerivedConformanceRawRepresentable.cpp in Sources */,
 				BBEC4AAC1C1370A500195C43 /* GlobalObjects.cpp in Sources */,
 				BB9FD7E91C10F3CD0008A1EA /* USRGeneration.cpp in Sources */,
+				BB9082131C236C2600C8B66C /* SwiftIndexing.cpp in Sources */,
 				BB9FD8E21C10F5F20008A1EA /* EnumPayload.cpp in Sources */,
 				BBEC4AB01C1370D100195C43 /* FoundationHelpers.mm in Sources */,
 				BB9FD98D1C10F6CE0008A1EA /* TypeCheckPattern.cpp in Sources */,
@@ -3906,6 +4153,7 @@
 				BB9FDA0C1C10F7490008A1EA /* MemoryBehavior.cpp in Sources */,
 				BB9FD7CD1C10F3CD0008A1EA /* Builtins.cpp in Sources */,
 				BB9FDB211C10F9200008A1EA /* ConstantFolding.cpp in Sources */,
+				BB90820E1C236C2600C8B66C /* SwiftASTManager.cpp in Sources */,
 				BB9FD9181C10F6360008A1EA /* Markup.cpp in Sources */,
 				BB9FD7EA1C10F3CD0008A1EA /* Verifier.cpp in Sources */,
 				BB9FD7EE1C10F4500008A1EA /* ASTSectionImporter.cpp in Sources */,
@@ -3974,6 +4222,7 @@
 				BB9FD7E81C10F3CD0008A1EA /* TypeWalker.cpp in Sources */,
 				BB9FD8EE1C10F5F20008A1EA /* GenFunc.cpp in Sources */,
 				BB9FD9171C10F6360008A1EA /* LineList.cpp in Sources */,
+				BB9081E91C236B7C00C8B66C /* NotificationCenter.cpp in Sources */,
 				BB9FD9D21C10F7110008A1EA /* SIL.cpp in Sources */,
 				BB9FDA0B1C10F7490008A1EA /* LoopRegionAnalysis.cpp in Sources */,
 				BB9FD85B1C10F54E0008A1EA /* ToolChains.cpp in Sources */,
@@ -3982,6 +4231,7 @@
 				BB9FDA511C10F76B0008A1EA /* SILGenLValue.cpp in Sources */,
 				BB9FD7C61C10F3CD0008A1EA /* ASTDumper.cpp in Sources */,
 				BB9FDADC1C10F8B40008A1EA /* RemovePin.cpp in Sources */,
+				BB9082121C236C2600C8B66C /* SwiftEditorInterfaceGen.cpp in Sources */,
 				BB9FDADA1C10F8B40008A1EA /* RedundantOverflowCheckRemoval.cpp in Sources */,
 				BB9FDB281C10F9200008A1EA /* SILSSAUpdater.cpp in Sources */,
 				BB9FDAA71C10F84F0008A1EA /* UsePrespecialized.cpp in Sources */,
@@ -4014,6 +4264,7 @@
 				BB9FDB251C10F9200008A1EA /* Local.cpp in Sources */,
 				BB9FD8E91C10F5F20008A1EA /* GenControl.cpp in Sources */,
 				BB9FD8261C10F4770008A1EA /* Version.cpp in Sources */,
+				BB9081F31C236BBB00C8B66C /* Concurrency-Mac.cpp in Sources */,
 				BB9FD7E41C10F3CD0008A1EA /* Substitution.cpp in Sources */,
 				BB9FD9A41C10F6F10008A1EA /* SerializedSILLoader.cpp in Sources */,
 				BB9FDA5C1C10F7B90008A1EA /* MangleHack.cpp in Sources */,
@@ -4023,6 +4274,7 @@
 				BB9FD8FC1C10F5F20008A1EA /* IRGenModule.cpp in Sources */,
 				BB9FD8EA1C10F5F20008A1EA /* GenCoverage.cpp in Sources */,
 				BB9FD9751C10F6CE0008A1EA /* CSRanking.cpp in Sources */,
+				BB9082111C236C2600C8B66C /* SwiftEditor.cpp in Sources */,
 				BB9FD8411C10F50E0008A1EA /* ImportMacro.cpp in Sources */,
 				BB9FD7C81C10F3CD0008A1EA /* ASTPrinter.cpp in Sources */,
 				BB9FD7E51C10F3CD0008A1EA /* Type.cpp in Sources */,
@@ -4134,6 +4386,8 @@
 					"../build/Ninja-DebugAssert/llvm-macosx-x86_64/tools/clang/include",
 					../cmark/src,
 					include,
+					tools/SourceKit/include,
+					tools/SourceKit/tools/sourcekitd/include,
 				);
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -4170,6 +4424,8 @@
 					"../build/Ninja-DebugAssert/llvm-macosx-x86_64/tools/clang/include",
 					../cmark/src,
 					include,
+					tools/SourceKit/include,
+					tools/SourceKit/tools/sourcekitd/include,
 				);
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -4185,7 +4441,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BB9FD63B1C10EF850008A1EA /* Build configuration list for PBXProject "SwiftLook" */ = {
+		BB9FD63B1C10EF850008A1EA /* Build configuration list for PBXProject "SwiftView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BB9FD6451C10EF850008A1EA /* Debug */,
