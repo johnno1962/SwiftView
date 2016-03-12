@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB1F74E41C8738350063E72D /* swift-format.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB1F74E31C8738350063E72D /* swift-format.cpp */; };
 		BB32C4011C126ACC00BEA123 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BB32C4001C126ACC00BEA123 /* README.md */; };
 		BB8B28291C1233F800C91975 /* libclangAnalysis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8B27D21C1233F600C91975 /* libclangAnalysis.a */; };
 		BB8B282A1C1233F800C91975 /* libclangAPINotes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8B27D31C1233F600C91975 /* libclangAPINotes.a */; };
@@ -102,7 +103,6 @@
 		BB8B28B01C1248CE00C91975 /* InterceptTraps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8B28A01C1248CE00C91975 /* InterceptTraps.cpp */; };
 		BB8B28B21C1248CE00C91975 /* OpaqueIdentityFunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8B28A31C1248CE00C91975 /* OpaqueIdentityFunctions.cpp */; };
 		BB8B299E1C1249E500C91975 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BB8B299C1C1249E500C91975 /* README.md */; };
-		BB8B29CD1C124A0C00C91975 /* SwiftRuntimeDTraceProbes.d in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29B91C124A0C00C91975 /* SwiftRuntimeDTraceProbes.d */; };
 		BB9081E71C236B7C00C8B66C /* Context.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9081E41C236B7C00C8B66C /* Context.cpp */; };
 		BB9081E81C236B7C00C8B66C /* LangSupport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9081E51C236B7C00C8B66C /* LangSupport.cpp */; };
 		BB9081E91C236B7C00C8B66C /* NotificationCenter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9081E61C236B7C00C8B66C /* NotificationCenter.cpp */; };
@@ -360,26 +360,6 @@
 		BB9FD9E41C10F7110008A1EA /* SILWitnessTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FD9C51C10F7110008A1EA /* SILWitnessTable.cpp */; };
 		BB9FD9E51C10F7110008A1EA /* TypeLowering.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FD9C61C10F7110008A1EA /* TypeLowering.cpp */; };
 		BB9FD9E61C10F7110008A1EA /* Verifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FD9C71C10F7110008A1EA /* Verifier.cpp */; };
-		BB9FD9FD1C10F7490008A1EA /* AliasAnalysis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FD9E81C10F7490008A1EA /* AliasAnalysis.cpp */; };
-		BB9FD9FE1C10F7490008A1EA /* Analysis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FD9E91C10F7490008A1EA /* Analysis.cpp */; };
-		BB9FD9FF1C10F7490008A1EA /* ARCAnalysis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FD9EA1C10F7490008A1EA /* ARCAnalysis.cpp */; };
-		BB9FDA001C10F7490008A1EA /* ArraySemantic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FD9EB1C10F7490008A1EA /* ArraySemantic.cpp */; };
-		BB9FDA011C10F7490008A1EA /* BasicCalleeAnalysis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FD9EC1C10F7490008A1EA /* BasicCalleeAnalysis.cpp */; };
-		BB9FDA021C10F7490008A1EA /* CallGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FD9ED1C10F7490008A1EA /* CallGraph.cpp */; };
-		BB9FDA031C10F7490008A1EA /* CFG.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FD9EE1C10F7490008A1EA /* CFG.cpp */; };
-		BB9FDA041C10F7490008A1EA /* ClassHierarchyAnalysis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FD9EF1C10F7490008A1EA /* ClassHierarchyAnalysis.cpp */; };
-		BB9FDA051C10F7490008A1EA /* ColdBlockInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FD9F11C10F7490008A1EA /* ColdBlockInfo.cpp */; };
-		BB9FDA061C10F7490008A1EA /* DestructorAnalysis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FD9F21C10F7490008A1EA /* DestructorAnalysis.cpp */; };
-		BB9FDA071C10F7490008A1EA /* EscapeAnalysis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FD9F31C10F7490008A1EA /* EscapeAnalysis.cpp */; };
-		BB9FDA081C10F7490008A1EA /* FunctionOrder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FD9F41C10F7490008A1EA /* FunctionOrder.cpp */; };
-		BB9FDA091C10F7490008A1EA /* IVAnalysis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FD9F51C10F7490008A1EA /* IVAnalysis.cpp */; };
-		BB9FDA0A1C10F7490008A1EA /* LoopAnalysis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FD9F61C10F7490008A1EA /* LoopAnalysis.cpp */; };
-		BB9FDA0B1C10F7490008A1EA /* LoopRegionAnalysis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FD9F71C10F7490008A1EA /* LoopRegionAnalysis.cpp */; };
-		BB9FDA0C1C10F7490008A1EA /* MemoryBehavior.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FD9F81C10F7490008A1EA /* MemoryBehavior.cpp */; };
-		BB9FDA0D1C10F7490008A1EA /* RCIdentityAnalysis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FD9F91C10F7490008A1EA /* RCIdentityAnalysis.cpp */; };
-		BB9FDA0E1C10F7490008A1EA /* SideEffectAnalysis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FD9FA1C10F7490008A1EA /* SideEffectAnalysis.cpp */; };
-		BB9FDA0F1C10F7490008A1EA /* SimplifyInstruction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FD9FB1C10F7490008A1EA /* SimplifyInstruction.cpp */; };
-		BB9FDA101C10F7490008A1EA /* ValueTracking.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FD9FC1C10F7490008A1EA /* ValueTracking.cpp */; };
 		BB9FDA3E1C10F76B0008A1EA /* ArgumentSource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDA121C10F76B0008A1EA /* ArgumentSource.cpp */; };
 		BB9FDA3F1C10F76B0008A1EA /* Cleanup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDA151C10F76B0008A1EA /* Cleanup.cpp */; };
 		BB9FDA401C10F76B0008A1EA /* Condition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDA181C10F76B0008A1EA /* Condition.cpp */; };
@@ -408,92 +388,6 @@
 		BB9FDA571C10F76B0008A1EA /* SILGenType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDA3B1C10F76B0008A1EA /* SILGenType.cpp */; };
 		BB9FDA5C1C10F7B90008A1EA /* MangleHack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDA5A1C10F7B90008A1EA /* MangleHack.cpp */; };
 		BB9FDA5D1C10F7B90008A1EA /* SwiftDemangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDA5B1C10F7B90008A1EA /* SwiftDemangle.cpp */; };
-		BB9FDA731C10F7F00008A1EA /* ARCBBState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDA601C10F7F00008A1EA /* ARCBBState.cpp */; };
-		BB9FDA741C10F7F00008A1EA /* ARCRegionState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDA621C10F7F00008A1EA /* ARCRegionState.cpp */; };
-		BB9FDA751C10F7F00008A1EA /* ARCSequenceOpts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDA641C10F7F00008A1EA /* ARCSequenceOpts.cpp */; };
-		BB9FDA761C10F7F00008A1EA /* GlobalARCPairingAnalysis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDA661C10F7F00008A1EA /* GlobalARCPairingAnalysis.cpp */; };
-		BB9FDA771C10F7F00008A1EA /* GlobalARCSequenceDataflow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDA681C10F7F00008A1EA /* GlobalARCSequenceDataflow.cpp */; };
-		BB9FDA781C10F7F00008A1EA /* GlobalLoopARCSequenceDataflow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDA6A1C10F7F00008A1EA /* GlobalLoopARCSequenceDataflow.cpp */; };
-		BB9FDA791C10F7F00008A1EA /* RCStateTransition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDA6C1C10F7F00008A1EA /* RCStateTransition.cpp */; };
-		BB9FDA7A1C10F7F00008A1EA /* RCStateTransitionVisitors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDA6F1C10F7F00008A1EA /* RCStateTransitionVisitors.cpp */; };
-		BB9FDA7B1C10F7F00008A1EA /* RefCountState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDA711C10F7F00008A1EA /* RefCountState.cpp */; };
-		BB9FDA871C10F8110008A1EA /* ConstantPropagation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDA7E1C10F8110008A1EA /* ConstantPropagation.cpp */; };
-		BB9FDA881C10F8110008A1EA /* DataflowDiagnostics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDA7F1C10F8110008A1EA /* DataflowDiagnostics.cpp */; };
-		BB9FDA891C10F8110008A1EA /* DefiniteInitialization.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDA801C10F8110008A1EA /* DefiniteInitialization.cpp */; };
-		BB9FDA8A1C10F8110008A1EA /* DiagnoseUnreachable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDA811C10F8110008A1EA /* DiagnoseUnreachable.cpp */; };
-		BB9FDA8B1C10F8110008A1EA /* DIMemoryUseCollector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDA821C10F8110008A1EA /* DIMemoryUseCollector.cpp */; };
-		BB9FDA8C1C10F8110008A1EA /* InOutDeshadowing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDA841C10F8110008A1EA /* InOutDeshadowing.cpp */; };
-		BB9FDA8D1C10F8110008A1EA /* MandatoryInlining.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDA851C10F8110008A1EA /* MandatoryInlining.cpp */; };
-		BB9FDA8E1C10F8110008A1EA /* PredictableMemOpt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDA861C10F8110008A1EA /* PredictableMemOpt.cpp */; };
-		BB9FDA9D1C10F84F0008A1EA /* CapturePromotion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDA911C10F84F0008A1EA /* CapturePromotion.cpp */; };
-		BB9FDA9E1C10F84F0008A1EA /* CapturePropagation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDA921C10F84F0008A1EA /* CapturePropagation.cpp */; };
-		BB9FDA9F1C10F84F0008A1EA /* ClosureSpecializer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDA931C10F84F0008A1EA /* ClosureSpecializer.cpp */; };
-		BB9FDAA01C10F84F0008A1EA /* DeadFunctionElimination.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDA951C10F84F0008A1EA /* DeadFunctionElimination.cpp */; };
-		BB9FDAA11C10F84F0008A1EA /* ExternalDefsToDecls.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDA961C10F84F0008A1EA /* ExternalDefsToDecls.cpp */; };
-		BB9FDAA21C10F84F0008A1EA /* FunctionSignatureOpts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDA971C10F84F0008A1EA /* FunctionSignatureOpts.cpp */; };
-		BB9FDAA31C10F84F0008A1EA /* GlobalOpt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDA981C10F84F0008A1EA /* GlobalOpt.cpp */; };
-		BB9FDAA41C10F84F0008A1EA /* GlobalPropertyOpt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDA991C10F84F0008A1EA /* GlobalPropertyOpt.cpp */; };
-		BB9FDAA51C10F84F0008A1EA /* LetPropertiesOpts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDA9A1C10F84F0008A1EA /* LetPropertiesOpts.cpp */; };
-		BB9FDAA61C10F84F0008A1EA /* PerformanceInliner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDA9B1C10F84F0008A1EA /* PerformanceInliner.cpp */; };
-		BB9FDAA71C10F84F0008A1EA /* UsePrespecialized.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDA9C1C10F84F0008A1EA /* UsePrespecialized.cpp */; };
-		BB9FDAAE1C10F86C0008A1EA /* ArrayBoundsCheckOpts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDAA91C10F86C0008A1EA /* ArrayBoundsCheckOpts.cpp */; };
-		BB9FDAAF1C10F86C0008A1EA /* COWArrayOpt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDAAB1C10F86C0008A1EA /* COWArrayOpt.cpp */; };
-		BB9FDAB01C10F86C0008A1EA /* LICM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDAAC1C10F86C0008A1EA /* LICM.cpp */; };
-		BB9FDAB11C10F86C0008A1EA /* LoopRotate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDAAD1C10F86C0008A1EA /* LoopRotate.cpp */; };
-		BB9FDAB71C10F8980008A1EA /* Passes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDAB41C10F8980008A1EA /* Passes.cpp */; };
-		BB9FDAB81C10F8980008A1EA /* PassManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDAB51C10F8980008A1EA /* PassManager.cpp */; };
-		BB9FDAB91C10F8980008A1EA /* PrettyStackTrace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDAB61C10F8980008A1EA /* PrettyStackTrace.cpp */; };
-		BB9FDAD11C10F8B40008A1EA /* AllocBoxToStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDABB1C10F8B40008A1EA /* AllocBoxToStack.cpp */; };
-		BB9FDAD21C10F8B40008A1EA /* ArrayCountPropagation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDABC1C10F8B40008A1EA /* ArrayCountPropagation.cpp */; };
-		BB9FDAD31C10F8B40008A1EA /* CopyForwarding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDABE1C10F8B40008A1EA /* CopyForwarding.cpp */; };
-		BB9FDAD41C10F8B40008A1EA /* CSE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDABF1C10F8B40008A1EA /* CSE.cpp */; };
-		BB9FDAD51C10F8B40008A1EA /* DeadCodeElimination.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDAC01C10F8B40008A1EA /* DeadCodeElimination.cpp */; };
-		BB9FDAD61C10F8B40008A1EA /* DeadObjectElimination.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDAC11C10F8B40008A1EA /* DeadObjectElimination.cpp */; };
-		BB9FDAD71C10F8B40008A1EA /* DeadStoreElimination.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDAC21C10F8B40008A1EA /* DeadStoreElimination.cpp */; };
-		BB9FDAD81C10F8B40008A1EA /* MergeCondFail.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDAC31C10F8B40008A1EA /* MergeCondFail.cpp */; };
-		BB9FDAD91C10F8B40008A1EA /* RedundantLoadElimination.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDAC41C10F8B40008A1EA /* RedundantLoadElimination.cpp */; };
-		BB9FDADA1C10F8B40008A1EA /* RedundantOverflowCheckRemoval.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDAC51C10F8B40008A1EA /* RedundantOverflowCheckRemoval.cpp */; };
-		BB9FDADB1C10F8B40008A1EA /* ReleaseDevirtualizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDAC61C10F8B40008A1EA /* ReleaseDevirtualizer.cpp */; };
-		BB9FDADC1C10F8B40008A1EA /* RemovePin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDAC71C10F8B40008A1EA /* RemovePin.cpp */; };
-		BB9FDADD1C10F8B40008A1EA /* SILCleanup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDAC81C10F8B40008A1EA /* SILCleanup.cpp */; };
-		BB9FDADE1C10F8B40008A1EA /* SILCodeMotion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDAC91C10F8B40008A1EA /* SILCodeMotion.cpp */; };
-		BB9FDADF1C10F8B40008A1EA /* SILLowerAggregateInstrs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDACA1C10F8B40008A1EA /* SILLowerAggregateInstrs.cpp */; };
-		BB9FDAE01C10F8B40008A1EA /* SILMem2Reg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDACB1C10F8B40008A1EA /* SILMem2Reg.cpp */; };
-		BB9FDAE11C10F8B40008A1EA /* SILSROA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDACC1C10F8B40008A1EA /* SILSROA.cpp */; };
-		BB9FDAE21C10F8B40008A1EA /* SimplifyCFG.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDACD1C10F8B40008A1EA /* SimplifyCFG.cpp */; };
-		BB9FDAE31C10F8B40008A1EA /* Sink.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDACE1C10F8B40008A1EA /* Sink.cpp */; };
-		BB9FDAE41C10F8B40008A1EA /* SpeculativeDevirtualizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDACF1C10F8B40008A1EA /* SpeculativeDevirtualizer.cpp */; };
-		BB9FDAE51C10F8B40008A1EA /* StackPromotion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDAD01C10F8B40008A1EA /* StackPromotion.cpp */; };
-		BB9FDAEE1C10F8D90008A1EA /* SILCombine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDAE81C10F8D90008A1EA /* SILCombine.cpp */; };
-		BB9FDAEF1C10F8D90008A1EA /* SILCombinerApplyVisitors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDAEA1C10F8D90008A1EA /* SILCombinerApplyVisitors.cpp */; };
-		BB9FDAF01C10F8D90008A1EA /* SILCombinerBuiltinVisitors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDAEB1C10F8D90008A1EA /* SILCombinerBuiltinVisitors.cpp */; };
-		BB9FDAF11C10F8D90008A1EA /* SILCombinerCastVisitors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDAEC1C10F8D90008A1EA /* SILCombinerCastVisitors.cpp */; };
-		BB9FDAF21C10F8D90008A1EA /* SILCombinerMiscVisitors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDAED1C10F8D90008A1EA /* SILCombinerMiscVisitors.cpp */; };
-		BB9FDB041C10F8FC0008A1EA /* AADumper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDAF41C10F8FC0008A1EA /* AADumper.cpp */; };
-		BB9FDB051C10F8FC0008A1EA /* BasicCalleePrinter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDAF51C10F8FC0008A1EA /* BasicCalleePrinter.cpp */; };
-		BB9FDB061C10F8FC0008A1EA /* CallGraphPrinter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDAF61C10F8FC0008A1EA /* CallGraphPrinter.cpp */; };
-		BB9FDB071C10F8FC0008A1EA /* CFGPrinter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDAF71C10F8FC0008A1EA /* CFGPrinter.cpp */; };
-		BB9FDB081C10F8FC0008A1EA /* FunctionOrderPrinter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDAF91C10F8FC0008A1EA /* FunctionOrderPrinter.cpp */; };
-		BB9FDB091C10F8FC0008A1EA /* InstCount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDAFA1C10F8FC0008A1EA /* InstCount.cpp */; };
-		BB9FDB0A1C10F8FC0008A1EA /* IVInfoPrinter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDAFB1C10F8FC0008A1EA /* IVInfoPrinter.cpp */; };
-		BB9FDB0B1C10F8FC0008A1EA /* Link.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDAFC1C10F8FC0008A1EA /* Link.cpp */; };
-		BB9FDB0C1C10F8FC0008A1EA /* LoopCanonicalizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDAFD1C10F8FC0008A1EA /* LoopCanonicalizer.cpp */; };
-		BB9FDB0D1C10F8FC0008A1EA /* LoopInfoPrinter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDAFE1C10F8FC0008A1EA /* LoopInfoPrinter.cpp */; };
-		BB9FDB0E1C10F8FC0008A1EA /* LoopRegionPrinter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDAFF1C10F8FC0008A1EA /* LoopRegionPrinter.cpp */; };
-		BB9FDB0F1C10F8FC0008A1EA /* MemLocationPrinter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDB001C10F8FC0008A1EA /* MemLocationPrinter.cpp */; };
-		BB9FDB101C10F8FC0008A1EA /* StripDebugInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDB011C10F8FC0008A1EA /* StripDebugInfo.cpp */; };
-		BB9FDB111C10F8FC0008A1EA /* UpdateEscapeAnalysis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDB021C10F8FC0008A1EA /* UpdateEscapeAnalysis.cpp */; };
-		BB9FDB121C10F8FC0008A1EA /* UpdateSideEffects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDB031C10F8FC0008A1EA /* UpdateSideEffects.cpp */; };
-		BB9FDB1F1C10F9200008A1EA /* CFG.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDB141C10F9200008A1EA /* CFG.cpp */; };
-		BB9FDB201C10F9200008A1EA /* CheckedCastBrJumpThreading.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDB151C10F9200008A1EA /* CheckedCastBrJumpThreading.cpp */; };
-		BB9FDB211C10F9200008A1EA /* ConstantFolding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDB171C10F9200008A1EA /* ConstantFolding.cpp */; };
-		BB9FDB221C10F9200008A1EA /* Devirtualize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDB181C10F9200008A1EA /* Devirtualize.cpp */; };
-		BB9FDB231C10F9200008A1EA /* GenericCloner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDB191C10F9200008A1EA /* GenericCloner.cpp */; };
-		BB9FDB241C10F9200008A1EA /* Generics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDB1A1C10F9200008A1EA /* Generics.cpp */; };
-		BB9FDB251C10F9200008A1EA /* Local.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDB1B1C10F9200008A1EA /* Local.cpp */; };
-		BB9FDB261C10F9200008A1EA /* LoopUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDB1C1C10F9200008A1EA /* LoopUtils.cpp */; };
-		BB9FDB271C10F9200008A1EA /* SILInliner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDB1D1C10F9200008A1EA /* SILInliner.cpp */; };
-		BB9FDB281C10F9200008A1EA /* SILSSAUpdater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9FDB1E1C10F9200008A1EA /* SILSSAUpdater.cpp */; };
 		BBC8EA221C1355C5006A4C7F /* Casting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29A01C124A0C00C91975 /* Casting.cpp */; };
 		BBC8EA231C1355C9006A4C7F /* Demangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29A21C124A0C00C91975 /* Demangle.cpp */; };
 		BBC8EA241C1355CC006A4C7F /* Enum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB8B29A31C124A0C00C91975 /* Enum.cpp */; };
@@ -530,6 +424,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BB1F74E31C8738350063E72D /* swift-format.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "swift-format.cpp"; path = "../swift/tools/swift-format/swift-format.cpp"; sourceTree = "<group>"; };
 		BB32C3FD1C126ACB00BEA123 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = ../swift/CMakeLists.txt; sourceTree = "<group>"; };
 		BB32C3FE1C126ACB00BEA123 /* CODE_OWNERS.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CODE_OWNERS.TXT; path = ../swift/CODE_OWNERS.TXT; sourceTree = "<group>"; };
 		BB32C3FF1C126ACB00BEA123 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE.txt; path = ../swift/LICENSE.txt; sourceTree = "<group>"; };
@@ -805,9 +700,6 @@
 		BB8B29B61C124A0C00C91975 /* swift.ld */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = swift.ld; path = stdlib/public/runtime/swift.ld; sourceTree = "<group>"; };
 		BB8B29B71C124A0C00C91975 /* SwiftObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SwiftObject.cpp; path = stdlib/public/runtime/SwiftObject.cpp; sourceTree = "<group>"; };
 		BB8B29B81C124A0C00C91975 /* SwiftObject.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SwiftObject.mm; path = stdlib/public/runtime/SwiftObject.mm; sourceTree = "<group>"; };
-		BB8B29B91C124A0C00C91975 /* SwiftRuntimeDTraceProbes.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; name = SwiftRuntimeDTraceProbes.d; path = stdlib/public/runtime/SwiftRuntimeDTraceProbes.d; sourceTree = "<group>"; };
-		BB8B29BA1C124A0C00C91975 /* UnicodeExtendedGraphemeClusters.cpp.gyb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = UnicodeExtendedGraphemeClusters.cpp.gyb; path = stdlib/public/runtime/UnicodeExtendedGraphemeClusters.cpp.gyb; sourceTree = "<group>"; };
-		BB8B29BB1C124A0C00C91975 /* UnicodeNormalization.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = UnicodeNormalization.cpp; path = stdlib/public/runtime/UnicodeNormalization.cpp; sourceTree = "<group>"; };
 		BB8B29D01C124A3700C91975 /* AppKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppKit; path = stdlib/public/SDK/AppKit; sourceTree = "<group>"; };
 		BB8B29D11C124A3800C91975 /* AssetsLibrary */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AssetsLibrary; path = stdlib/public/SDK/AssetsLibrary; sourceTree = "<group>"; };
 		BB8B29D21C124A3800C91975 /* AVFoundation */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AVFoundation; path = stdlib/public/SDK/AVFoundation; sourceTree = "<group>"; };
@@ -922,7 +814,6 @@
 		BB9082641C2424E800C8B66C /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = ../swift/tools/SourceKit/lib/SwiftLang/CMakeLists.txt; sourceTree = "<group>"; };
 		BB9082651C24250F00C8B66C /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = ../swift/tools/SourceKit/CMakeLists.txt; sourceTree = "<group>"; };
 		BB9082661C24255300C8B66C /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.txt; path = ../swift/tools/SourceKit/README.txt; sourceTree = "<group>"; };
-		BB96699D1C134D6700B9AC5B /* UnicodeExtendedGraphemeClusters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = UnicodeExtendedGraphemeClusters.cpp; path = "../build/Ninja-DebugAssert/swift-macosx-x86_64/stdlib/public/runtime/8/UnicodeExtendedGraphemeClusters.cpp"; sourceTree = "<group>"; };
 		BB98EF0F1C13488100F6C17C /* Arrays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Arrays.swift; path = "../build/Ninja-DebugAssert/swift-macosx-x86_64/stdlib/public/core/8/Arrays.swift"; sourceTree = "<group>"; };
 		BB98EF101C13488100F6C17C /* BuiltinMath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BuiltinMath.swift; path = "../build/Ninja-DebugAssert/swift-macosx-x86_64/stdlib/public/core/8/BuiltinMath.swift"; sourceTree = "<group>"; };
 		BB98EF111C13488100F6C17C /* CollectionAlgorithms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionAlgorithms.swift; path = "../build/Ninja-DebugAssert/swift-macosx-x86_64/stdlib/public/core/8/CollectionAlgorithms.swift"; sourceTree = "<group>"; };
@@ -1593,27 +1484,6 @@
 		BB9FD9C51C10F7110008A1EA /* SILWitnessTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SILWitnessTable.cpp; path = lib/SIL/SILWitnessTable.cpp; sourceTree = "<group>"; };
 		BB9FD9C61C10F7110008A1EA /* TypeLowering.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TypeLowering.cpp; path = lib/SIL/TypeLowering.cpp; sourceTree = "<group>"; };
 		BB9FD9C71C10F7110008A1EA /* Verifier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Verifier.cpp; path = lib/SIL/Verifier.cpp; sourceTree = "<group>"; };
-		BB9FD9E81C10F7490008A1EA /* AliasAnalysis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AliasAnalysis.cpp; path = lib/SILAnalysis/AliasAnalysis.cpp; sourceTree = "<group>"; };
-		BB9FD9E91C10F7490008A1EA /* Analysis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Analysis.cpp; path = lib/SILAnalysis/Analysis.cpp; sourceTree = "<group>"; };
-		BB9FD9EA1C10F7490008A1EA /* ARCAnalysis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ARCAnalysis.cpp; path = lib/SILAnalysis/ARCAnalysis.cpp; sourceTree = "<group>"; };
-		BB9FD9EB1C10F7490008A1EA /* ArraySemantic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ArraySemantic.cpp; path = lib/SILAnalysis/ArraySemantic.cpp; sourceTree = "<group>"; };
-		BB9FD9EC1C10F7490008A1EA /* BasicCalleeAnalysis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BasicCalleeAnalysis.cpp; path = lib/SILAnalysis/BasicCalleeAnalysis.cpp; sourceTree = "<group>"; };
-		BB9FD9ED1C10F7490008A1EA /* CallGraph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CallGraph.cpp; path = lib/SILAnalysis/CallGraph.cpp; sourceTree = "<group>"; };
-		BB9FD9EE1C10F7490008A1EA /* CFG.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CFG.cpp; path = lib/SILAnalysis/CFG.cpp; sourceTree = "<group>"; };
-		BB9FD9EF1C10F7490008A1EA /* ClassHierarchyAnalysis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ClassHierarchyAnalysis.cpp; path = lib/SILAnalysis/ClassHierarchyAnalysis.cpp; sourceTree = "<group>"; };
-		BB9FD9F01C10F7490008A1EA /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = lib/SILAnalysis/CMakeLists.txt; sourceTree = "<group>"; };
-		BB9FD9F11C10F7490008A1EA /* ColdBlockInfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ColdBlockInfo.cpp; path = lib/SILAnalysis/ColdBlockInfo.cpp; sourceTree = "<group>"; };
-		BB9FD9F21C10F7490008A1EA /* DestructorAnalysis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DestructorAnalysis.cpp; path = lib/SILAnalysis/DestructorAnalysis.cpp; sourceTree = "<group>"; };
-		BB9FD9F31C10F7490008A1EA /* EscapeAnalysis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EscapeAnalysis.cpp; path = lib/SILAnalysis/EscapeAnalysis.cpp; sourceTree = "<group>"; };
-		BB9FD9F41C10F7490008A1EA /* FunctionOrder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FunctionOrder.cpp; path = lib/SILAnalysis/FunctionOrder.cpp; sourceTree = "<group>"; };
-		BB9FD9F51C10F7490008A1EA /* IVAnalysis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IVAnalysis.cpp; path = lib/SILAnalysis/IVAnalysis.cpp; sourceTree = "<group>"; };
-		BB9FD9F61C10F7490008A1EA /* LoopAnalysis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LoopAnalysis.cpp; path = lib/SILAnalysis/LoopAnalysis.cpp; sourceTree = "<group>"; };
-		BB9FD9F71C10F7490008A1EA /* LoopRegionAnalysis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LoopRegionAnalysis.cpp; path = lib/SILAnalysis/LoopRegionAnalysis.cpp; sourceTree = "<group>"; };
-		BB9FD9F81C10F7490008A1EA /* MemoryBehavior.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MemoryBehavior.cpp; path = lib/SILAnalysis/MemoryBehavior.cpp; sourceTree = "<group>"; };
-		BB9FD9F91C10F7490008A1EA /* RCIdentityAnalysis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RCIdentityAnalysis.cpp; path = lib/SILAnalysis/RCIdentityAnalysis.cpp; sourceTree = "<group>"; };
-		BB9FD9FA1C10F7490008A1EA /* SideEffectAnalysis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SideEffectAnalysis.cpp; path = lib/SILAnalysis/SideEffectAnalysis.cpp; sourceTree = "<group>"; };
-		BB9FD9FB1C10F7490008A1EA /* SimplifyInstruction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SimplifyInstruction.cpp; path = lib/SILAnalysis/SimplifyInstruction.cpp; sourceTree = "<group>"; };
-		BB9FD9FC1C10F7490008A1EA /* ValueTracking.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ValueTracking.cpp; path = lib/SILAnalysis/ValueTracking.cpp; sourceTree = "<group>"; };
 		BB9FDA121C10F76B0008A1EA /* ArgumentSource.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ArgumentSource.cpp; path = lib/SILGen/ArgumentSource.cpp; sourceTree = "<group>"; };
 		BB9FDA131C10F76B0008A1EA /* ArgumentSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArgumentSource.h; path = lib/SILGen/ArgumentSource.h; sourceTree = "<group>"; };
 		BB9FDA141C10F76B0008A1EA /* ASTVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASTVisitor.h; path = lib/SILGen/ASTVisitor.h; sourceTree = "<group>"; };
@@ -1661,113 +1531,6 @@
 		BB9FDA591C10F7B90008A1EA /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = lib/SwiftDemangle/CMakeLists.txt; sourceTree = "<group>"; };
 		BB9FDA5A1C10F7B90008A1EA /* MangleHack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MangleHack.cpp; path = lib/SwiftDemangle/MangleHack.cpp; sourceTree = "<group>"; };
 		BB9FDA5B1C10F7B90008A1EA /* SwiftDemangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SwiftDemangle.cpp; path = lib/SwiftDemangle/SwiftDemangle.cpp; sourceTree = "<group>"; };
-		BB9FDA601C10F7F00008A1EA /* ARCBBState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ARCBBState.cpp; path = lib/SILPasses/ARC/ARCBBState.cpp; sourceTree = "<group>"; };
-		BB9FDA611C10F7F00008A1EA /* ARCBBState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARCBBState.h; path = lib/SILPasses/ARC/ARCBBState.h; sourceTree = "<group>"; };
-		BB9FDA621C10F7F00008A1EA /* ARCRegionState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ARCRegionState.cpp; path = lib/SILPasses/ARC/ARCRegionState.cpp; sourceTree = "<group>"; };
-		BB9FDA631C10F7F00008A1EA /* ARCRegionState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARCRegionState.h; path = lib/SILPasses/ARC/ARCRegionState.h; sourceTree = "<group>"; };
-		BB9FDA641C10F7F00008A1EA /* ARCSequenceOpts.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ARCSequenceOpts.cpp; path = lib/SILPasses/ARC/ARCSequenceOpts.cpp; sourceTree = "<group>"; };
-		BB9FDA651C10F7F00008A1EA /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = lib/SILPasses/ARC/CMakeLists.txt; sourceTree = "<group>"; };
-		BB9FDA661C10F7F00008A1EA /* GlobalARCPairingAnalysis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GlobalARCPairingAnalysis.cpp; path = lib/SILPasses/ARC/GlobalARCPairingAnalysis.cpp; sourceTree = "<group>"; };
-		BB9FDA671C10F7F00008A1EA /* GlobalARCPairingAnalysis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GlobalARCPairingAnalysis.h; path = lib/SILPasses/ARC/GlobalARCPairingAnalysis.h; sourceTree = "<group>"; };
-		BB9FDA681C10F7F00008A1EA /* GlobalARCSequenceDataflow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GlobalARCSequenceDataflow.cpp; path = lib/SILPasses/ARC/GlobalARCSequenceDataflow.cpp; sourceTree = "<group>"; };
-		BB9FDA691C10F7F00008A1EA /* GlobalARCSequenceDataflow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GlobalARCSequenceDataflow.h; path = lib/SILPasses/ARC/GlobalARCSequenceDataflow.h; sourceTree = "<group>"; };
-		BB9FDA6A1C10F7F00008A1EA /* GlobalLoopARCSequenceDataflow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GlobalLoopARCSequenceDataflow.cpp; path = lib/SILPasses/ARC/GlobalLoopARCSequenceDataflow.cpp; sourceTree = "<group>"; };
-		BB9FDA6B1C10F7F00008A1EA /* GlobalLoopARCSequenceDataflow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GlobalLoopARCSequenceDataflow.h; path = lib/SILPasses/ARC/GlobalLoopARCSequenceDataflow.h; sourceTree = "<group>"; };
-		BB9FDA6C1C10F7F00008A1EA /* RCStateTransition.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RCStateTransition.cpp; path = lib/SILPasses/ARC/RCStateTransition.cpp; sourceTree = "<group>"; };
-		BB9FDA6D1C10F7F00008A1EA /* RCStateTransition.def */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = RCStateTransition.def; path = lib/SILPasses/ARC/RCStateTransition.def; sourceTree = "<group>"; };
-		BB9FDA6E1C10F7F00008A1EA /* RCStateTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCStateTransition.h; path = lib/SILPasses/ARC/RCStateTransition.h; sourceTree = "<group>"; };
-		BB9FDA6F1C10F7F00008A1EA /* RCStateTransitionVisitors.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RCStateTransitionVisitors.cpp; path = lib/SILPasses/ARC/RCStateTransitionVisitors.cpp; sourceTree = "<group>"; };
-		BB9FDA701C10F7F00008A1EA /* RCStateTransitionVisitors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCStateTransitionVisitors.h; path = lib/SILPasses/ARC/RCStateTransitionVisitors.h; sourceTree = "<group>"; };
-		BB9FDA711C10F7F00008A1EA /* RefCountState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RefCountState.cpp; path = lib/SILPasses/ARC/RefCountState.cpp; sourceTree = "<group>"; };
-		BB9FDA721C10F7F00008A1EA /* RefCountState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RefCountState.h; path = lib/SILPasses/ARC/RefCountState.h; sourceTree = "<group>"; };
-		BB9FDA7D1C10F8110008A1EA /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = lib/SILPasses/EarlySIL/CMakeLists.txt; sourceTree = "<group>"; };
-		BB9FDA7E1C10F8110008A1EA /* ConstantPropagation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ConstantPropagation.cpp; path = lib/SILPasses/EarlySIL/ConstantPropagation.cpp; sourceTree = "<group>"; };
-		BB9FDA7F1C10F8110008A1EA /* DataflowDiagnostics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DataflowDiagnostics.cpp; path = lib/SILPasses/EarlySIL/DataflowDiagnostics.cpp; sourceTree = "<group>"; };
-		BB9FDA801C10F8110008A1EA /* DefiniteInitialization.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DefiniteInitialization.cpp; path = lib/SILPasses/EarlySIL/DefiniteInitialization.cpp; sourceTree = "<group>"; };
-		BB9FDA811C10F8110008A1EA /* DiagnoseUnreachable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DiagnoseUnreachable.cpp; path = lib/SILPasses/EarlySIL/DiagnoseUnreachable.cpp; sourceTree = "<group>"; };
-		BB9FDA821C10F8110008A1EA /* DIMemoryUseCollector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DIMemoryUseCollector.cpp; path = lib/SILPasses/EarlySIL/DIMemoryUseCollector.cpp; sourceTree = "<group>"; };
-		BB9FDA831C10F8110008A1EA /* DIMemoryUseCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DIMemoryUseCollector.h; path = lib/SILPasses/EarlySIL/DIMemoryUseCollector.h; sourceTree = "<group>"; };
-		BB9FDA841C10F8110008A1EA /* InOutDeshadowing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = InOutDeshadowing.cpp; path = lib/SILPasses/EarlySIL/InOutDeshadowing.cpp; sourceTree = "<group>"; };
-		BB9FDA851C10F8110008A1EA /* MandatoryInlining.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MandatoryInlining.cpp; path = lib/SILPasses/EarlySIL/MandatoryInlining.cpp; sourceTree = "<group>"; };
-		BB9FDA861C10F8110008A1EA /* PredictableMemOpt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PredictableMemOpt.cpp; path = lib/SILPasses/EarlySIL/PredictableMemOpt.cpp; sourceTree = "<group>"; };
-		BB9FDA8F1C10F81E0008A1EA /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = lib/SILPasses/CMakeLists.txt; sourceTree = "<group>"; };
-		BB9FDA911C10F84F0008A1EA /* CapturePromotion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CapturePromotion.cpp; path = lib/SILPasses/IPO/CapturePromotion.cpp; sourceTree = "<group>"; };
-		BB9FDA921C10F84F0008A1EA /* CapturePropagation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CapturePropagation.cpp; path = lib/SILPasses/IPO/CapturePropagation.cpp; sourceTree = "<group>"; };
-		BB9FDA931C10F84F0008A1EA /* ClosureSpecializer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ClosureSpecializer.cpp; path = lib/SILPasses/IPO/ClosureSpecializer.cpp; sourceTree = "<group>"; };
-		BB9FDA941C10F84F0008A1EA /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = lib/SILPasses/IPO/CMakeLists.txt; sourceTree = "<group>"; };
-		BB9FDA951C10F84F0008A1EA /* DeadFunctionElimination.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DeadFunctionElimination.cpp; path = lib/SILPasses/IPO/DeadFunctionElimination.cpp; sourceTree = "<group>"; };
-		BB9FDA961C10F84F0008A1EA /* ExternalDefsToDecls.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ExternalDefsToDecls.cpp; path = lib/SILPasses/IPO/ExternalDefsToDecls.cpp; sourceTree = "<group>"; };
-		BB9FDA971C10F84F0008A1EA /* FunctionSignatureOpts.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FunctionSignatureOpts.cpp; path = lib/SILPasses/IPO/FunctionSignatureOpts.cpp; sourceTree = "<group>"; };
-		BB9FDA981C10F84F0008A1EA /* GlobalOpt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GlobalOpt.cpp; path = lib/SILPasses/IPO/GlobalOpt.cpp; sourceTree = "<group>"; };
-		BB9FDA991C10F84F0008A1EA /* GlobalPropertyOpt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GlobalPropertyOpt.cpp; path = lib/SILPasses/IPO/GlobalPropertyOpt.cpp; sourceTree = "<group>"; };
-		BB9FDA9A1C10F84F0008A1EA /* LetPropertiesOpts.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LetPropertiesOpts.cpp; path = lib/SILPasses/IPO/LetPropertiesOpts.cpp; sourceTree = "<group>"; };
-		BB9FDA9B1C10F84F0008A1EA /* PerformanceInliner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PerformanceInliner.cpp; path = lib/SILPasses/IPO/PerformanceInliner.cpp; sourceTree = "<group>"; };
-		BB9FDA9C1C10F84F0008A1EA /* UsePrespecialized.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = UsePrespecialized.cpp; path = lib/SILPasses/IPO/UsePrespecialized.cpp; sourceTree = "<group>"; };
-		BB9FDAA91C10F86C0008A1EA /* ArrayBoundsCheckOpts.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ArrayBoundsCheckOpts.cpp; path = lib/SILPasses/Loop/ArrayBoundsCheckOpts.cpp; sourceTree = "<group>"; };
-		BB9FDAAA1C10F86C0008A1EA /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = lib/SILPasses/Loop/CMakeLists.txt; sourceTree = "<group>"; };
-		BB9FDAAB1C10F86C0008A1EA /* COWArrayOpt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = COWArrayOpt.cpp; path = lib/SILPasses/Loop/COWArrayOpt.cpp; sourceTree = "<group>"; };
-		BB9FDAAC1C10F86C0008A1EA /* LICM.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LICM.cpp; path = lib/SILPasses/Loop/LICM.cpp; sourceTree = "<group>"; };
-		BB9FDAAD1C10F86C0008A1EA /* LoopRotate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LoopRotate.cpp; path = lib/SILPasses/Loop/LoopRotate.cpp; sourceTree = "<group>"; };
-		BB9FDAB31C10F8980008A1EA /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = lib/SILPasses/PassManager/CMakeLists.txt; sourceTree = "<group>"; };
-		BB9FDAB41C10F8980008A1EA /* Passes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Passes.cpp; path = lib/SILPasses/PassManager/Passes.cpp; sourceTree = "<group>"; };
-		BB9FDAB51C10F8980008A1EA /* PassManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PassManager.cpp; path = lib/SILPasses/PassManager/PassManager.cpp; sourceTree = "<group>"; };
-		BB9FDAB61C10F8980008A1EA /* PrettyStackTrace.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PrettyStackTrace.cpp; path = lib/SILPasses/PassManager/PrettyStackTrace.cpp; sourceTree = "<group>"; };
-		BB9FDABB1C10F8B40008A1EA /* AllocBoxToStack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AllocBoxToStack.cpp; path = lib/SILPasses/Scalar/AllocBoxToStack.cpp; sourceTree = "<group>"; };
-		BB9FDABC1C10F8B40008A1EA /* ArrayCountPropagation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ArrayCountPropagation.cpp; path = lib/SILPasses/Scalar/ArrayCountPropagation.cpp; sourceTree = "<group>"; };
-		BB9FDABD1C10F8B40008A1EA /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = lib/SILPasses/Scalar/CMakeLists.txt; sourceTree = "<group>"; };
-		BB9FDABE1C10F8B40008A1EA /* CopyForwarding.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CopyForwarding.cpp; path = lib/SILPasses/Scalar/CopyForwarding.cpp; sourceTree = "<group>"; };
-		BB9FDABF1C10F8B40008A1EA /* CSE.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CSE.cpp; path = lib/SILPasses/Scalar/CSE.cpp; sourceTree = "<group>"; };
-		BB9FDAC01C10F8B40008A1EA /* DeadCodeElimination.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DeadCodeElimination.cpp; path = lib/SILPasses/Scalar/DeadCodeElimination.cpp; sourceTree = "<group>"; };
-		BB9FDAC11C10F8B40008A1EA /* DeadObjectElimination.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DeadObjectElimination.cpp; path = lib/SILPasses/Scalar/DeadObjectElimination.cpp; sourceTree = "<group>"; };
-		BB9FDAC21C10F8B40008A1EA /* DeadStoreElimination.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DeadStoreElimination.cpp; path = lib/SILPasses/Scalar/DeadStoreElimination.cpp; sourceTree = "<group>"; };
-		BB9FDAC31C10F8B40008A1EA /* MergeCondFail.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MergeCondFail.cpp; path = lib/SILPasses/Scalar/MergeCondFail.cpp; sourceTree = "<group>"; };
-		BB9FDAC41C10F8B40008A1EA /* RedundantLoadElimination.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RedundantLoadElimination.cpp; path = lib/SILPasses/Scalar/RedundantLoadElimination.cpp; sourceTree = "<group>"; };
-		BB9FDAC51C10F8B40008A1EA /* RedundantOverflowCheckRemoval.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RedundantOverflowCheckRemoval.cpp; path = lib/SILPasses/Scalar/RedundantOverflowCheckRemoval.cpp; sourceTree = "<group>"; };
-		BB9FDAC61C10F8B40008A1EA /* ReleaseDevirtualizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ReleaseDevirtualizer.cpp; path = lib/SILPasses/Scalar/ReleaseDevirtualizer.cpp; sourceTree = "<group>"; };
-		BB9FDAC71C10F8B40008A1EA /* RemovePin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RemovePin.cpp; path = lib/SILPasses/Scalar/RemovePin.cpp; sourceTree = "<group>"; };
-		BB9FDAC81C10F8B40008A1EA /* SILCleanup.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SILCleanup.cpp; path = lib/SILPasses/Scalar/SILCleanup.cpp; sourceTree = "<group>"; };
-		BB9FDAC91C10F8B40008A1EA /* SILCodeMotion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SILCodeMotion.cpp; path = lib/SILPasses/Scalar/SILCodeMotion.cpp; sourceTree = "<group>"; };
-		BB9FDACA1C10F8B40008A1EA /* SILLowerAggregateInstrs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SILLowerAggregateInstrs.cpp; path = lib/SILPasses/Scalar/SILLowerAggregateInstrs.cpp; sourceTree = "<group>"; };
-		BB9FDACB1C10F8B40008A1EA /* SILMem2Reg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SILMem2Reg.cpp; path = lib/SILPasses/Scalar/SILMem2Reg.cpp; sourceTree = "<group>"; };
-		BB9FDACC1C10F8B40008A1EA /* SILSROA.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SILSROA.cpp; path = lib/SILPasses/Scalar/SILSROA.cpp; sourceTree = "<group>"; };
-		BB9FDACD1C10F8B40008A1EA /* SimplifyCFG.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SimplifyCFG.cpp; path = lib/SILPasses/Scalar/SimplifyCFG.cpp; sourceTree = "<group>"; };
-		BB9FDACE1C10F8B40008A1EA /* Sink.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Sink.cpp; path = lib/SILPasses/Scalar/Sink.cpp; sourceTree = "<group>"; };
-		BB9FDACF1C10F8B40008A1EA /* SpeculativeDevirtualizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SpeculativeDevirtualizer.cpp; path = lib/SILPasses/Scalar/SpeculativeDevirtualizer.cpp; sourceTree = "<group>"; };
-		BB9FDAD01C10F8B40008A1EA /* StackPromotion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StackPromotion.cpp; path = lib/SILPasses/Scalar/StackPromotion.cpp; sourceTree = "<group>"; };
-		BB9FDAE71C10F8D90008A1EA /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = lib/SILPasses/SILCombiner/CMakeLists.txt; sourceTree = "<group>"; };
-		BB9FDAE81C10F8D90008A1EA /* SILCombine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SILCombine.cpp; path = lib/SILPasses/SILCombiner/SILCombine.cpp; sourceTree = "<group>"; };
-		BB9FDAE91C10F8D90008A1EA /* SILCombiner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SILCombiner.h; path = lib/SILPasses/SILCombiner/SILCombiner.h; sourceTree = "<group>"; };
-		BB9FDAEA1C10F8D90008A1EA /* SILCombinerApplyVisitors.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SILCombinerApplyVisitors.cpp; path = lib/SILPasses/SILCombiner/SILCombinerApplyVisitors.cpp; sourceTree = "<group>"; };
-		BB9FDAEB1C10F8D90008A1EA /* SILCombinerBuiltinVisitors.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SILCombinerBuiltinVisitors.cpp; path = lib/SILPasses/SILCombiner/SILCombinerBuiltinVisitors.cpp; sourceTree = "<group>"; };
-		BB9FDAEC1C10F8D90008A1EA /* SILCombinerCastVisitors.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SILCombinerCastVisitors.cpp; path = lib/SILPasses/SILCombiner/SILCombinerCastVisitors.cpp; sourceTree = "<group>"; };
-		BB9FDAED1C10F8D90008A1EA /* SILCombinerMiscVisitors.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SILCombinerMiscVisitors.cpp; path = lib/SILPasses/SILCombiner/SILCombinerMiscVisitors.cpp; sourceTree = "<group>"; };
-		BB9FDAF41C10F8FC0008A1EA /* AADumper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AADumper.cpp; path = lib/SILPasses/UtilityPasses/AADumper.cpp; sourceTree = "<group>"; };
-		BB9FDAF51C10F8FC0008A1EA /* BasicCalleePrinter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BasicCalleePrinter.cpp; path = lib/SILPasses/UtilityPasses/BasicCalleePrinter.cpp; sourceTree = "<group>"; };
-		BB9FDAF61C10F8FC0008A1EA /* CallGraphPrinter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CallGraphPrinter.cpp; path = lib/SILPasses/UtilityPasses/CallGraphPrinter.cpp; sourceTree = "<group>"; };
-		BB9FDAF71C10F8FC0008A1EA /* CFGPrinter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CFGPrinter.cpp; path = lib/SILPasses/UtilityPasses/CFGPrinter.cpp; sourceTree = "<group>"; };
-		BB9FDAF81C10F8FC0008A1EA /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = lib/SILPasses/UtilityPasses/CMakeLists.txt; sourceTree = "<group>"; };
-		BB9FDAF91C10F8FC0008A1EA /* FunctionOrderPrinter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FunctionOrderPrinter.cpp; path = lib/SILPasses/UtilityPasses/FunctionOrderPrinter.cpp; sourceTree = "<group>"; };
-		BB9FDAFA1C10F8FC0008A1EA /* InstCount.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = InstCount.cpp; path = lib/SILPasses/UtilityPasses/InstCount.cpp; sourceTree = "<group>"; };
-		BB9FDAFB1C10F8FC0008A1EA /* IVInfoPrinter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IVInfoPrinter.cpp; path = lib/SILPasses/UtilityPasses/IVInfoPrinter.cpp; sourceTree = "<group>"; };
-		BB9FDAFC1C10F8FC0008A1EA /* Link.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Link.cpp; path = lib/SILPasses/UtilityPasses/Link.cpp; sourceTree = "<group>"; };
-		BB9FDAFD1C10F8FC0008A1EA /* LoopCanonicalizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LoopCanonicalizer.cpp; path = lib/SILPasses/UtilityPasses/LoopCanonicalizer.cpp; sourceTree = "<group>"; };
-		BB9FDAFE1C10F8FC0008A1EA /* LoopInfoPrinter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LoopInfoPrinter.cpp; path = lib/SILPasses/UtilityPasses/LoopInfoPrinter.cpp; sourceTree = "<group>"; };
-		BB9FDAFF1C10F8FC0008A1EA /* LoopRegionPrinter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LoopRegionPrinter.cpp; path = lib/SILPasses/UtilityPasses/LoopRegionPrinter.cpp; sourceTree = "<group>"; };
-		BB9FDB001C10F8FC0008A1EA /* MemLocationPrinter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MemLocationPrinter.cpp; path = lib/SILPasses/UtilityPasses/MemLocationPrinter.cpp; sourceTree = "<group>"; };
-		BB9FDB011C10F8FC0008A1EA /* StripDebugInfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StripDebugInfo.cpp; path = lib/SILPasses/UtilityPasses/StripDebugInfo.cpp; sourceTree = "<group>"; };
-		BB9FDB021C10F8FC0008A1EA /* UpdateEscapeAnalysis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = UpdateEscapeAnalysis.cpp; path = lib/SILPasses/UtilityPasses/UpdateEscapeAnalysis.cpp; sourceTree = "<group>"; };
-		BB9FDB031C10F8FC0008A1EA /* UpdateSideEffects.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = UpdateSideEffects.cpp; path = lib/SILPasses/UtilityPasses/UpdateSideEffects.cpp; sourceTree = "<group>"; };
-		BB9FDB141C10F9200008A1EA /* CFG.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CFG.cpp; path = lib/SILPasses/Utils/CFG.cpp; sourceTree = "<group>"; };
-		BB9FDB151C10F9200008A1EA /* CheckedCastBrJumpThreading.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CheckedCastBrJumpThreading.cpp; path = lib/SILPasses/Utils/CheckedCastBrJumpThreading.cpp; sourceTree = "<group>"; };
-		BB9FDB161C10F9200008A1EA /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = lib/SILPasses/Utils/CMakeLists.txt; sourceTree = "<group>"; };
-		BB9FDB171C10F9200008A1EA /* ConstantFolding.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ConstantFolding.cpp; path = lib/SILPasses/Utils/ConstantFolding.cpp; sourceTree = "<group>"; };
-		BB9FDB181C10F9200008A1EA /* Devirtualize.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Devirtualize.cpp; path = lib/SILPasses/Utils/Devirtualize.cpp; sourceTree = "<group>"; };
-		BB9FDB191C10F9200008A1EA /* GenericCloner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GenericCloner.cpp; path = lib/SILPasses/Utils/GenericCloner.cpp; sourceTree = "<group>"; };
-		BB9FDB1A1C10F9200008A1EA /* Generics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Generics.cpp; path = lib/SILPasses/Utils/Generics.cpp; sourceTree = "<group>"; };
-		BB9FDB1B1C10F9200008A1EA /* Local.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Local.cpp; path = lib/SILPasses/Utils/Local.cpp; sourceTree = "<group>"; };
-		BB9FDB1C1C10F9200008A1EA /* LoopUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LoopUtils.cpp; path = lib/SILPasses/Utils/LoopUtils.cpp; sourceTree = "<group>"; };
-		BB9FDB1D1C10F9200008A1EA /* SILInliner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SILInliner.cpp; path = lib/SILPasses/Utils/SILInliner.cpp; sourceTree = "<group>"; };
-		BB9FDB1E1C10F9200008A1EA /* SILSSAUpdater.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SILSSAUpdater.cpp; path = lib/SILPasses/Utils/SILSSAUpdater.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1872,6 +1635,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB1F74E21C8738210063E72D /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				BB1F74E31C8738350063E72D /* swift-format.cpp */,
+			);
+			name = tools;
+			sourceTree = "<group>";
+		};
 		BB8B288D1C12400700C91975 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -2287,10 +2058,6 @@
 				BB8B29B61C124A0C00C91975 /* swift.ld */,
 				BB8B29B71C124A0C00C91975 /* SwiftObject.cpp */,
 				BB8B29B81C124A0C00C91975 /* SwiftObject.mm */,
-				BB8B29B91C124A0C00C91975 /* SwiftRuntimeDTraceProbes.d */,
-				BB8B29BA1C124A0C00C91975 /* UnicodeExtendedGraphemeClusters.cpp.gyb */,
-				BB96699D1C134D6700B9AC5B /* UnicodeExtendedGraphemeClusters.cpp */,
-				BB8B29BB1C124A0C00C91975 /* UnicodeNormalization.cpp */,
 			);
 			name = runtime;
 			sourceTree = "<group>";
@@ -2520,6 +2287,7 @@
 				BB9FD7981C10F3900008A1EA /* Compiler */,
 				BB8B288E1C12481F00C91975 /* stdlib */,
 				BB9081E21C236B1600C8B66C /* SourceKit */,
+				BB1F74E21C8738210063E72D /* tools */,
 				BB8B288D1C12400700C91975 /* Libraries */,
 				BB9FD6411C10EF850008A1EA /* Products */,
 			);
@@ -3042,9 +2810,7 @@
 				BB9FD9391C10F6AE0008A1EA /* Sema */,
 				BB9FD9931C10F6DE0008A1EA /* Serialization */,
 				BB9FD9A61C10F6FA0008A1EA /* SIL */,
-				BB9FD9E71C10F72C0008A1EA /* SILAnalysis */,
 				BB9FDA111C10F7520008A1EA /* SILGen */,
-				BB9FDA5E1C10F7C40008A1EA /* SILPasses */,
 				BB9FDA581C10F77C0008A1EA /* SwiftDemangle */,
 			);
 			name = Compiler;
@@ -3529,34 +3295,6 @@
 			name = SIL;
 			sourceTree = "<group>";
 		};
-		BB9FD9E71C10F72C0008A1EA /* SILAnalysis */ = {
-			isa = PBXGroup;
-			children = (
-				BB9FD9E81C10F7490008A1EA /* AliasAnalysis.cpp */,
-				BB9FD9E91C10F7490008A1EA /* Analysis.cpp */,
-				BB9FD9EA1C10F7490008A1EA /* ARCAnalysis.cpp */,
-				BB9FD9EB1C10F7490008A1EA /* ArraySemantic.cpp */,
-				BB9FD9EC1C10F7490008A1EA /* BasicCalleeAnalysis.cpp */,
-				BB9FD9ED1C10F7490008A1EA /* CallGraph.cpp */,
-				BB9FD9EE1C10F7490008A1EA /* CFG.cpp */,
-				BB9FD9EF1C10F7490008A1EA /* ClassHierarchyAnalysis.cpp */,
-				BB9FD9F01C10F7490008A1EA /* CMakeLists.txt */,
-				BB9FD9F11C10F7490008A1EA /* ColdBlockInfo.cpp */,
-				BB9FD9F21C10F7490008A1EA /* DestructorAnalysis.cpp */,
-				BB9FD9F31C10F7490008A1EA /* EscapeAnalysis.cpp */,
-				BB9FD9F41C10F7490008A1EA /* FunctionOrder.cpp */,
-				BB9FD9F51C10F7490008A1EA /* IVAnalysis.cpp */,
-				BB9FD9F61C10F7490008A1EA /* LoopAnalysis.cpp */,
-				BB9FD9F71C10F7490008A1EA /* LoopRegionAnalysis.cpp */,
-				BB9FD9F81C10F7490008A1EA /* MemoryBehavior.cpp */,
-				BB9FD9F91C10F7490008A1EA /* RCIdentityAnalysis.cpp */,
-				BB9FD9FA1C10F7490008A1EA /* SideEffectAnalysis.cpp */,
-				BB9FD9FB1C10F7490008A1EA /* SimplifyInstruction.cpp */,
-				BB9FD9FC1C10F7490008A1EA /* ValueTracking.cpp */,
-			);
-			name = SILAnalysis;
-			sourceTree = "<group>";
-		};
 		BB9FDA111C10F7520008A1EA /* SILGen */ = {
 			isa = PBXGroup;
 			children = (
@@ -3616,192 +3354,6 @@
 				BB9FDA5B1C10F7B90008A1EA /* SwiftDemangle.cpp */,
 			);
 			name = SwiftDemangle;
-			sourceTree = "<group>";
-		};
-		BB9FDA5E1C10F7C40008A1EA /* SILPasses */ = {
-			isa = PBXGroup;
-			children = (
-				BB9FDA8F1C10F81E0008A1EA /* CMakeLists.txt */,
-				BB9FDA7C1C10F7F50008A1EA /* EarlySIL */,
-				BB9FDA5F1C10F7D20008A1EA /* ARC */,
-				BB9FDA901C10F8390008A1EA /* IPO */,
-				BB9FDAA81C10F8560008A1EA /* Loop */,
-				BB9FDAB21C10F8730008A1EA /* PassManager */,
-				BB9FDABA1C10F89F0008A1EA /* Scalar */,
-				BB9FDAE61C10F8C40008A1EA /* SILCombiner */,
-				BB9FDAF31C10F8E30008A1EA /* UtilityPasses */,
-				BB9FDB131C10F9060008A1EA /* Utils */,
-			);
-			name = SILPasses;
-			sourceTree = "<group>";
-		};
-		BB9FDA5F1C10F7D20008A1EA /* ARC */ = {
-			isa = PBXGroup;
-			children = (
-				BB9FDA601C10F7F00008A1EA /* ARCBBState.cpp */,
-				BB9FDA611C10F7F00008A1EA /* ARCBBState.h */,
-				BB9FDA621C10F7F00008A1EA /* ARCRegionState.cpp */,
-				BB9FDA631C10F7F00008A1EA /* ARCRegionState.h */,
-				BB9FDA641C10F7F00008A1EA /* ARCSequenceOpts.cpp */,
-				BB9FDA651C10F7F00008A1EA /* CMakeLists.txt */,
-				BB9FDA661C10F7F00008A1EA /* GlobalARCPairingAnalysis.cpp */,
-				BB9FDA671C10F7F00008A1EA /* GlobalARCPairingAnalysis.h */,
-				BB9FDA681C10F7F00008A1EA /* GlobalARCSequenceDataflow.cpp */,
-				BB9FDA691C10F7F00008A1EA /* GlobalARCSequenceDataflow.h */,
-				BB9FDA6A1C10F7F00008A1EA /* GlobalLoopARCSequenceDataflow.cpp */,
-				BB9FDA6B1C10F7F00008A1EA /* GlobalLoopARCSequenceDataflow.h */,
-				BB9FDA6C1C10F7F00008A1EA /* RCStateTransition.cpp */,
-				BB9FDA6D1C10F7F00008A1EA /* RCStateTransition.def */,
-				BB9FDA6E1C10F7F00008A1EA /* RCStateTransition.h */,
-				BB9FDA6F1C10F7F00008A1EA /* RCStateTransitionVisitors.cpp */,
-				BB9FDA701C10F7F00008A1EA /* RCStateTransitionVisitors.h */,
-				BB9FDA711C10F7F00008A1EA /* RefCountState.cpp */,
-				BB9FDA721C10F7F00008A1EA /* RefCountState.h */,
-			);
-			name = ARC;
-			sourceTree = "<group>";
-		};
-		BB9FDA7C1C10F7F50008A1EA /* EarlySIL */ = {
-			isa = PBXGroup;
-			children = (
-				BB9FDA7D1C10F8110008A1EA /* CMakeLists.txt */,
-				BB9FDA7E1C10F8110008A1EA /* ConstantPropagation.cpp */,
-				BB9FDA7F1C10F8110008A1EA /* DataflowDiagnostics.cpp */,
-				BB9FDA801C10F8110008A1EA /* DefiniteInitialization.cpp */,
-				BB9FDA811C10F8110008A1EA /* DiagnoseUnreachable.cpp */,
-				BB9FDA821C10F8110008A1EA /* DIMemoryUseCollector.cpp */,
-				BB9FDA831C10F8110008A1EA /* DIMemoryUseCollector.h */,
-				BB9FDA841C10F8110008A1EA /* InOutDeshadowing.cpp */,
-				BB9FDA851C10F8110008A1EA /* MandatoryInlining.cpp */,
-				BB9FDA861C10F8110008A1EA /* PredictableMemOpt.cpp */,
-			);
-			name = EarlySIL;
-			sourceTree = "<group>";
-		};
-		BB9FDA901C10F8390008A1EA /* IPO */ = {
-			isa = PBXGroup;
-			children = (
-				BB9FDA911C10F84F0008A1EA /* CapturePromotion.cpp */,
-				BB9FDA921C10F84F0008A1EA /* CapturePropagation.cpp */,
-				BB9FDA931C10F84F0008A1EA /* ClosureSpecializer.cpp */,
-				BB9FDA941C10F84F0008A1EA /* CMakeLists.txt */,
-				BB9FDA951C10F84F0008A1EA /* DeadFunctionElimination.cpp */,
-				BB9FDA961C10F84F0008A1EA /* ExternalDefsToDecls.cpp */,
-				BB9FDA971C10F84F0008A1EA /* FunctionSignatureOpts.cpp */,
-				BB9FDA981C10F84F0008A1EA /* GlobalOpt.cpp */,
-				BB9FDA991C10F84F0008A1EA /* GlobalPropertyOpt.cpp */,
-				BB9FDA9A1C10F84F0008A1EA /* LetPropertiesOpts.cpp */,
-				BB9FDA9B1C10F84F0008A1EA /* PerformanceInliner.cpp */,
-				BB9FDA9C1C10F84F0008A1EA /* UsePrespecialized.cpp */,
-			);
-			name = IPO;
-			sourceTree = "<group>";
-		};
-		BB9FDAA81C10F8560008A1EA /* Loop */ = {
-			isa = PBXGroup;
-			children = (
-				BB9FDAA91C10F86C0008A1EA /* ArrayBoundsCheckOpts.cpp */,
-				BB9FDAAA1C10F86C0008A1EA /* CMakeLists.txt */,
-				BB9FDAAB1C10F86C0008A1EA /* COWArrayOpt.cpp */,
-				BB9FDAAC1C10F86C0008A1EA /* LICM.cpp */,
-				BB9FDAAD1C10F86C0008A1EA /* LoopRotate.cpp */,
-			);
-			name = Loop;
-			sourceTree = "<group>";
-		};
-		BB9FDAB21C10F8730008A1EA /* PassManager */ = {
-			isa = PBXGroup;
-			children = (
-				BB9FDAB31C10F8980008A1EA /* CMakeLists.txt */,
-				BB9FDAB41C10F8980008A1EA /* Passes.cpp */,
-				BB9FDAB51C10F8980008A1EA /* PassManager.cpp */,
-				BB9FDAB61C10F8980008A1EA /* PrettyStackTrace.cpp */,
-			);
-			name = PassManager;
-			sourceTree = "<group>";
-		};
-		BB9FDABA1C10F89F0008A1EA /* Scalar */ = {
-			isa = PBXGroup;
-			children = (
-				BB9FDABB1C10F8B40008A1EA /* AllocBoxToStack.cpp */,
-				BB9FDABC1C10F8B40008A1EA /* ArrayCountPropagation.cpp */,
-				BB9FDABD1C10F8B40008A1EA /* CMakeLists.txt */,
-				BB9FDABE1C10F8B40008A1EA /* CopyForwarding.cpp */,
-				BB9FDABF1C10F8B40008A1EA /* CSE.cpp */,
-				BB9FDAC01C10F8B40008A1EA /* DeadCodeElimination.cpp */,
-				BB9FDAC11C10F8B40008A1EA /* DeadObjectElimination.cpp */,
-				BB9FDAC21C10F8B40008A1EA /* DeadStoreElimination.cpp */,
-				BB9FDAC31C10F8B40008A1EA /* MergeCondFail.cpp */,
-				BB9FDAC41C10F8B40008A1EA /* RedundantLoadElimination.cpp */,
-				BB9FDAC51C10F8B40008A1EA /* RedundantOverflowCheckRemoval.cpp */,
-				BB9FDAC61C10F8B40008A1EA /* ReleaseDevirtualizer.cpp */,
-				BB9FDAC71C10F8B40008A1EA /* RemovePin.cpp */,
-				BB9FDAC81C10F8B40008A1EA /* SILCleanup.cpp */,
-				BB9FDAC91C10F8B40008A1EA /* SILCodeMotion.cpp */,
-				BB9FDACA1C10F8B40008A1EA /* SILLowerAggregateInstrs.cpp */,
-				BB9FDACB1C10F8B40008A1EA /* SILMem2Reg.cpp */,
-				BB9FDACC1C10F8B40008A1EA /* SILSROA.cpp */,
-				BB9FDACD1C10F8B40008A1EA /* SimplifyCFG.cpp */,
-				BB9FDACE1C10F8B40008A1EA /* Sink.cpp */,
-				BB9FDACF1C10F8B40008A1EA /* SpeculativeDevirtualizer.cpp */,
-				BB9FDAD01C10F8B40008A1EA /* StackPromotion.cpp */,
-			);
-			name = Scalar;
-			sourceTree = "<group>";
-		};
-		BB9FDAE61C10F8C40008A1EA /* SILCombiner */ = {
-			isa = PBXGroup;
-			children = (
-				BB9FDAE71C10F8D90008A1EA /* CMakeLists.txt */,
-				BB9FDAE81C10F8D90008A1EA /* SILCombine.cpp */,
-				BB9FDAE91C10F8D90008A1EA /* SILCombiner.h */,
-				BB9FDAEA1C10F8D90008A1EA /* SILCombinerApplyVisitors.cpp */,
-				BB9FDAEB1C10F8D90008A1EA /* SILCombinerBuiltinVisitors.cpp */,
-				BB9FDAEC1C10F8D90008A1EA /* SILCombinerCastVisitors.cpp */,
-				BB9FDAED1C10F8D90008A1EA /* SILCombinerMiscVisitors.cpp */,
-			);
-			name = SILCombiner;
-			sourceTree = "<group>";
-		};
-		BB9FDAF31C10F8E30008A1EA /* UtilityPasses */ = {
-			isa = PBXGroup;
-			children = (
-				BB9FDAF41C10F8FC0008A1EA /* AADumper.cpp */,
-				BB9FDAF51C10F8FC0008A1EA /* BasicCalleePrinter.cpp */,
-				BB9FDAF61C10F8FC0008A1EA /* CallGraphPrinter.cpp */,
-				BB9FDAF71C10F8FC0008A1EA /* CFGPrinter.cpp */,
-				BB9FDAF81C10F8FC0008A1EA /* CMakeLists.txt */,
-				BB9FDAF91C10F8FC0008A1EA /* FunctionOrderPrinter.cpp */,
-				BB9FDAFA1C10F8FC0008A1EA /* InstCount.cpp */,
-				BB9FDAFB1C10F8FC0008A1EA /* IVInfoPrinter.cpp */,
-				BB9FDAFC1C10F8FC0008A1EA /* Link.cpp */,
-				BB9FDAFD1C10F8FC0008A1EA /* LoopCanonicalizer.cpp */,
-				BB9FDAFE1C10F8FC0008A1EA /* LoopInfoPrinter.cpp */,
-				BB9FDAFF1C10F8FC0008A1EA /* LoopRegionPrinter.cpp */,
-				BB9FDB001C10F8FC0008A1EA /* MemLocationPrinter.cpp */,
-				BB9FDB011C10F8FC0008A1EA /* StripDebugInfo.cpp */,
-				BB9FDB021C10F8FC0008A1EA /* UpdateEscapeAnalysis.cpp */,
-				BB9FDB031C10F8FC0008A1EA /* UpdateSideEffects.cpp */,
-			);
-			name = UtilityPasses;
-			sourceTree = "<group>";
-		};
-		BB9FDB131C10F9060008A1EA /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				BB9FDB141C10F9200008A1EA /* CFG.cpp */,
-				BB9FDB151C10F9200008A1EA /* CheckedCastBrJumpThreading.cpp */,
-				BB9FDB161C10F9200008A1EA /* CMakeLists.txt */,
-				BB9FDB171C10F9200008A1EA /* ConstantFolding.cpp */,
-				BB9FDB181C10F9200008A1EA /* Devirtualize.cpp */,
-				BB9FDB191C10F9200008A1EA /* GenericCloner.cpp */,
-				BB9FDB1A1C10F9200008A1EA /* Generics.cpp */,
-				BB9FDB1B1C10F9200008A1EA /* Local.cpp */,
-				BB9FDB1C1C10F9200008A1EA /* LoopUtils.cpp */,
-				BB9FDB1D1C10F9200008A1EA /* SILInliner.cpp */,
-				BB9FDB1E1C10F9200008A1EA /* SILSSAUpdater.cpp */,
-			);
-			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -3879,88 +3431,59 @@
 				BB9081F41C236BBB00C8B66C /* FuzzyStringMatcher.cpp in Sources */,
 				BBC8EA231C1355C9006A4C7F /* Demangle.cpp in Sources */,
 				BBC8EA221C1355C5006A4C7F /* Casting.cpp in Sources */,
-				BB9FDAD81C10F8B40008A1EA /* MergeCondFail.cpp in Sources */,
 				BB9FD92F1C10F67C0008A1EA /* Parser.cpp in Sources */,
 				BB9FD8EF1C10F5F20008A1EA /* GenHeap.cpp in Sources */,
-				BB9FD9FF1C10F7490008A1EA /* ARCAnalysis.cpp in Sources */,
 				BB9FD8571C10F54E0008A1EA /* Job.cpp in Sources */,
 				BB9FD8251C10F4770008A1EA /* UUID.cpp in Sources */,
-				BB9FDAD71C10F8B40008A1EA /* DeadStoreElimination.cpp in Sources */,
 				BB9FD96E1C10F6CE0008A1EA /* Constraint.cpp in Sources */,
-				BB9FDAD61C10F8B40008A1EA /* DeadObjectElimination.cpp in Sources */,
 				BB9FD9E31C10F7110008A1EA /* SILVTable.cpp in Sources */,
 				BB9FD8F61C10F5F20008A1EA /* GenStruct.cpp in Sources */,
 				BB9FD9821C10F6CE0008A1EA /* OverloadChoice.cpp in Sources */,
 				BB9FDA491C10F76B0008A1EA /* SILGenDecl.cpp in Sources */,
-				BB9FDAD21C10F8B40008A1EA /* ArrayCountPropagation.cpp in Sources */,
-				BB9FDA0E1C10F7490008A1EA /* SideEffectAnalysis.cpp in Sources */,
 				BB9FDA4F1C10F76B0008A1EA /* SILGenFunction.cpp in Sources */,
 				BBEC4AAE1C1370AB00195C43 /* Stubs.cpp in Sources */,
-				BB9FDB0D1C10F8FC0008A1EA /* LoopInfoPrinter.cpp in Sources */,
 				BB9FD9871C10F6CE0008A1EA /* TypeCheckDecl.cpp in Sources */,
 				BB9FD7D41C10F3CD0008A1EA /* DiagnosticList.cpp in Sources */,
 				BB9FD90C1C10F60D0008A1EA /* LLVMARCContract.cpp in Sources */,
-				BB9FDA081C10F7490008A1EA /* FunctionOrder.cpp in Sources */,
 				BB9FD9CA1C10F7110008A1EA /* Dominance.cpp in Sources */,
 				BB9FD8851C10F5C40008A1EA /* Immediate.cpp in Sources */,
 				BB9FD80E1C10F4770008A1EA /* ClusteredBitVector.cpp in Sources */,
 				BB9FDA461C10F76B0008A1EA /* SILGenBuiltin.cpp in Sources */,
 				BB9FDA411C10F76B0008A1EA /* ManagedValue.cpp in Sources */,
 				BB9FD9921C10F6CE0008A1EA /* TypeCheckType.cpp in Sources */,
-				BB9FDA071C10F7490008A1EA /* EscapeAnalysis.cpp in Sources */,
 				BB9FD8221C10F4770008A1EA /* TaskQueue.cpp in Sources */,
-				BB9FDAE21C10F8B40008A1EA /* SimplifyCFG.cpp in Sources */,
 				BB9FD85C1C10F54E0008A1EA /* Types.cpp in Sources */,
 				BB9FDA441C10F76B0008A1EA /* SILGenApply.cpp in Sources */,
 				BB9FD99F1C10F6F10008A1EA /* Deserialization.cpp in Sources */,
-				BB9FDAF01C10F8D90008A1EA /* SILCombinerBuiltinVisitors.cpp in Sources */,
-				BB9FDB0C1C10F8FC0008A1EA /* LoopCanonicalizer.cpp in Sources */,
-				BB9FDA0D1C10F7490008A1EA /* RCIdentityAnalysis.cpp in Sources */,
 				BB9FD8521C10F54E0008A1EA /* Action.cpp in Sources */,
-				BB9FDAB81C10F8980008A1EA /* PassManager.cpp in Sources */,
-				BB8B29CD1C124A0C00C91975 /* SwiftRuntimeDTraceProbes.d in Sources */,
 				BB9FD87E1C10F5A40008A1EA /* SyntaxModel.cpp in Sources */,
 				BB9FD92B1C10F67C0008A1EA /* ParseDecl.cpp in Sources */,
 				BB9FD9301C10F67C0008A1EA /* ParseSIL.cpp in Sources */,
 				BB9FD7DF1C10F3CD0008A1EA /* PlatformKind.cpp in Sources */,
 				BB9FD9161C10F6360008A1EA /* AST.cpp in Sources */,
-				BB9FDAAF1C10F86C0008A1EA /* COWArrayOpt.cpp in Sources */,
 				BB9FD9E41C10F7110008A1EA /* SILWitnessTable.cpp in Sources */,
 				BB9FD7DE1C10F3CD0008A1EA /* Pattern.cpp in Sources */,
-				BB9FDAA61C10F84F0008A1EA /* PerformanceInliner.cpp in Sources */,
 				BB9FD9781C10F6CE0008A1EA /* DerivedConformanceEquatableHashable.cpp in Sources */,
 				BB9082361C236E5A00C8B66C /* TokenAnnotationsArray.cpp in Sources */,
 				BB90820F1C236C2600C8B66C /* SwiftCompletion.cpp in Sources */,
 				BB9FD9711C10F6CE0008A1EA /* ConstraintSystem.cpp in Sources */,
 				BB9FD98E1C10F6CE0008A1EA /* TypeCheckProtocol.cpp in Sources */,
-				BB9FDB0A1C10F8FC0008A1EA /* IVInfoPrinter.cpp in Sources */,
 				BB9FD8211C10F4770008A1EA /* StringExtras.cpp in Sources */,
 				BB9FD83E1C10F50E0008A1EA /* ClangDiagnosticConsumer.cpp in Sources */,
 				BB9FD9D71C10F7110008A1EA /* SILDeclRef.cpp in Sources */,
 				BB9FD9CB1C10F7110008A1EA /* DynamicCasts.cpp in Sources */,
 				BB9FD7C41C10F3CD0008A1EA /* ArchetypeBuilder.cpp in Sources */,
-				BB9FDAD31C10F8B40008A1EA /* CopyForwarding.cpp in Sources */,
-				BB9FDB121C10F8FC0008A1EA /* UpdateSideEffects.cpp in Sources */,
-				BB9FDADD1C10F8B40008A1EA /* SILCleanup.cpp in Sources */,
 				BB9FD8E11C10F5F20008A1EA /* DebugTypeInfo.cpp in Sources */,
-				BB9FDAA21C10F84F0008A1EA /* FunctionSignatureOpts.cpp in Sources */,
 				BB9FD9A31C10F6F10008A1EA /* SerializedModuleLoader.cpp in Sources */,
 				BB9FD7D51C10F3CD0008A1EA /* DocComment.cpp in Sources */,
-				BB9FDA011C10F7490008A1EA /* BasicCalleeAnalysis.cpp in Sources */,
 				BB9FD9A21C10F6F10008A1EA /* Serialization.cpp in Sources */,
 				BB9FD9761C10F6CE0008A1EA /* CSSimplify.cpp in Sources */,
-				BB9FDB1F1C10F9200008A1EA /* CFG.cpp in Sources */,
 				BB9FD8F71C10F5F20008A1EA /* GenTuple.cpp in Sources */,
-				BB9FDAB01C10F86C0008A1EA /* LICM.cpp in Sources */,
-				BB9FDA7B1C10F7F00008A1EA /* RefCountState.cpp in Sources */,
 				BB9FD87A1C10F5A40008A1EA /* ModuleInterfacePrinting.cpp in Sources */,
 				BB9081E71C236B7C00C8B66C /* Context.cpp in Sources */,
-				BB9FDA871C10F8110008A1EA /* ConstantPropagation.cpp in Sources */,
 				BB9FD9911C10F6CE0008A1EA /* TypeCheckStmt.cpp in Sources */,
 				BB9FD9E11C10F7110008A1EA /* SILType.cpp in Sources */,
 				BB9FDA4D1C10F76B0008A1EA /* SILGenExpr.cpp in Sources */,
-				BB9FDA761C10F7F00008A1EA /* GlobalARCPairingAnalysis.cpp in Sources */,
-				BB9FDAB71C10F8980008A1EA /* Passes.cpp in Sources */,
 				BB9FD9771C10F6CE0008A1EA /* CSSolver.cpp in Sources */,
 				BB9FD98A1C10F6CE0008A1EA /* TypeCheckExpr.cpp in Sources */,
 				BB9FD8F21C10F5F20008A1EA /* GenObjC.cpp in Sources */,
@@ -3970,10 +3493,7 @@
 				BB9FD87B1C10F5A40008A1EA /* REPLCodeCompletion.cpp in Sources */,
 				BB9FD9801C10F6CE0008A1EA /* MiscDiagnostics.cpp in Sources */,
 				BB9FD8861C10F5C40008A1EA /* REPL.cpp in Sources */,
-				BB9FDADF1C10F8B40008A1EA /* SILLowerAggregateInstrs.cpp in Sources */,
-				BB9FDA101C10F7490008A1EA /* ValueTracking.cpp in Sources */,
 				BB9FD8E81C10F5F20008A1EA /* GenClass.cpp in Sources */,
-				BB9FDAB91C10F8980008A1EA /* PrettyStackTrace.cpp in Sources */,
 				BB9FD7D61C10F3CD0008A1EA /* Expr.cpp in Sources */,
 				BB9FD7E71C10F3CD0008A1EA /* TypeRepr.cpp in Sources */,
 				BB9082341C236E5A00C8B66C /* sourcekitdAPI-Common.cpp in Sources */,
@@ -3982,8 +3502,6 @@
 				BB9FD8F81C10F5F20008A1EA /* GenType.cpp in Sources */,
 				BB9FD8181C10F4770008A1EA /* PrefixMap.cpp in Sources */,
 				BB9081F51C236BBB00C8B66C /* ImmutableTextBuffer.cpp in Sources */,
-				BB9FDA001C10F7490008A1EA /* ArraySemantic.cpp in Sources */,
-				BB9FDA7A1C10F7F00008A1EA /* RCStateTransitionVisitors.cpp in Sources */,
 				BB9FD98F1C10F6CE0008A1EA /* TypeCheckREPL.cpp in Sources */,
 				BB9FD9321C10F67C0008A1EA /* ParseType.cpp in Sources */,
 				BB9FDA3F1C10F76B0008A1EA /* Cleanup.cpp in Sources */,
@@ -3991,14 +3509,11 @@
 				BB9FD9341C10F67C0008A1EA /* Scope.cpp in Sources */,
 				BB9FD8561C10F54E0008A1EA /* FrontendUtil.cpp in Sources */,
 				BB9FD8791C10F5A40008A1EA /* CommentConversion.cpp in Sources */,
-				BB9FDAE01C10F8B40008A1EA /* SILMem2Reg.cpp in Sources */,
 				BB9FD8191C10F4770008A1EA /* PrettyStackTrace.cpp in Sources */,
 				BB9FD97E1C10F6CE0008A1EA /* ITCType.cpp in Sources */,
 				BB9FD8591C10F54E0008A1EA /* ParseableOutput.cpp in Sources */,
 				BB9FD8F11C10F5F20008A1EA /* GenMeta.cpp in Sources */,
-				BB9FDA051C10F7490008A1EA /* ColdBlockInfo.cpp in Sources */,
 				BB9FD8F31C10F5F20008A1EA /* GenOpaque.cpp in Sources */,
-				BB9FDAE41C10F8B40008A1EA /* SpeculativeDevirtualizer.cpp in Sources */,
 				BB9FD86A1C10F5790008A1EA /* SerializedDiagnosticConsumer.cpp in Sources */,
 				BB9FD92E1C10F67C0008A1EA /* ParsePattern.cpp in Sources */,
 				BB9FD81D1C10F4770008A1EA /* PunycodeUTF8.cpp in Sources */,
@@ -4008,9 +3523,7 @@
 				BB8B28B21C1248CE00C91975 /* OpaqueIdentityFunctions.cpp in Sources */,
 				BB9081F71C236BBB00C8B66C /* ThreadSafeRefCntPtr.cpp in Sources */,
 				BBEC4AAD1C1370A800195C43 /* LibcShims.cpp in Sources */,
-				BB9FDA031C10F7490008A1EA /* CFG.cpp in Sources */,
 				BB8B299E1C1249E500C91975 /* README.md in Sources */,
-				BB9FDA731C10F7F00008A1EA /* ARCBBState.cpp in Sources */,
 				BB9082351C236E5A00C8B66C /* sourcekitdAPI-XPC.cpp in Sources */,
 				BB9FD8E41C10F5F20008A1EA /* GenArchetype.cpp in Sources */,
 				BB9FD8FE1C10F5F20008A1EA /* Linking.cpp in Sources */,
@@ -4023,13 +3536,11 @@
 				BB9FD9E21C10F7110008A1EA /* SILValue.cpp in Sources */,
 				BB90820D1C236C2600C8B66C /* CodeCompletionOrganizer.cpp in Sources */,
 				BB9FD8771C10F5A40008A1EA /* CodeCompletion.cpp in Sources */,
-				BB9FDAD41C10F8B40008A1EA /* CSE.cpp in Sources */,
 				BB9FD8231C10F4770008A1EA /* ThreadSafeRefCounted.cpp in Sources */,
 				BB9FD7D01C10F3CD0008A1EA /* ConformanceLookupTable.cpp in Sources */,
 				BB9FD87C1C10F5A40008A1EA /* SourceEntityWalker.cpp in Sources */,
 				BB9FD9841C10F6CE0008A1EA /* SourceLoader.cpp in Sources */,
 				BB9FD7DB1C10F3CD0008A1EA /* Module.cpp in Sources */,
-				BB9FD9FD1C10F7490008A1EA /* AliasAnalysis.cpp in Sources */,
 				BB9082151C236C2600C8B66C /* SwiftSourceDocInfo.cpp in Sources */,
 				BB9FD9881C10F6CE0008A1EA /* TypeChecker.cpp in Sources */,
 				BB9FD7D81C10F3CD0008A1EA /* Identifier.cpp in Sources */,
@@ -4039,22 +3550,17 @@
 				BB9FD81C1C10F4770008A1EA /* Punycode.cpp in Sources */,
 				BB9081F61C236BBB00C8B66C /* Logging.cpp in Sources */,
 				BB9FD97C1C10F6CE0008A1EA /* ITCDecl.cpp in Sources */,
-				BB9FDB041C10F8FC0008A1EA /* AADumper.cpp in Sources */,
 				BB9FD7DC1C10F3CD0008A1EA /* ModuleNameLookup.cpp in Sources */,
 				BB9FD7DA1C10F3CD0008A1EA /* Mangle.cpp in Sources */,
 				BB9FD8531C10F54E0008A1EA /* Compilation.cpp in Sources */,
 				BB9FDA4E1C10F76B0008A1EA /* SILGenForeignError.cpp in Sources */,
-				BB9FDA781C10F7F00008A1EA /* GlobalLoopARCSequenceDataflow.cpp in Sources */,
-				BB9FDB201C10F9200008A1EA /* CheckedCastBrJumpThreading.cpp in Sources */,
-				BB9FDAA01C10F84F0008A1EA /* DeadFunctionElimination.cpp in Sources */,
-				BB9FDAEE1C10F8D90008A1EA /* SILCombine.cpp in Sources */,
+				BB1F74E41C8738350063E72D /* swift-format.cpp in Sources */,
 				BB9FD7C91C10F3CD0008A1EA /* ASTWalker.cpp in Sources */,
 				BB9081F81C236BBB00C8B66C /* Tracing.cpp in Sources */,
 				BB9082301C236E5A00C8B66C /* CodeCompletionResultsArray.cpp in Sources */,
 				BB9FD8F41C10F5F20008A1EA /* GenPoly.cpp in Sources */,
 				BB9FD9DC1C10F7110008A1EA /* SILInstructions.cpp in Sources */,
 				BB9FD9C91C10F7110008A1EA /* Bridging.cpp in Sources */,
-				BB9FDAA31C10F84F0008A1EA /* GlobalOpt.cpp in Sources */,
 				BB9FD87D1C10F5A40008A1EA /* SwiftSourceDocInfo.cpp in Sources */,
 				BB9081F91C236BBB00C8B66C /* UIDRegistry.cpp in Sources */,
 				BB9FD8E51C10F5F20008A1EA /* GenCast.cpp in Sources */,
@@ -4064,10 +3570,8 @@
 				BB9FD98B1C10F6CE0008A1EA /* TypeCheckGeneric.cpp in Sources */,
 				BB9FD8FA1C10F5F20008A1EA /* IRGenDebugInfo.cpp in Sources */,
 				BB9FD9811C10F6CE0008A1EA /* NameBinding.cpp in Sources */,
-				BB9FDB0B1C10F8FC0008A1EA /* Link.cpp in Sources */,
 				BB9FD82B1C10F4CA0008A1EA /* Cache-Mac.cpp in Sources */,
 				BB9FD8121C10F4770008A1EA /* DiverseStack.cpp in Sources */,
-				BB9FDA8A1C10F8110008A1EA /* DiagnoseUnreachable.cpp in Sources */,
 				BB9FD9721C10F6CE0008A1EA /* CSApply.cpp in Sources */,
 				BBEC4AAF1C1370CE00195C43 /* Availability.mm in Sources */,
 				BB9FD8EC1C10F5F20008A1EA /* GenEnum.cpp in Sources */,
@@ -4075,15 +3579,11 @@
 				BB9FD8131C10F4770008A1EA /* EditorPlaceholder.cpp in Sources */,
 				BB9FDA561C10F76B0008A1EA /* SILGenStmt.cpp in Sources */,
 				BB9FD8141C10F4770008A1EA /* FileSystem.cpp in Sources */,
-				BB9FDA8D1C10F8110008A1EA /* MandatoryInlining.cpp in Sources */,
 				BB9FD9D51C10F7110008A1EA /* SILBuilder.cpp in Sources */,
-				BB9FDA741C10F7F00008A1EA /* ARCRegionState.cpp in Sources */,
 				BB9FD90F1C10F60D0008A1EA /* LLVMSwiftAA.cpp in Sources */,
 				BB9FDA4A1C10F76B0008A1EA /* SILGenDestructor.cpp in Sources */,
 				BB9FD8FF1C10F5F20008A1EA /* StructLayout.cpp in Sources */,
-				BB9FDAD11C10F8B40008A1EA /* AllocBoxToStack.cpp in Sources */,
 				BB9FD7C51C10F3CD0008A1EA /* ASTContext.cpp in Sources */,
-				BB9FDA091C10F7490008A1EA /* IVAnalysis.cpp in Sources */,
 				BB9FD7CE1C10F3CD0008A1EA /* CaptureInfo.cpp in Sources */,
 				BB9FD83F1C10F50E0008A1EA /* ClangImporter.cpp in Sources */,
 				BB9FD9851C10F6CE0008A1EA /* TypeCheckAttr.cpp in Sources */,
@@ -4092,15 +3592,12 @@
 				BB9FD90D1C10F60D0008A1EA /* LLVMARCOpts.cpp in Sources */,
 				BB9FD8E61C10F5F20008A1EA /* GenClangDecl.cpp in Sources */,
 				BB9FD9D41C10F7110008A1EA /* SILBasicBlock.cpp in Sources */,
-				BB9FDA8B1C10F8110008A1EA /* DIMemoryUseCollector.cpp in Sources */,
 				BB9FD7E31C10F3CD0008A1EA /* Stmt.cpp in Sources */,
 				BB9FD9791C10F6CE0008A1EA /* DerivedConformanceErrorType.cpp in Sources */,
-				BB9FDAAE1C10F86C0008A1EA /* ArrayBoundsCheckOpts.cpp in Sources */,
 				BB9FD8EB1C10F5F20008A1EA /* GenDecl.cpp in Sources */,
 				BB9FD8421C10F50E0008A1EA /* ImportType.cpp in Sources */,
 				BB9FDA471C10F76B0008A1EA /* SILGenConstructor.cpp in Sources */,
 				BB9FD97D1C10F6CE0008A1EA /* ITCNameLookup.cpp in Sources */,
-				BB9FDADB1C10F8B40008A1EA /* ReleaseDevirtualizer.cpp in Sources */,
 				BB9FD7D71C10F3CD0008A1EA /* GenericSignature.cpp in Sources */,
 				BB9FD7E11C10F3CD0008A1EA /* ProtocolConformance.cpp in Sources */,
 				BB32C4011C126ACC00BEA123 /* README.md in Sources */,
@@ -4109,28 +3606,18 @@
 				BB9FD7E61C10F3CD0008A1EA /* TypeRefinementContext.cpp in Sources */,
 				BB9FD87F1C10F5A40008A1EA /* Utils.cpp in Sources */,
 				BB9082101C236C2600C8B66C /* SwiftDocSupport.cpp in Sources */,
-				BB9FDB231C10F9200008A1EA /* GenericCloner.cpp in Sources */,
-				BB9FDAF21C10F8D90008A1EA /* SILCombinerMiscVisitors.cpp in Sources */,
-				BB9FDA8E1C10F8110008A1EA /* PredictableMemOpt.cpp in Sources */,
 				BB9FDA3E1C10F76B0008A1EA /* ArgumentSource.cpp in Sources */,
 				BB9FD8681C10F5790008A1EA /* FrontendOptions.cpp in Sources */,
-				BB9FDA751C10F7F00008A1EA /* ARCSequenceOpts.cpp in Sources */,
 				BB9FD8E31C10F5F20008A1EA /* ExtraInhabitants.cpp in Sources */,
 				BB9082311C236E5A00C8B66C /* CompactArray.cpp in Sources */,
 				BB9082331C236E5A00C8B66C /* Requests.cpp in Sources */,
-				BB9FDA041C10F7490008A1EA /* ClassHierarchyAnalysis.cpp in Sources */,
 				BB9FD7D91C10F3CD0008A1EA /* LookupVisibleDecls.cpp in Sources */,
-				BB9FDB261C10F9200008A1EA /* LoopUtils.cpp in Sources */,
-				BB9FDB271C10F9200008A1EA /* SILInliner.cpp in Sources */,
-				BB9FDA9D1C10F84F0008A1EA /* CapturePromotion.cpp in Sources */,
 				BB9FDA421C10F76B0008A1EA /* RValue.cpp in Sources */,
 				BB9081E81C236B7C00C8B66C /* LangSupport.cpp in Sources */,
 				BB9FD80F1C10F4770008A1EA /* Demangle.cpp in Sources */,
 				BB9FD8111C10F4770008A1EA /* DiagnosticConsumer.cpp in Sources */,
-				BB9FDAD51C10F8B40008A1EA /* DeadCodeElimination.cpp in Sources */,
 				BB9FDA541C10F76B0008A1EA /* SILGenProfiling.cpp in Sources */,
 				BB9FD9D81C10F7110008A1EA /* SILFunction.cpp in Sources */,
-				BB9FDA791C10F7F00008A1EA /* RCStateTransition.cpp in Sources */,
 				BB9FD8151C10F4770008A1EA /* JSONSerialization.cpp in Sources */,
 				BB9FD8161C10F4770008A1EA /* LangOptions.cpp in Sources */,
 				BB9FD9891C10F6CE0008A1EA /* TypeCheckError.cpp in Sources */,
@@ -4149,10 +3636,7 @@
 				BB9FD8661C10F5790008A1EA /* DiagnosticVerifier.cpp in Sources */,
 				BB9FD7CC1C10F3CD0008A1EA /* AvailabilitySpec.cpp in Sources */,
 				BB9FD8581C10F54E0008A1EA /* OutputFileMap.cpp in Sources */,
-				BB9FDADE1C10F8B40008A1EA /* SILCodeMotion.cpp in Sources */,
-				BB9FDA0C1C10F7490008A1EA /* MemoryBehavior.cpp in Sources */,
 				BB9FD7CD1C10F3CD0008A1EA /* Builtins.cpp in Sources */,
-				BB9FDB211C10F9200008A1EA /* ConstantFolding.cpp in Sources */,
 				BB90820E1C236C2600C8B66C /* SwiftASTManager.cpp in Sources */,
 				BB9FD9181C10F6360008A1EA /* Markup.cpp in Sources */,
 				BB9FD7EA1C10F3CD0008A1EA /* Verifier.cpp in Sources */,
@@ -4167,86 +3651,55 @@
 				BB9FD8671C10F5790008A1EA /* Frontend.cpp in Sources */,
 				BB9FD81A1C10F4770008A1EA /* PrimitiveParsing.cpp in Sources */,
 				BB9FD9001C10F5F20008A1EA /* SwiftTargetInfo.cpp in Sources */,
-				BB9FDB051C10F8FC0008A1EA /* BasicCalleePrinter.cpp in Sources */,
-				BB9FDB081C10F8FC0008A1EA /* FunctionOrderPrinter.cpp in Sources */,
 				BB9FD9831C10F6CE0008A1EA /* PlaygroundTransform.cpp in Sources */,
 				BB9FD9CC1C10F7110008A1EA /* Linker.cpp in Sources */,
-				BB9FDB0E1C10F8FC0008A1EA /* LoopRegionPrinter.cpp in Sources */,
-				BB9FDB061C10F8FC0008A1EA /* CallGraphPrinter.cpp in Sources */,
-				BB9FDB0F1C10F8FC0008A1EA /* MemLocationPrinter.cpp in Sources */,
 				BB9FD8E71C10F5F20008A1EA /* GenClangType.cpp in Sources */,
 				BB9FD9DF1C10F7110008A1EA /* SILPrinter.cpp in Sources */,
 				BB9FD7DD1C10F3CD0008A1EA /* NameLookup.cpp in Sources */,
 				BB9FD8F51C10F5F20008A1EA /* GenProto.cpp in Sources */,
-				BB9FDAB11C10F86C0008A1EA /* LoopRotate.cpp in Sources */,
-				BB9FDAA41C10F84F0008A1EA /* GlobalPropertyOpt.cpp in Sources */,
-				BB9FDA9E1C10F84F0008A1EA /* CapturePropagation.cpp in Sources */,
 				BB9FD8FD1C10F5F20008A1EA /* IRGenSIL.cpp in Sources */,
-				BB9FDAD91C10F8B40008A1EA /* RedundantLoadElimination.cpp in Sources */,
 				BB9FD81B1C10F4770008A1EA /* Program.cpp in Sources */,
 				BB9FDA521C10F76B0008A1EA /* SILGenPattern.cpp in Sources */,
 				BB9FD7CF1C10F3CD0008A1EA /* ConcreteDeclRef.cpp in Sources */,
-				BB9FDA061C10F7490008A1EA /* DestructorAnalysis.cpp in Sources */,
-				BB9FDA771C10F7F00008A1EA /* GlobalARCSequenceDataflow.cpp in Sources */,
 				BB9FDA5D1C10F7B90008A1EA /* SwiftDemangle.cpp in Sources */,
 				BB9FD8F01C10F5F20008A1EA /* GenInit.cpp in Sources */,
 				BB9FD9CE1C10F7110008A1EA /* Mangle.cpp in Sources */,
 				BB9FD9DB1C10F7110008A1EA /* SILInstruction.cpp in Sources */,
-				BB9FDA8C1C10F8110008A1EA /* InOutDeshadowing.cpp in Sources */,
 				BB9FD8171C10F4770008A1EA /* Platform.cpp in Sources */,
 				BB9FDA4C1C10F76B0008A1EA /* SILGenEpilog.cpp in Sources */,
 				BB9FD8241C10F4770008A1EA /* Unicode.cpp in Sources */,
-				BB9FDA0A1C10F7490008A1EA /* LoopAnalysis.cpp in Sources */,
-				BB9FDB241C10F9200008A1EA /* Generics.cpp in Sources */,
-				BB9FDAF11C10F8D90008A1EA /* SILCombinerCastVisitors.cpp in Sources */,
-				BB9FDAE31C10F8B40008A1EA /* Sink.cpp in Sources */,
-				BB9FD9FE1C10F7490008A1EA /* Analysis.cpp in Sources */,
 				BB9FD9331C10F67C0008A1EA /* PersistentParserState.cpp in Sources */,
-				BB9FDAE11C10F8B40008A1EA /* SILSROA.cpp in Sources */,
 				BB9FD97B1C10F6CE0008A1EA /* DerivedConformances.cpp in Sources */,
 				BB9FD7C71C10F3CD0008A1EA /* ASTNode.cpp in Sources */,
 				BB9FD98C1C10F6CE0008A1EA /* TypeCheckNameLookup.cpp in Sources */,
 				BB9FD9DE1C10F7110008A1EA /* SILModule.cpp in Sources */,
 				BB9FD8541C10F54E0008A1EA /* DependencyGraph.cpp in Sources */,
-				BB9FDAA11C10F84F0008A1EA /* ExternalDefsToDecls.cpp in Sources */,
 				BB9FD9D91C10F7110008A1EA /* SILFunctionType.cpp in Sources */,
 				BB9FD7E21C10F3CD0008A1EA /* RawComment.cpp in Sources */,
 				BB9FD91C1C10F6580008A1EA /* Options.cpp in Sources */,
-				BB9FDAA51C10F84F0008A1EA /* LetPropertiesOpts.cpp in Sources */,
 				BB9FD97F1C10F6CE0008A1EA /* IterativeTypeChecker.cpp in Sources */,
 				BB9FD7D21C10F3CD0008A1EA /* DeclContext.cpp in Sources */,
-				BB9FDB091C10F8FC0008A1EA /* InstCount.cpp in Sources */,
 				BB9FD92D1C10F67C0008A1EA /* ParseGeneric.cpp in Sources */,
 				BB9FD9731C10F6CE0008A1EA /* CSDiag.cpp in Sources */,
-				BB9FDB111C10F8FC0008A1EA /* UpdateEscapeAnalysis.cpp in Sources */,
 				BB9FD7E81C10F3CD0008A1EA /* TypeWalker.cpp in Sources */,
 				BB9FD8EE1C10F5F20008A1EA /* GenFunc.cpp in Sources */,
 				BB9FD9171C10F6360008A1EA /* LineList.cpp in Sources */,
 				BB9081E91C236B7C00C8B66C /* NotificationCenter.cpp in Sources */,
 				BB9FD9D21C10F7110008A1EA /* SIL.cpp in Sources */,
-				BB9FDA0B1C10F7490008A1EA /* LoopRegionAnalysis.cpp in Sources */,
 				BB9FD85B1C10F54E0008A1EA /* ToolChains.cpp in Sources */,
 				BB9FD9011C10F5F20008A1EA /* TypeLayoutVerifier.cpp in Sources */,
 				BB9FD9DD1C10F7110008A1EA /* SILLocation.cpp in Sources */,
 				BB9FDA511C10F76B0008A1EA /* SILGenLValue.cpp in Sources */,
 				BB9FD7C61C10F3CD0008A1EA /* ASTDumper.cpp in Sources */,
-				BB9FDADC1C10F8B40008A1EA /* RemovePin.cpp in Sources */,
 				BB9082121C236C2600C8B66C /* SwiftEditorInterfaceGen.cpp in Sources */,
-				BB9FDADA1C10F8B40008A1EA /* RedundantOverflowCheckRemoval.cpp in Sources */,
-				BB9FDB281C10F9200008A1EA /* SILSSAUpdater.cpp in Sources */,
-				BB9FDAA71C10F84F0008A1EA /* UsePrespecialized.cpp in Sources */,
 				BB9FDA431C10F76B0008A1EA /* SILGen.cpp in Sources */,
 				BB9FD9D01C10F7110008A1EA /* PrettyStackTrace.cpp in Sources */,
 				BB9FD9A01C10F6F10008A1EA /* DeserializeSIL.cpp in Sources */,
-				BB9FDA9F1C10F84F0008A1EA /* ClosureSpecializer.cpp in Sources */,
 				BB8B28B01C1248CE00C91975 /* InterceptTraps.cpp in Sources */,
 				BB9FD9311C10F67C0008A1EA /* ParseStmt.cpp in Sources */,
 				BB9FD9901C10F6CE0008A1EA /* TypeCheckRequest.cpp in Sources */,
 				BB9FD9CF1C10F7110008A1EA /* MemLocation.cpp in Sources */,
-				BB9FDA881C10F8110008A1EA /* DataflowDiagnostics.cpp in Sources */,
-				BB9FDA021C10F7490008A1EA /* CallGraph.cpp in Sources */,
 				BB9FD9701C10F6CE0008A1EA /* ConstraintLocator.cpp in Sources */,
-				BB9FDB221C10F9200008A1EA /* Devirtualize.cpp in Sources */,
 				BB9FDA501C10F76B0008A1EA /* SILGenGlobalVariable.cpp in Sources */,
 				BB9FDA481C10F76B0008A1EA /* SILGenConvert.cpp in Sources */,
 				BB9FD9E01C10F7110008A1EA /* SILSuccessor.cpp in Sources */,
@@ -4258,19 +3711,12 @@
 				BB9FD9A51C10F6F10008A1EA /* SerializeSIL.cpp in Sources */,
 				BB9FD9741C10F6CE0008A1EA /* CSGen.cpp in Sources */,
 				BB9FD81E1C10F4770008A1EA /* QuotedString.cpp in Sources */,
-				BB9FDAE51C10F8B40008A1EA /* StackPromotion.cpp in Sources */,
-				BB9FDB071C10F8FC0008A1EA /* CFGPrinter.cpp in Sources */,
-				BB9FDA0F1C10F7490008A1EA /* SimplifyInstruction.cpp in Sources */,
-				BB9FDB251C10F9200008A1EA /* Local.cpp in Sources */,
 				BB9FD8E91C10F5F20008A1EA /* GenControl.cpp in Sources */,
 				BB9FD8261C10F4770008A1EA /* Version.cpp in Sources */,
 				BB9081F31C236BBB00C8B66C /* Concurrency-Mac.cpp in Sources */,
 				BB9FD7E41C10F3CD0008A1EA /* Substitution.cpp in Sources */,
 				BB9FD9A41C10F6F10008A1EA /* SerializedSILLoader.cpp in Sources */,
 				BB9FDA5C1C10F7B90008A1EA /* MangleHack.cpp in Sources */,
-				BB9FDA891C10F8110008A1EA /* DefiniteInitialization.cpp in Sources */,
-				BB9FDB101C10F8FC0008A1EA /* StripDebugInfo.cpp in Sources */,
-				BB9FDAEF1C10F8D90008A1EA /* SILCombinerApplyVisitors.cpp in Sources */,
 				BB9FD8FC1C10F5F20008A1EA /* IRGenModule.cpp in Sources */,
 				BB9FD8EA1C10F5F20008A1EA /* GenCoverage.cpp in Sources */,
 				BB9FD9751C10F6CE0008A1EA /* CSRanking.cpp in Sources */,
