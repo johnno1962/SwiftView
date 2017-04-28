@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB1745DC1EB36A6A0095C987 /* DiagnosticConsumer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB1745DB1EB36A6A0095C987 /* DiagnosticConsumer.cpp */; };
 		BB8B28291C1233F800C91975 /* libclangAnalysis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8B27D21C1233F600C91975 /* libclangAnalysis.a */; };
 		BB8B282A1C1233F800C91975 /* libclangAPINotes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8B27D31C1233F600C91975 /* libclangAPINotes.a */; };
 		BB8B282B1C1233F800C91975 /* libclangARCMigrate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8B27D41C1233F600C91975 /* libclangARCMigrate.a */; };
@@ -120,7 +121,6 @@
 		BBC6B0251EB0BCA10005C40D /* ASTSectionImporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC6B0231EB0BCA10005C40D /* ASTSectionImporter.cpp */; };
 		BBC6B0431EB0BCC10005C40D /* Cache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC6B0261EB0BCC10005C40D /* Cache.cpp */; };
 		BBC6B0441EB0BCC10005C40D /* ClusteredBitVector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC6B0271EB0BCC10005C40D /* ClusteredBitVector.cpp */; };
-		BBC6B0451EB0BCC10005C40D /* DiagnosticConsumer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC6B0291EB0BCC10005C40D /* DiagnosticConsumer.cpp */; };
 		BBC6B0461EB0BCC10005C40D /* DiverseStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC6B02A1EB0BCC10005C40D /* DiverseStack.cpp */; };
 		BBC6B0471EB0BCC10005C40D /* Edit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC6B02B1EB0BCC10005C40D /* Edit.cpp */; };
 		BBC6B0481EB0BCC10005C40D /* EditorPlaceholder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC6B02C1EB0BCC10005C40D /* EditorPlaceholder.cpp */; };
@@ -166,7 +166,6 @@
 		BBC6B0A11EB0BD3F0005C40D /* Action.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC6B0931EB0BD3F0005C40D /* Action.cpp */; };
 		BBC6B0A21EB0BD3F0005C40D /* Compilation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC6B0951EB0BD3F0005C40D /* Compilation.cpp */; };
 		BBC6B0A31EB0BD3F0005C40D /* DependencyGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC6B0971EB0BD3F0005C40D /* DependencyGraph.cpp */; };
-		BBC6B0A41EB0BD3F0005C40D /* Driver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC6B0981EB0BD3F0005C40D /* Driver.cpp */; };
 		BBC6B0A51EB0BD3F0005C40D /* FrontendUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC6B0991EB0BD3F0005C40D /* FrontendUtil.cpp */; };
 		BBC6B0A61EB0BD3F0005C40D /* Job.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC6B09A1EB0BD3F0005C40D /* Job.cpp */; };
 		BBC6B0A71EB0BD3F0005C40D /* OutputFileMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC6B09B1EB0BD3F0005C40D /* OutputFileMap.cpp */; };
@@ -697,13 +696,11 @@
 		BBC6B6BE1EB0DB510005C40D /* libLLVMX86Utils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBC6B6511EB0DB500005C40D /* libLLVMX86Utils.a */; };
 		BBC6B6BF1EB0DB510005C40D /* libLLVMXRay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBC6B6521EB0DB500005C40D /* libLLVMXRay.a */; };
 		BBC6B6C01EB0DB510005C40D /* libLTO.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BBC6B6531EB0DB500005C40D /* libLTO.dylib */; };
-		BBC6B6CA1EB125230005C40D /* CompilerInvocation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC6B6C41EB125230005C40D /* CompilerInvocation.cpp */; };
 		BBC6B6CB1EB125230005C40D /* DiagnosticVerifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC6B6C51EB125230005C40D /* DiagnosticVerifier.cpp */; };
 		BBC6B6CC1EB125230005C40D /* Frontend.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC6B6C61EB125230005C40D /* Frontend.cpp */; };
 		BBC6B6CD1EB125230005C40D /* FrontendOptions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC6B6C71EB125230005C40D /* FrontendOptions.cpp */; };
 		BBC6B6CE1EB125230005C40D /* PrintingDiagnosticConsumer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC6B6C81EB125230005C40D /* PrintingDiagnosticConsumer.cpp */; };
 		BBC6B6CF1EB125230005C40D /* SerializedDiagnosticConsumer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC6B6C91EB125230005C40D /* SerializedDiagnosticConsumer.cpp */; };
-		BBD221331EB160D2000D1DED /* USRGeneration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC6AFEE1EB0BC8D0005C40D /* USRGeneration.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -719,6 +716,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BB1745DB1EB36A6A0095C987 /* DiagnosticConsumer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DiagnosticConsumer.cpp; path = ../swift/lib/AST/DiagnosticConsumer.cpp; sourceTree = "<group>"; };
 		BB32C3FD1C126ACB00BEA123 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = ../swift/CMakeLists.txt; sourceTree = "<group>"; };
 		BB32C3FE1C126ACB00BEA123 /* CODE_OWNERS.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CODE_OWNERS.TXT; path = ../swift/CODE_OWNERS.TXT; sourceTree = "<group>"; };
 		BB32C3FF1C126ACB00BEA123 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE.txt; path = ../swift/LICENSE.txt; sourceTree = "<group>"; };
@@ -1431,7 +1429,6 @@
 		BBC6B0261EB0BCC10005C40D /* Cache.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Cache.cpp; path = ../swift/lib/Basic/Cache.cpp; sourceTree = "<group>"; };
 		BBC6B0271EB0BCC10005C40D /* ClusteredBitVector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ClusteredBitVector.cpp; path = ../swift/lib/Basic/ClusteredBitVector.cpp; sourceTree = "<group>"; };
 		BBC6B0281EB0BCC10005C40D /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = ../swift/lib/Basic/CMakeLists.txt; sourceTree = "<group>"; };
-		BBC6B0291EB0BCC10005C40D /* DiagnosticConsumer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DiagnosticConsumer.cpp; path = ../swift/lib/Basic/DiagnosticConsumer.cpp; sourceTree = "<group>"; };
 		BBC6B02A1EB0BCC10005C40D /* DiverseStack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DiverseStack.cpp; path = ../swift/lib/Basic/DiverseStack.cpp; sourceTree = "<group>"; };
 		BBC6B02B1EB0BCC10005C40D /* Edit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Edit.cpp; path = ../swift/lib/Basic/Edit.cpp; sourceTree = "<group>"; };
 		BBC6B02C1EB0BCC10005C40D /* EditorPlaceholder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EditorPlaceholder.cpp; path = ../swift/lib/Basic/EditorPlaceholder.cpp; sourceTree = "<group>"; };
@@ -3314,6 +3311,7 @@
 				BBC6AFC91EB0BC8D0005C40D /* DeclContext.cpp */,
 				BBC6AFCA1EB0BC8D0005C40D /* DeclNameLoc.cpp */,
 				BBC6AFCB1EB0BC8D0005C40D /* DefaultArgumentKind.cpp */,
+				BB1745DB1EB36A6A0095C987 /* DiagnosticConsumer.cpp */,
 				BBC6AFCC1EB0BC8D0005C40D /* DiagnosticEngine.cpp */,
 				BBC6AFCD1EB0BC8D0005C40D /* DiagnosticList.cpp */,
 				BBC6AFCE1EB0BC8D0005C40D /* DocComment.cpp */,
@@ -3371,7 +3369,6 @@
 				BBC6B0261EB0BCC10005C40D /* Cache.cpp */,
 				BBC6B0271EB0BCC10005C40D /* ClusteredBitVector.cpp */,
 				BBC6B0281EB0BCC10005C40D /* CMakeLists.txt */,
-				BBC6B0291EB0BCC10005C40D /* DiagnosticConsumer.cpp */,
 				BBC6B02A1EB0BCC10005C40D /* DiverseStack.cpp */,
 				BBC6B02B1EB0BCC10005C40D /* Edit.cpp */,
 				BBC6B02C1EB0BCC10005C40D /* EditorPlaceholder.cpp */,
@@ -5172,6 +5169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBC6B1961EB0BE430005C40D /* Lexer.cpp in Sources */,
 				BBC6B1801EB0BE070005C40D /* LLVMInlineTree.cpp in Sources */,
 				BBC6B40E1EB0C0A00005C40D /* RawSyntax.cpp in Sources */,
 				BBC6B3551EB0BFC80005C40D /* PrettyStackTrace.cpp in Sources */,
@@ -5259,6 +5257,7 @@
 				BBC6B3911EB0C0330005C40D /* GenericSpecializer.cpp in Sources */,
 				BBC6B5B91EB0C2D40005C40D /* Assert.cpp in Sources */,
 				BBC6B0D21EB0BD9F0005C40D /* TypeReconstruction.cpp in Sources */,
+				BB1745DC1EB36A6A0095C987 /* DiagnosticConsumer.cpp in Sources */,
 				BBC6B5BD1EB0C2D40005C40D /* GlobalObjects.cpp in Sources */,
 				BBC6B05B1EB0BCC10005C40D /* UUID.cpp in Sources */,
 				BBC6B4131EB0C0A00005C40D /* SyntaxData.cpp in Sources */,
@@ -5299,7 +5298,6 @@
 				BBC6B39E1EB0C0330005C40D /* SimplifyCFG.cpp in Sources */,
 				BBC6B05A1EB0BCC10005C40D /* Unicode.cpp in Sources */,
 				BBC6B2DE1EB0BF280005C40D /* Analysis.cpp in Sources */,
-				BBC6B6CA1EB125230005C40D /* CompilerInvocation.cpp in Sources */,
 				BBC6B05C1EB0BCC10005C40D /* Version.cpp in Sources */,
 				BBC6B16C1EB0BDEC0005C40D /* IRGenMangler.cpp in Sources */,
 				BBC6AFEF1EB0BC8D0005C40D /* ASTContext.cpp in Sources */,
@@ -5348,7 +5346,6 @@
 				BBC6B5DD1EB0C40F0005C40D /* DocSupportAnnotationArray.cpp in Sources */,
 				BBC6B3C31EB0C05A0005C40D /* CFGPrinter.cpp in Sources */,
 				BBC6B4181EB0C0A00005C40D /* UnknownSyntax.cpp in Sources */,
-				BBC6B0A41EB0BD3F0005C40D /* Driver.cpp in Sources */,
 				BBC6B2AC1EB0BED80005C40D /* SILGenApply.cpp in Sources */,
 				BBC6B2E71EB0BF280005C40D /* EpilogueARCAnalysis.cpp in Sources */,
 				BBC6B3C01EB0C05A0005C40D /* BasicInstructionPropertyDumper.cpp in Sources */,
@@ -5405,7 +5402,6 @@
 				BBC6B2501EB0BEBF0005C40D /* PrettyStackTrace.cpp in Sources */,
 				BBC6B38A1EB0C0330005C40D /* CopyForwarding.cpp in Sources */,
 				BBC6AFFA1EB0BC8D0005C40D /* Builtins.cpp in Sources */,
-				BBC6B1961EB0BE430005C40D /* Lexer.cpp in Sources */,
 				BBC6B2661EB0BEBF0005C40D /* SILValue.cpp in Sources */,
 				BBC6B2B21EB0BED80005C40D /* SILGenDecl.cpp in Sources */,
 				BBC6B1E41EB0BE840005C40D /* CodeSynthesis.cpp in Sources */,
@@ -5539,7 +5535,6 @@
 				BBC6B4561EB0C1870005C40D /* UnavailableFoundationMethodThunks.mm in Sources */,
 				BBC6B0D01EB0BD9F0005C40D /* SwiftSourceDocInfo.cpp in Sources */,
 				BBC6B0161EB0BC8D0005C40D /* SILLayout.cpp in Sources */,
-				BBD221331EB160D2000D1DED /* USRGeneration.cpp in Sources */,
 				BBC6B19A1EB0BE430005C40D /* ParseIfConfig.cpp in Sources */,
 				BBC6B2B41EB0BED80005C40D /* SILGenDynamicCast.cpp in Sources */,
 				BBC6B1F41EB0BE840005C40D /* InstrumenterSupport.cpp in Sources */,
@@ -5590,7 +5585,6 @@
 				BBC6B3261EB0BF6C0005C40D /* GlobalPropertyOpt.cpp in Sources */,
 				BBC6B1711EB0BDED0005C40D /* StructLayout.cpp in Sources */,
 				BBC6B0581EB0BCC10005C40D /* ThreadSafeRefCounted.cpp in Sources */,
-				BBC6B0451EB0BCC10005C40D /* DiagnosticConsumer.cpp in Sources */,
 				BBC6B2AF1EB0BED80005C40D /* SILGenBuiltin.cpp in Sources */,
 				BB9082101C236C2600C8B66C /* SwiftDocSupport.cpp in Sources */,
 				BBC6B2201EB0BEA60005C40D /* SerializedModuleLoader.cpp in Sources */,
