@@ -5817,15 +5817,15 @@
 					"CMARK_ATTRIBUTE=__attribute__",
 				);
 				HEADER_SEARCH_PATHS = (
-					"../build/Ninja-DebugAssert/cmark-macosx-x86_64/src",
-					"../build/Ninja-DebugAssert/swift-macosx-x86_64/include",
-					"../build/Ninja-DebugAssert/swift-macosx-x86_64/lib/ClangImporter",
-					"../build/Ninja-DebugAssert/swift-macosx-x86_64/lib/Basic",
+					"build/cmark-macosx-x86_64/src",
+					"build/swift-macosx-x86_64/include",
+					"build/swift-macosx-x86_64/lib/ClangImporter",
+					"build/swift-macosx-x86_64/lib/Basic",
 					../llvm/include,
 					../clang/include,
 					../llbuild/include,
-					"../build/Ninja-DebugAssert/llvm-macosx-x86_64/include",
-					"../build/Ninja-DebugAssert/llvm-macosx-x86_64/tools/clang/include",
+					"build/llvm-macosx-x86_64/include",
+					"build/llvm-macosx-x86_64/tools/clang/include",
 					../cmark/src,
 					include,
 					tools/SourceKit/include,
@@ -5833,9 +5833,9 @@
 				);
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
-					"../build/Ninja-DebugAssert/llvm-macosx-x86_64/lib",
-					"../build/Ninja-DebugAssert/cmark-macosx-x86_64/src",
-					"../build/Xcode-DebugAssert/llvm-macosx-x86_64/Debug/lib",
+					"build/llvm-macosx-x86_64/lib",
+					"build/cmark-macosx-x86_64/src",
+					"build/llvm-macosx-x86_64/Debug/lib",
 				);
 				OTHER_CFLAGS = "-Wno-shorten-64-to-32";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -5857,15 +5857,15 @@
 					"CMARK_ATTRIBUTE=__attribute__",
 				);
 				HEADER_SEARCH_PATHS = (
-					"../build/Ninja-DebugAssert/cmark-macosx-x86_64/src",
-					"../build/Ninja-DebugAssert/swift-macosx-x86_64/include",
-					"../build/Ninja-DebugAssert/swift-macosx-x86_64/lib/ClangImporter",
-					"../build/Ninja-DebugAssert/swift-macosx-x86_64/lib/Basic",
+					"build/cmark-macosx-x86_64/src",
+					"build/swift-macosx-x86_64/include",
+					"build/swift-macosx-x86_64/lib/ClangImporter",
+					"build/swift-macosx-x86_64/lib/Basic",
 					../llvm/include,
 					../clang/include,
 					../llbuild/include,
-					"../build/Ninja-DebugAssert/llvm-macosx-x86_64/include",
-					"../build/Ninja-DebugAssert/llvm-macosx-x86_64/tools/clang/include",
+					"build/llvm-macosx-x86_64/include",
+					"build/llvm-macosx-x86_64/tools/clang/include",
 					../cmark/src,
 					include,
 					tools/SourceKit/include,
@@ -5873,9 +5873,9 @@
 				);
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
-					"../build/Ninja-DebugAssert/llvm-macosx-x86_64/lib",
-					"../build/Ninja-DebugAssert/cmark-macosx-x86_64/src",
-					"../build/Xcode-DebugAssert/llvm-macosx-x86_64/Debug/lib",
+					"build/llvm-macosx-x86_64/lib",
+					"build/cmark-macosx-x86_64/src",
+					"build/llvm-macosx-x86_64/Debug/lib",
 				);
 				OTHER_CFLAGS = "-Wno-shorten-64-to-32";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -6,7 +6,7 @@ compiler sources and Swift standard library.
 
 git clone alongside your swift sources after it has been built and it should 
 index/compile and be navigable with option-click as you would a normal Xcode project. 
-Create a link from your build directory to ../build/Ninja-DebugAssert for headers.
+Adjust the symbolic link "build" to your current build directory to find the headers.
 The stdlib sources are viewable but not navigable as they are not built as I do not
 know the secret sauce to build sources which are in module Swift inside Xcode.
 
