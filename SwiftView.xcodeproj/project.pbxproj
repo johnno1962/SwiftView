@@ -554,7 +554,6 @@
 		BBC6B59A1EB0C2A90005C40D /* ImageInspectionStatic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC6B5711EB0C2A90005C40D /* ImageInspectionStatic.cpp */; };
 		BBC6B59B1EB0C2A90005C40D /* ImageInspectionWin32.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC6B5721EB0C2A90005C40D /* ImageInspectionWin32.cpp */; };
 		BBC6B59C1EB0C2A90005C40D /* KnownMetadata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC6B5731EB0C2A90005C40D /* KnownMetadata.cpp */; };
-		BBC6B59D1EB0C2A90005C40D /* Leaks.mm in Sources */ = {isa = PBXBuildFile; fileRef = BBC6B5751EB0C2A90005C40D /* Leaks.mm */; };
 		BBC6B59E1EB0C2A90005C40D /* Metadata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC6B5761EB0C2A90005C40D /* Metadata.cpp */; };
 		BBC6B59F1EB0C2A90005C40D /* MetadataLookup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC6B5791EB0C2A90005C40D /* MetadataLookup.cpp */; };
 		BBC6B5A01EB0C2A90005C40D /* MutexPThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC6B57A1EB0C2A90005C40D /* MutexPThread.cpp */; };
@@ -5429,7 +5428,6 @@
 				BBC6B0021EB0BC8D0005C40D /* DiagnosticEngine.cpp in Sources */,
 				BBC6B3861EB0C0330005C40D /* ArrayCountPropagation.cpp in Sources */,
 				BBC6B3C71EB0C05A0005C40D /* EpilogueRetainReleaseMatcherDumper.cpp in Sources */,
-				BBC6B59D1EB0C2A90005C40D /* Leaks.mm in Sources */,
 				BBC6B3E91EB0C0750005C40D /* CheckedCastBrJumpThreading.cpp in Sources */,
 				BB9FD9381C10F6A50008A1EA /* PrintAsObjC.cpp in Sources */,
 				BBC6B0781EB0BD070005C40D /* ClangDiagnosticConsumer.cpp in Sources */,
